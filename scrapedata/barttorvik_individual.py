@@ -35,7 +35,7 @@ class IndividualTeamScrape:
 			pass
 
 	def __get_teams_ranks(self, team_name:str):
-		file_path = f'{schema.BARTTORVIK_DATA_DIREC}leaderboard_data_{self.year}.json'
+		file_path = f'{schema.BARTTORVIK_DATA_DIREC}leaderboard_data.json'
 		try:
 			with open(file_path, 'r') as json_file:
 				data = json.load(json_file)

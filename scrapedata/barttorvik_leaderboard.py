@@ -11,7 +11,7 @@ class LeaderboardScrape:
 		self.url = f'https://barttorvik.com/trank.php?year={year}#'
 
 	def __put_in_json(self, data):
-		with open(f'{schema.BARTTORVIK_DATA_DIREC}leaderboard_data_{self.year}.json', 'w') as json_file:
+		with open(f'{schema.BARTTORVIK_DATA_DIREC}leaderboard_data.json', 'w') as json_file:
 			json.dump(data, json_file, indent=4)
 	
 	def __format_number(self, num):

@@ -1,0 +1,8 @@
+{
+    "_comment": "put your file directory to each folder and module here",
+    "PATHS": {
+        "DATABASE_FOLDER": "path/to/your/database/",
+        "SCRAPE_FOLDER": "path/to/your/scrapedata/",
+        "HANDLE_DATA_FOLDER": "path/to/your/handledata/"
+    }
+}

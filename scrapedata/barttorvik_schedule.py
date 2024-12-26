@@ -12,7 +12,7 @@ class DateSchedule:
 		self.url = f'https://barttorvik.com/schedule.php?date={date}&conlimit='
 	
 	def __put_in_json(self, data):
-		with open(f'{schema.BARTTORVIK_DATA_DIREC}{self.date}_games.json', 'w') as json_file:
+		with open(f'{schema.BARTTORVIK_DATA_DIREC}game_schedule.json', 'w') as json_file:
 			json.dump(data, json_file, indent=4)
 
 	def __get_team_name(self, url:str):
