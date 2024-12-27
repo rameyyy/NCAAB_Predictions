@@ -1,7 +1,7 @@
 import handledata.analysis_part1
 import handledata.common_functions
 import handledata.point_predict
-from scrapedata import *
+import scrapedata
 # __all__ = ['IndividualTeamScrape', 'LeaderboardScrape', 'DateSchedule'] #
 import handledata
 
@@ -14,22 +14,25 @@ import traceback
 cf = handledata.common_functions.GrabData()
 date1 = cf.get_formatted_date()
 year1 = cf.get_ncaa_season_year(date1)
-DateSchedule(date=date1).scrape_data()
-
-with open(f'data/{date1}_games.json', 'r') as f:
+ScrapeData = scrapedata
+ScrapeData.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths.json')
+ScrapeData.DateSchedule(date=date1).scrape_data()
+paths = ScrapeData.get_paths()
+with open(paths[2], 'r') as f:
     data = json.load(f)
 
-LeaderboardScrape(year1).scrape_data()
+ScrapeData.LeaderboardScrape(year1).scrape_data()
 data2=data.get(f'{date1}')
 for i in data2:
         try:
             t1 = i[0]
             v = i[1]
             t2 = i[2]
-            IndividualTeamScrape(t1, year1).scrape_data()
-            IndividualTeamScrape(t2, year1).scrape_data()
-            handledata.analysis_part1.MatchFirst500(t1, v, t2)
-            handledata.point_predict.PointPrediction(t1, v, t2)
+            c1 = ScrapeData.IndividualTeamScrape(t1, year1).scrape_data()
+            c2 = ScrapeData.IndividualTeamScrape(t2, year1).scrape_data()
+            if c1 != -1 and c2 != -1:
+                handledata.analysis_part1.MatchFirst500(t1, v, t2)
+                handledata.point_predict.PointPrediction(t1, v, t2)
         except Exception as e:
             trb = traceback.print_exc()
             with open('errors.txt', 'a') as f:

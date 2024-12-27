@@ -13,7 +13,7 @@ class PointPrediction:
 
     def get_individual_data(self, team1, team2):
         cf = common_functions.GrabData()
-        dataset = cf.load_json_file('data/individual_data.json')
+        dataset = cf.load_json_file('database/individual_data.json')
         team1_data = cf.get_team_data(data_set=dataset, team_name=team1)
         team2_data = cf.get_team_data(data_set=dataset, team_name=team2)
         return team1_data, team2_data

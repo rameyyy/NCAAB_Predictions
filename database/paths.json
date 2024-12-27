@@ -1,6 +1,9 @@
 {
     "_comment": "put your file directory to each folder and module here",
     "PATHS": {
+        "SCHEDULE": "$HOME/projects/NCAAB_Predictions/database/game_schedule.json",
+        "MATCHHIST": "$HOME/projects/NCAAB_Predictions/database/individual_data.json",
+        "LEADERBOARD": "$HOME/projects/NCAAB_Predictions/database/leaderboard_data.json",
         "DATABASE_FOLDER": "path/to/your/database/",
         "SCRAPE_FOLDER": "path/to/your/scrapedata/",
         "HANDLE_DATA_FOLDER": "path/to/your/handledata/"

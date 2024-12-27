@@ -3,20 +3,24 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import re
-from . import schema
 
 class LeaderboardScrape:
 	def __init__(self, year:str):
 		self.year = year
 		self.url = f'https://barttorvik.com/trank.php?year={year}#'
 
+	def __get_path(self):
+		from . import get_paths
+		paths_arr = get_paths()
+		return paths_arr		# path to leaderboard str in [1]
+
 	def __put_in_json(self, data):
-		with open(f'{schema.BARTTORVIK_DATA_DIREC}leaderboard_data.json', 'w') as json_file:
+		file_path = self.__get_path()
+		with open(file_path[1], 'w') as json_file:
 			json.dump(data, json_file, indent=4)
 	
 	def __format_number(self, num):
 		# disgusting try block, simply returns str to correct num format
-		int_var = False
 		try:
 			new_num = int(num[0])
 			return new_num
@@ -39,12 +43,10 @@ class LeaderboardScrape:
 		return None
 			
 	def scrape_data(self):
-		print('Processing 1/5', end='', flush=True)
 		# grabs data and stores into html format in 'html' var
 		response = requests.get(self.url)
 		html = response.text
 
-		print('\rProcessing 2/5', end='', flush=True)
 		# parsing
 		soup = BeautifulSoup(html, 'html.parser')
 		table_row = soup.find('tr', class_ = 'seedrow')
@@ -63,7 +65,6 @@ class LeaderboardScrape:
 		for data in team_data:
 				team_names.append(self.__get_team_name(data['href']))
 		
-		print('\rProcessing 3/5', end='', flush=True)
 		# Iterate through each <tr> with class 'seedrow'
 		loop = 0 
 		while table_row: 
@@ -102,6 +103,4 @@ class LeaderboardScrape:
 			table_row = table_row.find_next_sibling('tr', class_='seedrow') 
 
 		# put the data into json file
-		print('\rProcessing 4/5', end='', flush=True)
 		self.__put_in_json(all_data)
-		print('\rProcess complete!')

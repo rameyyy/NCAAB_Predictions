@@ -3,14 +3,18 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
-from . import schema
-import re
+import os
 
 class IndividualTeamScrape:
 	def __init__(self, team:str, year:str):
 		self.team = team
 		self.year = year
 		self.url = f'https://barttorvik.com/team.php?team={team}&year={year}'
+
+	def __get_path(self):
+		from . import get_paths
+		paths_arr = get_paths()
+		return paths_arr		# path to match hist str in [0]
 
 	def __get_differential(self, date_string:str):
 		values = date_string.split('-')
@@ -29,15 +33,10 @@ class IndividualTeamScrape:
 		
 		return abs(val1-val2)
 
-	@staticmethod
-	def clear_individ_data_file():
-		with open(f'{schema.BARTTORVIK_DATA_DIREC}individual_data.json', 'w') as f:
-			pass
-
 	def __get_teams_ranks(self, team_name:str):
-		file_path = f'{schema.BARTTORVIK_DATA_DIREC}leaderboard_data.json'
+		file_path = self.__get_path()
 		try:
-			with open(file_path, 'r') as json_file:
+			with open(file_path[1], 'r') as json_file:
 				data = json.load(json_file)
 		except FileNotFoundError:
 			print(f'File not found: {file_path}')
@@ -66,15 +65,19 @@ class IndividualTeamScrape:
 		return [val1, val2]
 
 	def __update_json_file(self, new_data):
-		try:
-			with open(f'{schema.BARTTORVIK_DATA_DIREC}individual_data.json', 'r') as file:
-				existing_data = json.load(file)
-		except FileNotFoundError:
-			existing_data = []
-		existing_data = [entry for entry in existing_data if entry.get('team_name') != new_data.get('team_name')]
-		existing_data.append(new_data)
+		file_path = self.__get_path()
+		if os.path.getsize(file_path[0]) != 0:
+			try:
+				with open(file_path[0], 'r') as file:
+					existing_data = json.load(file)
+				existing_data = [entry for entry in existing_data if entry.get('team_name') != new_data.get('team_name')]
+				existing_data.append(new_data)
+			except Exception:
+				existing_data = []
+		else:
+			existing_data = new_data
 
-		with open(f'{schema.BARTTORVIK_DATA_DIREC}individual_data.json', 'w') as file:
+		with open(file_path[0], 'w') as file:
 			json.dump(existing_data, file, indent=4)
 	
 	def __get_team_name(self, url:str):
@@ -106,6 +109,8 @@ class IndividualTeamScrape:
 		# parsing
 		soup = BeautifulSoup(html, 'html.parser')
 		table = soup.find('table', class_='skedtable')
+		if table is None: # no individ data for team:
+			return -1
 		tbody = table.find('tbody')
 		ops_data = tbody.select('tr td.mobileout a[href^="team.php"]')
 		allTD_data = tbody.select('tr td')

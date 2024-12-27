@@ -3,16 +3,20 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
-import re
-from .import schema
 
 class DateSchedule:
 	def __init__(self, date:str):
 		self.date = date
-		self.url = f'https://barttorvik.com/schedule.php?date={date}&conlimit='
+		self.url = f'https://barttorvik.com/schedule.php?date={date}'
+  
+	def __get_path(self):
+		from . import get_paths
+		paths_arr = get_paths()
+		return paths_arr		# path to schedule str in [2]
 	
 	def __put_in_json(self, data):
-		with open(f'{schema.BARTTORVIK_DATA_DIREC}game_schedule.json', 'w') as json_file:
+		file_path = self.__get_path()
+		with open(file_path[2], 'w') as json_file:
 			json.dump(data, json_file, indent=4)
 
 	def __get_team_name(self, url:str):

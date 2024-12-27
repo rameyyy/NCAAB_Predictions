@@ -1,7 +1,7 @@
-#scrapedata/__init__.py
+#handledata/__init__.py
 
-import json
 import os
+import json
 
 def initialize_path(path_to_paths:str):
     global expanded_path
@@ -16,10 +16,8 @@ def get_paths():
     schedule_path = os.path.expandvars(paths.get("SCHEDULE"))
     return matchhistory_path, leaderboard_path, schedule_path
 
-# import modules
-from .barttorvik_individual import IndividualTeamScrape
-from .barttorvik_leaderboard import LeaderboardScrape
-from .barttorvik_schedule import DateSchedule
+from .analysis_part1 import MatchFirst500
+from .common_functions import GrabData
+from .point_predict import PointPrediction
 
-# define __all__ aka import *
-__all__ = ['IndividualTeamScrape', 'LeaderboardScrape', 'DateSchedule']
+__all__ = ['GrabData', 'MatchFirst500', 'PointPrediction']
