@@ -1,10 +1,11 @@
 # modules for class
+# scraping from NCAAB Barttorvik stats
 import requests
 from bs4 import BeautifulSoup
 import json
 import re
 
-class LeaderboardScrape:
+class LeaderboardStats:
 	def __init__(self, year:str):
 		self.year = year
 		self.url = f'https://barttorvik.com/trank.php?year={year}#'

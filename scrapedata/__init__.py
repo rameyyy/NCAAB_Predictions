@@ -1,5 +1,5 @@
 #scrapedata/__init__.py
-
+# All scraping from NCAAB Barttorvik stats
 import json
 import os
 
@@ -14,12 +14,14 @@ def get_paths():
     matchhistory_path = os.path.expandvars(paths.get("MATCHHIST"))
     leaderboard_path = os.path.expandvars(paths.get("LEADERBOARD"))
     schedule_path = os.path.expandvars(paths.get("SCHEDULE"))
-    return matchhistory_path, leaderboard_path, schedule_path
+    specific_match_player_stats = os.path.expandvars(paths.get("SPECIFICMATCH_PLAYER_STATS"))
+    return matchhistory_path, leaderboard_path, schedule_path, specific_match_player_stats
 
 # import modules
-from .barttorvik_individual import IndividualTeamScrape
-from .barttorvik_leaderboard import LeaderboardScrape
-from .barttorvik_schedule import DateSchedule
+from .matchHistory import MatchHistory
+from .leaderboardStats import LeaderboardStats
+from .gameSchedule import GameSchedule
+from .matchPlayerStats import MatchPlayerStats
 
 # define __all__ aka import *
-__all__ = ['IndividualTeamScrape', 'LeaderboardScrape', 'DateSchedule']
+__all__ = ['MatchHistory', 'LeaderboardStats', 'GameSchedule', 'MatchPlayerStats']

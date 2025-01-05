@@ -1,10 +1,10 @@
 # modules for class
+# scraping from NCAAB Barttorvik stats
 import requests
 from bs4 import BeautifulSoup
 import json
-from datetime import datetime
 
-class DateSchedule:
+class GameSchedule:
 	def __init__(self, date:str):
 		self.date = date
 		self.url = f'https://barttorvik.com/schedule.php?date={date}'

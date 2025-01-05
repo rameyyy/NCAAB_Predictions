@@ -1,11 +1,11 @@
 # modules for class
+# scraping from NCAAB Barttorvik stats
 import requests
 from bs4 import BeautifulSoup
 import json
-from datetime import datetime
 import os
 
-class IndividualTeamScrape:
+class MatchHistory:
 	def __init__(self, team:str, year:str):
 		self.team = team
 		self.year = year
@@ -66,15 +66,18 @@ class IndividualTeamScrape:
 
 	def __update_json_file(self, new_data):
 		file_path = self.__get_path()
-		if os.path.getsize(file_path[0]) != 0:
-			try:
-				with open(file_path[0], 'r') as file:
-					existing_data = json.load(file)
-				existing_data = [entry for entry in existing_data if entry.get('team_name') != new_data.get('team_name')]
-				existing_data.append(new_data)
-			except Exception:
-				existing_data = []
-		else:
+		try:
+			if os.path.getsize(file_path[0]) != 0:
+				try:
+					with open(file_path[0], 'r') as file:
+						existing_data = json.load(file)
+					existing_data = [entry for entry in existing_data if entry.get('team_name') != new_data.get('team_name')]
+					existing_data.append(new_data)
+				except Exception:
+					existing_data = []
+			else:
+				existing_data = new_data
+		except FileNotFoundError:
 			existing_data = new_data
 
 		with open(file_path[0], 'w') as file:
@@ -90,6 +93,13 @@ class IndividualTeamScrape:
 			if key_val[0] == 'team':
 				return key_val[1]
 		return None
+
+	def __format_data(self, data):
+		try:
+			new_data = float(data)
+			return new_data
+		except Exception:
+			return data
 			
 	def scrape_data(self):
 		# scraping
@@ -97,9 +107,12 @@ class IndividualTeamScrape:
 		html = response.text
 
 		# initialize arrays
+		header_arr = ['Tempo', 'Record', 'WAB', 'ADJO', 'ADJD', 'OF-EFF', 'OF-EFG%', 
+                'OF-TO%', 'OF-OR%', 'OF-FTR', 'OF-2P', 'OF-3P', 'DF-EFF', 'DF-EFG%', 'DF-TO%',
+                'DF-OR%', 'DF-FTR', 'DF-2P', 'DF-3P', 'G-SC', '+/-', 'HNA']
 		all_data = {}
+		data_load = []
 		ops = []
-		hna = []
 		wl = []
 		diff = []
 		dates = []
@@ -122,11 +135,32 @@ class IndividualTeamScrape:
 			rank_arr.append(self.__get_teams_ranks(team_name_))
 			ops.append(team_name_)
 
-		
+		formatted_data = []
+		loop_count = 0
 		for data in allTD_data:
-			if data.text in ['H', 'N', 'A']:
-				hna.append(data.text)
-		
+			data_ = data.text
+			if '\n' not in data_ and data_ != '':
+				if '•' not in data_:
+					if loop_count > 4:
+						data_str = f'{data_}'
+						if 'W' in data_:
+							pass
+						elif 'L' in data_:
+							pass
+						elif '(' in data_:
+							pass
+						elif ')' in data_:
+							pass
+						else:
+							formatted_data.append(data_str)
+					if data_ in ['H', 'N', 'A']:
+						if len(formatted_data) > 10:
+							data_load.append(formatted_data)
+						loop_count = 0
+						formatted_data=[]
+					else:
+						loop_count += 1
+      
 		for data in WL_data:
 			str_data = str(data.text)
 			winloss = str_data[0]
@@ -144,16 +178,24 @@ class IndividualTeamScrape:
 		for data in date_data:
 			dates.append(data.text)
 
+		temp_dict = {}
 		teams_rank = self.__get_teams_ranks(self.team)
 		all_data['team_name'] = self.team
 		all_data['Rank'] = teams_rank
-		for i in range(0, len(ops)):
-			if i < len(wl):
-				all_data[ops[i]] = [rank_arr[i], dates[i], hna[i], wl[i], score_arr[i], diff[i]]
-			# elif len(hna) == len(ops):
-			# 	all_data[ops[i]] = [dates[i], hna[i], '', '']
-			# elif len(dates) == len(ops):
-			# 	all_data[ops[i]] = [dates[i], '', '', '']
-			# else:
-			# 	all_data[ops[i]] = ['', '', '', '']
+
+		op_counter = 0
+
+
+		for data in data_load:
+			for i in range(0, len(header_arr)):
+				format_data_ = self.__format_data(data[i])
+				temp_dict[header_arr[i]] = format_data_
+			temp_dict['Rank'] = rank_arr[op_counter]
+			temp_dict['Date'] = dates[op_counter]
+			temp_dict['W/L'] = wl[op_counter]
+			temp_dict['Score'] = score_arr[op_counter]
+			temp_dict['Diff'] = diff[op_counter]
+			all_data[ops[op_counter]] = temp_dict
+			op_counter += 1
+
 		self.__update_json_file(all_data)
