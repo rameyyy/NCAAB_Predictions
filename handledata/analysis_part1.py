@@ -27,10 +27,10 @@ class MatchFirst500:
                 ops_diff = match_data[5]
                 if ops_rank is None:
                     ops_rank = 365
-
-                x = (ops_rank/ops_diff/364)
-                if x < 0:
-                    x = x*-1.5
+                if ops_diff > 0
+                     x = (ops_rank/ops_diff/364)
+                 else:
+                     x = (ops_rank/365) * ops_diff * -1
                 x *= 100
                 match_score += x
                 match_count += 1
