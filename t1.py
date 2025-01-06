@@ -1,7 +1,10 @@
 import scrapedata
-from handledata import MatchFirst500
 t=scrapedata
 t.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths.json')
-t.LeaderboardScrape('2025').scrape_data()
-t.IndividualTeamScrape('Gonzaga', '2025').scrape_data()
-t.SpecificMatchStats('Gonzaga', 'Indiana', '11-28', '2025').scrape_data()
+# # t.LeaderboardStats('2025').scrape_data()
+t.MatchHistory('Missouri', '2025').scrape_data()
+# t.MatchHistory('Auburn', '2025').scrape_data()
+import handledata
+t = handledata
+t.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths.json')
+t.AnalyzeMatchHist('Kansas', 'at', 'Missouri')

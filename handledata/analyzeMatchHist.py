@@ -3,10 +3,17 @@ from . import commonFunctions
 class AnalyzeMatchHist:
     def __init__(self, team1:str, at_or_vs:str, team2:str):
         self.run_the_numbers(team1, at_or_vs, team2)
+        
+    def __get_path(self):
+        from . import get_paths
+        paths_arr = get_paths()
+        return paths_arr
 
     def get_individual_data(self, team1, team2):
+        file_path_arr = self.__get_path()
+        file_path = file_path_arr[0]
         commonFuncObj = commonFunctions.CommonFunctions()
-        dataset = commonFuncObj.load_json_file('database/individual_data.json')
+        dataset = commonFuncObj.load_json_file(file_path)
         team1_data = commonFuncObj.get_team_data(data_set=dataset, team_name=team1)
         team2_data = commonFuncObj.get_team_data(data_set=dataset, team_name=team2)
         return team1_data, team2_data
@@ -19,16 +26,13 @@ class AnalyzeMatchHist:
                 data = team1_data.copy()    # Create a copy of the data to work with
             else:
                 data = team2_data.copy()    # Create a copy of the data to work with
-            rank = data.pop('Rank', None)
+            data.pop('Rank', None)
             data.pop('team_name', None)
             match_score = 0
             match_count = 0
-            for match, match_data in data.items():
-                ops_rank = match_data[0]
-                ops_diff = match_data[5]
-                if ops_rank is None:
-                    ops_rank = total_ranked
-
+            for key, items in data.items():
+                ops_rank = items.get("Rank")
+                ops_diff = items.get("Diff")
                 x = (ops_rank/ops_diff/total_ranked)
                 if ops_diff < 0:
                     x = (ops_rank/total_ranked) * (ops_diff * -1)
