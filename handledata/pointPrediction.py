@@ -1,9 +1,9 @@
 try:
-    from . import common_functions
+    from . import commonFunctions
 except Exception:
     pass
 try:
-    import common_functions
+    import handledata.commonFunctions as commonFunctions
 except Exception:
     pass
 
@@ -12,7 +12,7 @@ class PointPrediction:
         self.run_the_numbers(team1, at_or_vs, team2)
 
     def get_individual_data(self, team1, team2):
-        cf = common_functions.GrabData()
+        cf = commonFunctions.GrabData()
         dataset = cf.load_json_file('database/individual_data.json')
         team1_data = cf.get_team_data(data_set=dataset, team_name=team1)
         team2_data = cf.get_team_data(data_set=dataset, team_name=team2)

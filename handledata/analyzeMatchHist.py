@@ -1,18 +1,19 @@
-from . import common_functions
+from . import commonFunctions
 
-class MatchFirst500:
+class AnalyzeMatchHist:
     def __init__(self, team1:str, at_or_vs:str, team2:str):
         self.run_the_numbers(team1, at_or_vs, team2)
 
-
     def get_individual_data(self, team1, team2):
-        cf = common_functions.GrabData()
-        dataset = cf.load_json_file('database/individual_data.json')
-        team1_data = cf.get_team_data(data_set=dataset, team_name=team1)
-        team2_data = cf.get_team_data(data_set=dataset, team_name=team2)
+        commonFuncObj = commonFunctions.CommonFunctions()
+        dataset = commonFuncObj.load_json_file('database/individual_data.json')
+        team1_data = commonFuncObj.get_team_data(data_set=dataset, team_name=team1)
+        team2_data = commonFuncObj.get_team_data(data_set=dataset, team_name=team2)
         return team1_data, team2_data
     
     def check_match_history(self, team1_data, team2_data):
+        commonFuncObj = commonFunctions.CommonFunctions()
+        total_ranked = commonFuncObj.get_lowest_rank()
         for i in range(0, 2):
             if i == 0:
                 data = team1_data.copy()    # Create a copy of the data to work with
@@ -26,11 +27,13 @@ class MatchFirst500:
                 ops_rank = match_data[0]
                 ops_diff = match_data[5]
                 if ops_rank is None:
-                    ops_rank = 365
-                if ops_diff > 0
-                     x = (ops_rank/ops_diff/364)
-                 else:
-                     x = (ops_rank/365) * ops_diff * -1
+                    ops_rank = total_ranked
+
+                x = (ops_rank/ops_diff/total_ranked)
+                if ops_diff < 0:
+                    x = (ops_rank/total_ranked) * (ops_diff * -1)
+                else:
+                    x = (ops_rank/total_ranked) / ops_diff
                 x *= 100
                 match_score += x
                 match_count += 1

@@ -14,10 +14,12 @@ def get_paths():
     matchhistory_path = os.path.expandvars(paths.get("MATCHHIST"))
     leaderboard_path = os.path.expandvars(paths.get("LEADERBOARD"))
     schedule_path = os.path.expandvars(paths.get("SCHEDULE"))
-    return matchhistory_path, leaderboard_path, schedule_path
+    specific_match_player_stats = os.path.expandvars(paths.get("SPECIFICMATCH_PLAYER_STATS"))
+    model_path = os.path.expandvars(paths.get("MODELS"))
+    return matchhistory_path, leaderboard_path, schedule_path, specific_match_player_stats, model_path
 
-from .analysis_part1 import MatchFirst500
-from .common_functions import GrabData
-from .point_predict import PointPrediction
+from .analyzeMatchHist import AnalyzeMatchHist
+from .commonFunctions import CommonFunctions
+from .pointPrediction import PointPrediction
 
-__all__ = ['GrabData', 'MatchFirst500', 'PointPrediction']
+__all__ = ['AnalyzeMatchHist', 'CommonFunctions', 'PointPrediction']
