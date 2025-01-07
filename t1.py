@@ -12,3 +12,4 @@ t = handledata
 t.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths.json')
 # t.AnalyzeMatchHist('Monmouth', 'at', 'Auburn')
 t.PointPrediction('Auburn', 'at', 'Missouri')
+# ttest
