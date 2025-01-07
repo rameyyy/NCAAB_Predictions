@@ -71,17 +71,18 @@ class MatchHistory:
 				try:
 					with open(file_path[0], 'r') as file:
 						existing_data = json.load(file)
-					existing_data = [entry for entry in existing_data if entry.get('team_name') != new_data.get('team_name')]
-					existing_data.append(new_data)
-				except Exception:
-					existing_data = []
+					new_team_name = new_data.get('team_name')
+					write_data = [team for team in existing_data if team.get('team_name') != new_team_name]
+					write_data.append(new_data)
+				except Exception as e:
+					print(existing_data)
 			else:
-				existing_data = new_data
+				write_data = new_data
 		except FileNotFoundError:
 			existing_data = new_data
 
 		with open(file_path[0], 'w') as file:
-			json.dump(existing_data, file, indent=4)
+			json.dump(write_data, file, indent=4)
 	
 	def __get_team_name(self, url:str):
 		query_start = url.find('?') + 1
@@ -196,6 +197,7 @@ class MatchHistory:
 			temp_dict['Score'] = score_arr[op_counter]
 			temp_dict['Diff'] = diff[op_counter]
 			all_data[ops[op_counter]] = temp_dict
+			temp_dict = {}
 			op_counter += 1
 
 		self.__update_json_file(all_data)

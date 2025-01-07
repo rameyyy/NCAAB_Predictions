@@ -5,7 +5,7 @@ class CommonFunctions:
     def __init__(self):
         pass
     
-    def __get_path(self):
+    def get_path(self):
         from . import get_paths
         paths_arr = get_paths()
         return paths_arr
@@ -15,6 +15,12 @@ class CommonFunctions:
             data = json.load(f)
         return data
 
+    def get_player_matchup_data(self, data_set, team1_dash_team2):
+        for game in data_set:
+            if team1_dash_team2 in game:
+                return game[team1_dash_team2]
+        return None
+    
     def get_team_data(self, data_set, team_name): 
         for data in data_set:
             if data['team_name'] == team_name:
@@ -49,7 +55,7 @@ class CommonFunctions:
         return formatted_date
     
     def get_function_weight(self, class_key:str, function_key:str):
-        file_path_arr = self.__get_path()
+        file_path_arr = self.get_path()
         file_path = file_path_arr[4]
         with open(file_path, 'r') as json_f:
             json_data = json.load(json_f)
@@ -58,7 +64,7 @@ class CommonFunctions:
         return function_weight_value
     
     def get_lowest_rank(self):
-        file_path_arr = self.__get_path()
+        file_path_arr = self.get_path()
         file_path = file_path_arr[1] #Leaderboard file path
         with open(file_path, 'r') as f:
             json_data = json.load(f)

@@ -1,0 +1,14 @@
+{
+    "_comment": "select active model, change model weights, and create models here",
+    "ActiveModel": "Model_BETA",
+    "Model_BETA": {
+        "OVERALL": {
+            "AnalyzeMatchHist": 1
+        },
+        "AnalyzeMatchHist": {
+            "HomeAway": 1,
+            "TRank": 1,
+            "MatchHist": 15
+        }
+    }
+}

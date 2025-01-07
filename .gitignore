@@ -1,2 +1,5 @@
 __pycache__/
-*.json
+match_history_stats.json
+match_player_stats.json
+leaderboard_data.json
+game_schedule.json

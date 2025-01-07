@@ -2,25 +2,24 @@ from . import commonFunctions
 
 class AnalyzeMatchHist:
     def __init__(self, team1:str, at_or_vs:str, team2:str):
+        self.commonFuncObj = commonFunctions.CommonFunctions()
         self.run_the_numbers(team1, at_or_vs, team2)
         
-    def __get_path(self):
+    def get_path(self):
         from . import get_paths
         paths_arr = get_paths()
         return paths_arr
 
     def get_individual_data(self, team1, team2):
-        file_path_arr = self.__get_path()
+        file_path_arr = self.get_path()
         file_path = file_path_arr[0]
-        commonFuncObj = commonFunctions.CommonFunctions()
-        dataset = commonFuncObj.load_json_file(file_path)
-        team1_data = commonFuncObj.get_team_data(data_set=dataset, team_name=team1)
-        team2_data = commonFuncObj.get_team_data(data_set=dataset, team_name=team2)
+        dataset = self.commonFuncObj.load_json_file(file_path)
+        team1_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team1)
+        team2_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team2)
         return team1_data, team2_data
     
     def check_match_history(self, team1_data, team2_data):
-        commonFuncObj = commonFunctions.CommonFunctions()
-        total_ranked = commonFuncObj.get_lowest_rank()
+        total_ranked = self.commonFuncObj.get_lowest_rank()
         for i in range(0, 2):
             if i == 0:
                 data = team1_data.copy()    # Create a copy of the data to work with
@@ -70,10 +69,11 @@ class AnalyzeMatchHist:
             return 0, 0
     
     def trank_comparison(self, team1_datas, team2_datas):
+        lowest_ranked = self.commonFuncObj.get_lowest_rank()
         t1_rank =team1_datas.get('Rank')
         t2_rank =team2_datas.get('Rank')
-        t1 = t1_rank/364
-        t2 = t2_rank/364
+        t1 = t1_rank/lowest_ranked
+        t2 = t2_rank/lowest_ranked
         t1_prcnt = t2 / (t1 + t2)
         t2_prcnt = t1 / (t1 + t2)
         return t1_prcnt, t2_prcnt
@@ -83,13 +83,13 @@ class AnalyzeMatchHist:
         t2_total = 0
         for i in range(0, 2):
             if i % 2 == 0:
-                t1_total += (trank_scores[i] * 3.5)
-                t1_total += (match_hist_scores[i] * 20)
-                t1_total += (hna_scores[i] * .8)
+                t1_total += (trank_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'TRank'))
+                t1_total += (match_hist_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'MatchHist'))
+                t1_total += (hna_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'HomeAway'))
             else:
-                t2_total += (trank_scores[i] * 3.5)
-                t2_total += (match_hist_scores[i] * 20)
-                t2_total += (hna_scores[i] * .8)
+                t2_total += (trank_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'TRank'))
+                t2_total += (match_hist_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'MatchHist'))
+                t2_total += (hna_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'HomeAway'))
         return t1_total, t2_total
 
     def run_the_numbers(self, team1, at_or_vs, team2):
