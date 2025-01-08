@@ -27,6 +27,11 @@ class CommonFunctions:
                 return data
         print(f"Could not find team '{team_name}' in the dataset")
         return None
+    
+    def reformat_date(self, date_str):
+        month,day = date_str.split('-')
+        day = str(int(day))
+        return f'{month}-{day}'
 
     def get_schedule_data(self, data_set, date_key): 
         matchups = data_set.get(date_key, [])

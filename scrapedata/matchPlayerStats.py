@@ -25,10 +25,11 @@ class MatchPlayerStats:
 	def __get_path(self):
 		from . import get_paths
 		paths_arr = get_paths()
-		return paths_arr[3]		# path to match player stats in str 3
+		return paths_arr		# path to match player stats in str 3
 	
 	def __put_in_json(self, data):
-		file_path = self.__get_path()
+		file_path_arr = self.__get_path()
+		file_path = file_path_arr[3]
 		try:
 			if os.path.exists(file_path):
 				with open(file_path, 'r') as json_file:
@@ -41,6 +42,39 @@ class MatchPlayerStats:
 		existing_data.append(data)
 		with open(file_path, 'w') as f:
 			json.dump(existing_data, f, indent=4)
+	
+	def __correct_team_in_dict(self, t1_dataset, team1):
+		file_path_arr = self.__get_path()
+		file_path = file_path_arr[0]
+		with open(file_path, 'r') as f:
+			dataset_matchHist = json.load(f)
+		for data in dataset_matchHist:
+			if data['team_name'] == team1:
+				data_copy = data.copy()
+				break
+		data_copy.pop("Rank")
+		data_copy.pop("team_name")
+		for match, match_data in data_copy.items():
+			if match == self.team2:
+				who_won = match_data.get('W/L')
+				points_arr = match_data.get("Score")
+				if who_won == 1:
+					winner = team1
+					t1_points = points_arr[0]
+					break
+				else:
+					winner = self.team2
+					t1_points = points_arr[1]
+					break
+		for player, player_stats in t1_dataset.items():
+			if player == 'Totals':
+				t1_points_recorded = player_stats.get('Pts')
+				break
+		if t1_points == t1_points_recorded:
+			return True
+		else:
+			return False
+		
 			
 	def scrape_data(self):
 		try:
@@ -70,7 +104,7 @@ class MatchPlayerStats:
 					record_data = True
 				if data.text == 'Pts':
 					record_data = False
-			
+
 			players_stats_arr = []
 			for data in player_stats:
 				data_ = data.text
@@ -109,6 +143,15 @@ class MatchPlayerStats:
 					team2_bool = True
 				temp_dict_1 = {}
 				temp_dict_2 = {}
+			full_formatted_dict = {
+				f'{self.team1}-{self.team2}': match_dictionary
+			}
+			correct_dict_bool = self.__correct_team_in_dict(match_dictionary[self.team1], self.team1)
+			if correct_dict_bool == False:
+				t1_data = match_dictionary.pop(self.team2)
+				t2_data = match_dictionary.pop(self.team1)
+				match_dictionary[self.team1] = t1_data
+				match_dictionary[self.team2] = t2_data
 			full_formatted_dict = {
 				f'{self.team1}-{self.team2}': match_dictionary
 			}

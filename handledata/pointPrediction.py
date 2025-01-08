@@ -1,8 +1,9 @@
 from . import commonFunctions
 
 class PointPrediction:
-    def __init__(self, team1:str, at_or_vs:str, team2:str):
+    def __init__(self, team1:str, at_or_vs:str, team2:str, ignore_data_bool:bool):
         self.commonFuncObj = commonFunctions.CommonFunctions()
+        self.ignore_data_boolean = ignore_data_bool
         self.run_the_numbers(team1, at_or_vs, team2)
 
     def get_individual_data(self, team1, team2):
@@ -21,14 +22,17 @@ class PointPrediction:
     
     def __analyze_closest_matchups(self, teams_data, teams_arr):
         teams_arr_len = len(teams_arr)
-        check_4 = teams_arr_len-4
+        check_val = self.commonFuncObj.get_function_weight('PointPrediction', 'SimilarMatch_PtAverages_loop')
+        check_ = teams_arr_len-check_val
         loop_range = 0
-        if check_4 == -4: #no matches recorded
+        check_val *= -1
+        if check_ == check_val: #no matches recorded
             return None
-        elif check_4 < 0: #less than 4 matches recorded
-            loop_range = abs(check_4)
+        elif check_ < 0: #less than 4 matches recorded
+            loop_range = abs(check_)
         else:
-            loop_range = 4
+            check_val *= -1
+            loop_range = check_val
         team_scored = 0
         op_scored = 0
         for i in range(0, loop_range):
@@ -46,19 +50,27 @@ class PointPrediction:
         op_scored_avg = op_scored / loop_range
         return team_scored_avg, op_scored_avg 
     
-    def get_sorted_rank_list(self, teams_data, target_rank):
+    def get_sorted_rank_list(self, teams_data, target_rank, ops_team_name):
         data = teams_data.copy()
         rank = data.pop('Rank', None)
-        rank = int(rank)
         data.pop('team_name', None)
+        rank = int(rank)
         match_arr = []
         rank_arr = []
         for match, match_data in data.items():
+            if self.ignore_data_boolean == True:
+                if match != ops_team_name:
+                    match_arr.append(match)
+                    op_rank = match_data.get("Rank")
+                    if op_rank == None:
+                        op_rank = self.commonFuncObj.get_lowest_rank()
+                    rank_arr.append(op_rank)
+            else:
                 match_arr.append(match)
                 op_rank = match_data.get("Rank")
                 if op_rank == None:
                     op_rank = self.commonFuncObj.get_lowest_rank()
-                rank_arr.append(op_rank)      
+                rank_arr.append(op_rank)     
         sorted_rank_list = self.__sort_team_closest_rank(match_arr, rank_arr, target_rank)
         return sorted_rank_list
     
@@ -68,21 +80,12 @@ class PointPrediction:
             if i == 0:
                 data = team1_data.copy()    # Create a copy of the data to work with
                 target_rank = team2_data.get('Rank')
+                ops_team_name = team2_data.get("team_name")
             else:
                 data = team2_data.copy()    # Create a copy of the data to work with
                 target_rank = team1_data.get('Rank')
-            rank = data.pop('Rank', None)
-            rank = int(rank)
-            data.pop('team_name', None)
-            match_arr = []
-            rank_arr = []
-            for match, match_data in data.items():
-                match_arr.append(match)
-                op_rank = match_data.get("Rank")
-                if op_rank == None:
-                    op_rank = self.commonFuncObj.get_lowest_rank()
-                rank_arr.append(op_rank)          
-            sorted_rank_list = self.__sort_team_closest_rank(match_arr, rank_arr, target_rank)
+                ops_team_name = team1_data.get("team_name")         
+            sorted_rank_list = self.get_sorted_rank_list(data, target_rank, ops_team_name)
             return_result = self.__analyze_closest_matchups(data, sorted_rank_list)
             if i == 0:
                 t1_point_avg = return_result
@@ -92,35 +95,88 @@ class PointPrediction:
         t2_points = (t1_point_avg[1] + t2_point_avg[0]) / 2
         return t1_points, t2_points
     
+    def hna_check(self, at_vs:str):
+        # if at, then that team is home and gets 100% of home/away pts
+         # else neither team gets points
+        HNA_value = self.commonFuncObj.get_function_weight("PointPrediction", "HNA")
+        if at_vs == 'at':
+            return 0, HNA_value
+        else:
+            return 0, 0
+    
+    def __loop_player_min_pts_stats(self, stats_dict, surplus):
+        total_time = 0
+        points = 0
+        player_count = 0
+        for player, data in stats_dict.items():
+            ppm = data[1] / data[0] # points/minutes = points per min
+            min_per_game = data[0]/data[2] - surplus
+            points += (ppm * min_per_game)
+            total_time += min_per_game
+            player_count += 1
+        arr = [float(points), float(total_time), float(player_count)]
+        return arr
+    
     def TS_and_PlayerMinutes(self, team1_data, team2_data):
         target_ranking = team2_data.get("Rank")
         team_name = team1_data.get('team_name')
+        ops_team_name = team2_data.get('team_name')
         paths_arr = self.commonFuncObj.get_path()
         dataset = self.commonFuncObj.load_json_file(paths_arr[3])
-        sorted_rank_list = self.get_sorted_rank_list(team1_data, target_ranking)
-        if len(sorted_rank_list) < 4:
+        sorted_rank_list = self.get_sorted_rank_list(team1_data, target_ranking, ops_team_name)
+        player_stats_dict = {}
+        loop_val = self.commonFuncObj.get_function_weight('PointPrediction', 'PlayerMin_PtAvgs_loop')
+        if len(sorted_rank_list) < loop_val:
             return None
         else:
-            for i in range(0, 4):
+            for i in range(0, loop_val):
                 match = f'{team_name}-{sorted_rank_list[i]}'
-                print(match)
                 matchup_data = self.commonFuncObj.get_player_matchup_data(dataset, match)
                 for team, players in matchup_data.items():
-                    for player, players_stats in players.items():
-                        minutes = players_stats.get('Min')
-                        points = players_stats.get('Pts')
-                        print(f'{player}, pts: {points}, mins: {minutes}')
+                    if team == team_name:
+                        for player, players_stats in players.items():
+                            minutes = int(players_stats.get('Min'))
+                            points = int(players_stats.get('Pts'))
+                            if player != 'Totals':
+                                if not player_stats_dict:
+                                    player_stats_dict[player] = [minutes, points, 1]
+                                elif player in player_stats_dict:
+                                    player_arr = player_stats_dict[player]
+                                    player_arr[0] += minutes
+                                    player_arr[1] += points
+                                    player_arr[2] += 1 #another game played
+                                else:
+                                    player_stats_dict[player] = [minutes, points, 1]
+        arr = self.__loop_player_min_pts_stats(player_stats_dict, 0)
+            # print(f'{player}, {ppm:.2f}, mins play avg: {min_per_game}')
+        if arr[1] > 200.0 or arr[1] < 200.0: #200 minutes total per game possible adding up all players times
+            surplus = (arr[1] - 200.0)
+            surplus /= arr[2]
+            new_arr = self.__loop_player_min_pts_stats(player_stats_dict, surplus)
+        points = new_arr[0]
+        return points
+    
+    def calculate_points_final(self, hna, pts1, pts2):
+        weight_pts1 = self.commonFuncObj.get_function_weight('PointPrediction', 'PlayerMin_PtAvgs')
+        weight_pts2 = self.commonFuncObj.get_function_weight('PointPrediction', 'SimilarMatch_PtAverages')
+        weight_pts1 /= 100
+        weight_pts2 /= 100
+        points = [0, 0]
+        for i in range(0, 2):
+            points[i] += (pts1[i] * weight_pts1)
+            points[i] += (pts2[i] * weight_pts2)
+        points[1] += hna[1]
+        return points
 
     def run_the_numbers(self, team1, at_or_vs, team2):
         team1_data, team2_data = self.get_individual_data(team1, team2)
         match_hist_score = self.check_match_history(team1_data, team2_data)
-        print(f'{team1}: {match_hist_score[0]} | {team2}: {match_hist_score[1]}')
-        self.TS_and_PlayerMinutes(team1_data, team2_data)
-        # hna_score = self.hna_check(at_or_vs)
-        # scores = self.add_points(trank_score, match_hist_score, hna_score)
-        # data1 = (scores[0] / (scores[0] + scores[1])) * 100
-        # data2 = (scores[1] / (scores[0] + scores[1])) * 100
-        # if data1 > data2:
-        #     print(f'{team1}, W, {data1:.2f}% | {team2}, L, {data2:.2f}%')
-        # else:
-        #     print(f'{team1}, L, {data1:.2f}% | {team2}, W, {data2:.2f}%')
+        hna_score = self.hna_check(at_or_vs)
+        # print(f'{team1}: {match_hist_score[0]} | {team2}: {match_hist_score[1] + hna_score[1]}')
+        t1_playerMinutes_score = self.TS_and_PlayerMinutes(team1_data, team2_data)
+        t2_playerMinutes_score = self.TS_and_PlayerMinutes(team2_data, team1_data)
+        playerMin_score_arr = [t1_playerMinutes_score, t2_playerMinutes_score]
+        t2_playerMinutes_score += hna_score[1]
+        # print(f'{team1}: {t1_playerMinutes_score:.2f} | {team2}: {t2_playerMinutes_score:.2f}')
+        pts = self.calculate_points_final(hna_score, playerMin_score_arr, match_hist_score)
+        print(f'{team1}: {pts[0]:.2f} | {team2}: {pts[1]:.2f}')

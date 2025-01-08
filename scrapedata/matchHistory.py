@@ -64,25 +64,21 @@ class MatchHistory:
 
 		return [val1, val2]
 
-	def __update_json_file(self, new_data):
-		file_path = self.__get_path()
+	def __update_json_file(self, data):
+		file_path_arr = self.__get_path()
+		file_path = file_path_arr[0]
 		try:
-			if os.path.getsize(file_path[0]) != 0:
-				try:
-					with open(file_path[0], 'r') as file:
-						existing_data = json.load(file)
-					new_team_name = new_data.get('team_name')
-					write_data = [team for team in existing_data if team.get('team_name') != new_team_name]
-					write_data.append(new_data)
-				except Exception as e:
-					print(existing_data)
+			if os.path.exists(file_path):
+				with open(file_path, 'r') as json_file:
+					existing_data = json.load(json_file)
 			else:
-				write_data = new_data
-		except FileNotFoundError:
-			existing_data = new_data
-
-		with open(file_path[0], 'w') as file:
-			json.dump(write_data, file, indent=4)
+				existing_data = []
+		except Exception:
+			existing_data = []
+   
+		existing_data.append(data)
+		with open(file_path, 'w') as f:
+			json.dump(existing_data, f, indent=4)
 	
 	def __get_team_name(self, url:str):
 		query_start = url.find('?') + 1
