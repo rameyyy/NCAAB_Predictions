@@ -21,5 +21,6 @@ def get_paths():
 from .analyzeMatchHist import AnalyzeMatchHist
 from .commonFunctions import CommonFunctions
 from .pointPrediction import PointPrediction
+from .accuracyEstimate import AccuracyEstimate
 
-__all__ = ['AnalyzeMatchHist', 'CommonFunctions', 'PointPrediction']
+__all__ = ['AnalyzeMatchHist', 'CommonFunctions', 'PointPrediction', 'AccuracyEstimate']

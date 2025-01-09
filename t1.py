@@ -1,6 +1,14 @@
 import scrapedata
 t=scrapedata
 t.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths.json')
+# t.LeaderboardStats('2025').scrape_data()
+# t.MatchHistory('Auburn', '2025').scrape_data()
+# t.MatchHistory('Texas', '2025').scrape_data()
+import handledata
+d = handledata
+d.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths.json')
+# date = d.CommonFunctions().get_formatted_date()
+# t.GameWinners('20250106').scrape_data()
 
 def reformat_date(date_str):
     month,day = date_str.split('-')
@@ -67,6 +75,13 @@ def test_run():
             score_arr = get_score_from_str(score_not_int)
             odds1 = hd.AnalyzeMatchHist(t1, at_or_vs, t2, True).return_odds()
             odds2 = hd.PointPrediction(t1, at_or_vs, t2, True).return_odds()
+            if odds2 == 'Fail':
+                continue
+            accuracy_pred = hd.AccuracyEstimate(t1, at_or_vs, t2, True).return_odds()
+            printStr = f'{t1} {at_or_vs} {t2}\n'
+            printStr += f'\tWinner: {winner}\n\tScore: {score_arr}\n'
+            printStr += f'\t{t1}: {odds1[0]:.2f}% | {t2}: {odds1[1]:.2f}%\n'
+            printStr += f'\t{t1}: {odds2[0]:.2f} | {t2}: {odds2[1]:.2f}\n'
             if odds2[0] > odds2[1]:
                 pointWinner = t1
             else:
@@ -75,7 +90,7 @@ def test_run():
                 matchWinner = t1
             else:
                 matchWinner = t2
-            printStr = f'{t1} {at_or_vs} {t2}\n'
+            printStr += f'\tPrediction Accuracy: {accuracy_pred}\n'
             if matchWinner == winner:
                 printStr += '\tAMH: HIT\n'
                 matchwinner_acc += 1
@@ -115,8 +130,6 @@ def test_run():
             game_counter += 1
             t1_point_accuracy += final_acc1
             t2_point_accuracy += final_acc2
-            if t1 == 'SIU+Edwardsville':
-                break
 
 
     t1_overall_pt_acc = t1_point_accuracy / float(game_counter)
@@ -137,9 +150,10 @@ def test_run():
         f.write(finalStr)
 
         
-        # t.MatchHistory(t1, '2025').scrape_data()
-        # t.MatchHistory(t2, '2025').scrape_data()
-        # get_matches_with_match_hist(t1=t1)
-        # get_matches_with_match_hist(t1=t2)
-        # print(f'finished... {t1} {at_or_vs} {t2}')
-        
+            # t.MatchHistory(t1, '2025').scrape_data()
+            # t.MatchHistory(t2, '2025').scrape_data()
+            # get_matches_with_match_hist(t1=t1)
+            # get_matches_with_match_hist(t1=t2)
+            # print(f'finished... {t1} {at_or_vs} {t2}')
+            
+test_run()

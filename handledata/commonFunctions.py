@@ -39,6 +39,36 @@ class CommonFunctions:
         pt2 = int(pt2)
         arr = [pt1, pt2]
         return arr
+    
+    def __sort_team_closest_rank(self, teams_arr, ranks_arr, target_rank):
+        team_rank_dict = list(zip(teams_arr, ranks_arr))
+        team_rank_dict.sort(key=lambda x: abs(x[1] - target_rank))
+        sorted_teams, sorted_ranks = zip(*team_rank_dict)
+        return list(sorted_teams)
+    
+    def get_sorted_rank_list(self, teams_data, target_rank, ops_team_name, ignore_data_bool):
+        data = teams_data.copy()
+        rank = data.pop('Rank', None)
+        data.pop('team_name', None)
+        rank = int(rank)
+        match_arr = []
+        rank_arr = []
+        for match, match_data in data.items():
+            if ignore_data_bool == True:
+                if match != ops_team_name:
+                    match_arr.append(match)
+                    op_rank = match_data.get("Rank")
+                    if op_rank == None:
+                        op_rank = self.get_lowest_rank()
+                    rank_arr.append(op_rank)
+            else:
+                match_arr.append(match)
+                op_rank = match_data.get("Rank")
+                if op_rank == None:
+                    op_rank = self.get_lowest_rank()
+                rank_arr.append(op_rank)     
+        sorted_rank_list = self.__sort_team_closest_rank(match_arr, rank_arr, target_rank)
+        return sorted_rank_list
 
     def get_schedule_data(self, data_set, date_key): 
         matchups = data_set.get(date_key, [])

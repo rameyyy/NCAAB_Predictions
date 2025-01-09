@@ -1,0 +1,171 @@
+Wisconsin at Rutgers
+	Winner: Wisconsin
+	Score: [75, 63]
+	Wisconsin: 76.56% | Rutgers: 23.44%
+	Wisconsin: 94.99 | Rutgers: 99.14
+	Prediction Accuracy: 33.75
+	AMH: HIT
+	PPM: MISS
+	Wisconsin ptAcc: 67.82%
+	Rutgers ptAcc: 49.22%
+
+TCU at Houston
+	Winner: Houston
+	Score: [65, 46]
+	TCU: 6.91% | Houston: 93.09%
+	TCU: 81.20 | Houston: 90.38
+	Prediction Accuracy: 38.0
+	AMH: HIT
+	PPM: HIT
+	TCU ptAcc: 60.95%
+	Houston ptAcc: 23.47%
+
+Ohio+St. at Minnesota
+	Winner: Ohio St.
+	Score: [89, 88]
+	Ohio+St.: 68.00% | Minnesota: 32.00%
+	Ohio+St.: 94.47 | Minnesota: 58.56
+	Prediction Accuracy: 54.25
+	AMH: HIT
+	PPM: HIT
+	Ohio+St. ptAcc: 93.86%
+	Minnesota ptAcc: 66.55%
+
+South+Florida at Wichita+St.
+	Winner: South Florida
+	Score: [91, 72]
+	South+Florida: 43.33% | Wichita+St.: 56.67%
+	South+Florida: 95.73 | Wichita+St.: 103.42
+	Prediction Accuracy: 20.5
+	AMH: MISS
+	PPM: MISS
+	South+Florida ptAcc: 86.36%
+	Wichita+St. ptAcc: 67.04%
+
+UT+Rio+Grande+Valley at Southeastern+Louisiana
+	Winner: Southeastern Louisiana
+	Score: [79, 75]
+	UT+Rio+Grande+Valley: 48.93% | Southeastern+Louisiana: 51.07%
+	UT+Rio+Grande+Valley: 71.16 | Southeastern+Louisiana: 71.26
+	Prediction Accuracy: 26.5
+	AMH: HIT
+	PPM: HIT
+	UT+Rio+Grande+Valley ptAcc: 90.21%
+	Southeastern+Louisiana ptAcc: 94.88%
+
+Southern at Prairie+View+A%26M
+	Winner: Southern
+	Score: [84, 80]
+	Southern: 64.37% | Prairie+View+A%26M: 35.63%
+	Southern: 76.80 | Prairie+View+A%26M: 94.11
+	Prediction Accuracy: 25.583333333333314
+	AMH: HIT
+	PPM: MISS
+	Southern ptAcc: 87.96%
+	Prairie+View+A%26M ptAcc: 96.00%
+
+McNeese+St. at Northwestern+St.
+	Winner: McNeese St.
+	Score: [92, 69]
+	McNeese+St.: 76.29% | Northwestern+St.: 23.71%
+	McNeese+St.: 95.40 | Northwestern+St.: 69.86
+	Prediction Accuracy: 19.5
+	AMH: HIT
+	PPM: HIT
+	McNeese+St. ptAcc: 96.30%
+	Northwestern+St. ptAcc: 98.76%
+
+Norfolk+St. at Delaware+St.
+	Winner: Norfolk St.
+	Score: [73, 64]
+	Norfolk+St.: 63.43% | Delaware+St.: 36.57%
+	Norfolk+St.: 87.02 | Delaware+St.: 66.42
+	Prediction Accuracy: 20.083333333333314
+	AMH: HIT
+	PPM: HIT
+	Norfolk+St. ptAcc: 80.80%
+	Delaware+St. ptAcc: 96.23%
+
+Texas+A%26M+Corpus+Chris at New+Orleans
+	Winner: Texas A&M Corpus Chris
+	Score: [97, 83]
+	Texas+A%26M+Corpus+Chris: 78.97% | New+Orleans: 21.03%
+	Texas+A%26M+Corpus+Chris: 67.71 | New+Orleans: 70.48
+	Prediction Accuracy: 11.25
+	AMH: HIT
+	PPM: MISS
+	Texas+A%26M+Corpus+Chris ptAcc: 72.66%
+	New+Orleans ptAcc: 81.58%
+
+Incarnate+Word at Lamar
+	Winner: Lamar
+	Score: [72, 58]
+	Incarnate+Word: 53.97% | Lamar: 46.03%
+	Incarnate+Word: 92.50 | Lamar: 76.21
+	Prediction Accuracy: 31.75
+	AMH: MISS
+	PPM: MISS
+	Incarnate+Word ptAcc: 71.53%
+	Lamar ptAcc: 68.60%
+
+Grambling+St. at Texas+Southern
+	Winner: Texas Southern
+	Score: [71, 66]
+	Grambling+St.: 42.77% | Texas+Southern: 57.23%
+	Grambling+St.: 77.21 | Texas+Southern: 71.29
+	Prediction Accuracy: 94.0
+	AMH: HIT
+	PPM: MISS
+	Grambling+St. ptAcc: 91.26%
+	Texas+Southern ptAcc: 91.98%
+
+Houston+Christian at Stephen+F.+Austin
+	Winner: Houston Christian
+	Score: [83, 73]
+	Houston+Christian: 41.83% | Stephen+F.+Austin: 58.17%
+	Houston+Christian: 90.28 | Stephen+F.+Austin: 76.45
+	Prediction Accuracy: 36.5
+	AMH: MISS
+	PPM: HIT
+	Houston+Christian ptAcc: 91.23%
+	Stephen+F.+Austin ptAcc: 95.28%
+
+South+Carolina+St. at Coppin+St.
+	Winner: South Carolina St.
+	Score: [85, 77]
+	South+Carolina+St.: 66.09% | Coppin+St.: 33.91%
+	South+Carolina+St.: 85.43 | Coppin+St.: 75.47
+	Prediction Accuracy: 13.75
+	AMH: HIT
+	PPM: HIT
+	South+Carolina+St. ptAcc: 99.49%
+	Coppin+St. ptAcc: 98.01%
+
+Arkansas+Pine+Bluff at Alabama+St.
+	Winner: Alabama St.
+	Score: [93, 91]
+	Arkansas+Pine+Bluff: 28.50% | Alabama+St.: 71.50%
+	Arkansas+Pine+Bluff: 73.63 | Alabama+St.: 80.98
+	Prediction Accuracy: 38.333333333333314
+	AMH: HIT
+	PPM: HIT
+	Arkansas+Pine+Bluff ptAcc: 87.08%
+	Alabama+St. ptAcc: 80.91%
+
+Mississippi+Valley+St. at Alabama+A%26M
+	Winner: Alabama A&M
+	Score: [79, 67]
+	Mississippi+Valley+St.: 31.72% | Alabama+A%26M: 68.28%
+	Mississippi+Valley+St.: 85.48 | Alabama+A%26M: 84.76
+	Prediction Accuracy: 80.0
+	AMH: HIT
+	PPM: MISS
+	Mississippi+Valley+St. ptAcc: 91.80%
+	Alabama+A%26M ptAcc: 73.49%
+
+
+Both Hit = 46.67%
+Point Hit = 53.33%
+Match Hit = 80.00%
+Winner Pt Predict Accuracy 84.62%
+Loser Pt Predict Accuracy 78.80%

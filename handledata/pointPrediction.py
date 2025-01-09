@@ -151,12 +151,15 @@ class PointPrediction:
                                     player_stats_dict[player] = [minutes, points, 1]
         arr = self.__loop_player_min_pts_stats(player_stats_dict, 0)
             # print(f'{player}, {ppm:.2f}, mins play avg: {min_per_game}')
-        if arr[1] > 200.0 or arr[1] < 200.0: #200 minutes total per game possible adding up all players times
+        if (arr[1] > 200.0 or arr[1] < 200.0) and arr[2] != 0: #200 minutes total per game possible adding up all players times
             surplus = (arr[1] - 200.0)
             surplus /= arr[2]
             new_arr = self.__loop_player_min_pts_stats(player_stats_dict, surplus)
-        points = new_arr[0]
-        return points
+        try:
+            points = new_arr[0]
+            return points
+        except Exception:
+            return 'Brick'
     
     def calculate_points_final(self, hna, pts1, pts2):
         weight_pts1 = self.commonFuncObj.get_function_weight('PointPrediction', 'PlayerMin_PtAvgs')
@@ -174,8 +177,8 @@ class PointPrediction:
         team1 = self.match_info_arr[0]
         at_vs = self.match_info_arr[1]
         team2 = self.match_info_arr[2]
-        t1_odds, t2_odds = self.run_the_numbers(team1, at_vs, team2)
-        return t1_odds, t2_odds
+        odds_arr = self.run_the_numbers(team1, at_vs, team2)
+        return odds_arr
     
     def run_the_numbers(self, team1, at_or_vs, team2):
         team1_data, team2_data = self.get_individual_data(team1, team2)
@@ -184,6 +187,8 @@ class PointPrediction:
         # print(f'{team1}: {match_hist_score[0]} | {team2}: {match_hist_score[1] + hna_score[1]}')
         t1_playerMinutes_score = self.TS_and_PlayerMinutes(team1_data, team2_data)
         t2_playerMinutes_score = self.TS_and_PlayerMinutes(team2_data, team1_data)
+        if t1_playerMinutes_score == 'Brick' or t2_playerMinutes_score == 'Brick':
+            return 'Fail'
         playerMin_score_arr = [t1_playerMinutes_score, t2_playerMinutes_score]
         t2_playerMinutes_score += hna_score[1]
         # print(f'{team1}: {t1_playerMinutes_score:.2f} | {team2}: {t2_playerMinutes_score:.2f}')
