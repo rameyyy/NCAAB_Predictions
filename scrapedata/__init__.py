@@ -22,6 +22,7 @@ from .matchHistory import MatchHistory
 from .leaderboardStats import LeaderboardStats
 from .gameSchedule import GameSchedule
 from .matchPlayerStats import MatchPlayerStats
+from .gameWinners import GameWinners
 
 # define __all__ aka import *
-__all__ = ['MatchHistory', 'LeaderboardStats', 'GameSchedule', 'MatchPlayerStats']
+__all__ = ['MatchHistory', 'LeaderboardStats', 'GameSchedule', 'MatchPlayerStats', 'GameWinners']

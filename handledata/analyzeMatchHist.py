@@ -1,9 +1,11 @@
 from . import commonFunctions
 
 class AnalyzeMatchHist:
-    def __init__(self, team1:str, at_or_vs:str, team2:str):
+    def __init__(self, team1:str, at_or_vs:str, team2:str, ignore_data_bool:bool):
         self.commonFuncObj = commonFunctions.CommonFunctions()
-        self.run_the_numbers(team1, at_or_vs, team2)
+        self.ignore_data_boolean = ignore_data_bool
+        self.match_info_arr = [team1, at_or_vs, team2]
+        # self.run_the_numbers(team1, at_or_vs, team2)
         
     def get_path(self):
         from . import get_paths
@@ -23,23 +25,44 @@ class AnalyzeMatchHist:
         for i in range(0, 2):
             if i == 0:
                 data = team1_data.copy()    # Create a copy of the data to work with
+                ops_team_name = team2_data.get('team_name')
             else:
                 data = team2_data.copy()    # Create a copy of the data to work with
+                ops_team_name = team1_data.get('team_name')
             data.pop('Rank', None)
             data.pop('team_name', None)
             match_score = 0
             match_count = 0
             for key, items in data.items():
-                ops_rank = items.get("Rank")
-                ops_diff = items.get("Diff")
-                x = (ops_rank/ops_diff/total_ranked)
-                if ops_diff < 0:
-                    x = (ops_rank/total_ranked) * (ops_diff * -1)
+                if self.ignore_data_boolean != True:
+                    ops_rank = items.get("Rank")
+                    ops_diff = items.get("Diff")
+                    if ops_rank == None:
+                        ops_rank = self.commonFuncObj.get_lowest_rank()
+                    x = (ops_rank/ops_diff/total_ranked)
+                    if ops_diff < 0:
+                        x = (ops_rank/total_ranked) * (ops_diff * -1)
+                    else:
+                        x = (ops_rank/total_ranked) / ops_diff
+                    x *= 100
+                    match_score += x
+                    match_count += 1
                 else:
-                    x = (ops_rank/total_ranked) / ops_diff
-                x *= 100
-                match_score += x
-                match_count += 1
+                    if key == ops_team_name:
+                        pass
+                    else:
+                        ops_rank = items.get("Rank")
+                        ops_diff = items.get("Diff")
+                        if ops_rank == None:
+                            ops_rank = self.commonFuncObj.get_lowest_rank()
+                        x = (ops_rank/ops_diff/total_ranked)
+                        if ops_diff < 0:
+                            x = (ops_rank/total_ranked) * (ops_diff * -1)
+                        else:
+                            x = (ops_rank/total_ranked) / ops_diff
+                        x *= 100
+                        match_score += x
+                        match_count += 1
             avg_match_score = match_score / match_count
             if i == 0:
                 match_score_t1 = match_score
@@ -92,6 +115,13 @@ class AnalyzeMatchHist:
                 t2_total += (hna_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'HomeAway'))
         return t1_total, t2_total
 
+    def return_odds(self):
+        team1 = self.match_info_arr[0]
+        at_vs = self.match_info_arr[1]
+        team2 = self.match_info_arr[2]
+        t1_odds, t2_odds = self.run_the_numbers(team1, at_vs, team2)
+        return t1_odds, t2_odds
+
     def run_the_numbers(self, team1, at_or_vs, team2):
         team1_data, team2_data = self.get_individual_data(team1, team2)
         match_hist_score = self.check_match_history(team1_data, team2_data)
@@ -100,7 +130,8 @@ class AnalyzeMatchHist:
         scores = self.add_points(trank_score, match_hist_score, hna_score)
         data1 = (scores[0] / (scores[0] + scores[1])) * 100
         data2 = (scores[1] / (scores[0] + scores[1])) * 100
-        if data1 > data2:
-            print(f'{team1}, W, {data1:.2f}% | {team2}, L, {data2:.2f}%')
-        else:
-            print(f'{team1}, L, {data1:.2f}% | {team2}, W, {data2:.2f}%')
+        # if data1 > data2:
+        #     print(f'{team1}, W, {data1:.2f}% | {team2}, L, {data2:.2f}%')
+        # else:
+        #     print(f'{team1}, L, {data1:.2f}% | {team2}, W, {data2:.2f}%')
+        return data1, data2

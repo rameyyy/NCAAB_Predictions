@@ -4,7 +4,8 @@ class PointPrediction:
     def __init__(self, team1:str, at_or_vs:str, team2:str, ignore_data_bool:bool):
         self.commonFuncObj = commonFunctions.CommonFunctions()
         self.ignore_data_boolean = ignore_data_bool
-        self.run_the_numbers(team1, at_or_vs, team2)
+        self.match_info_arr = [team1, at_or_vs, team2]
+        # self.run_the_numbers(team1, at_or_vs, team2)
 
     def get_individual_data(self, team1, team2):
         paths_arr = self.commonFuncObj.get_path()
@@ -109,11 +110,12 @@ class PointPrediction:
         points = 0
         player_count = 0
         for player, data in stats_dict.items():
-            ppm = data[1] / data[0] # points/minutes = points per min
-            min_per_game = data[0]/data[2] - surplus
-            points += (ppm * min_per_game)
-            total_time += min_per_game
-            player_count += 1
+            if data[0] != 0:
+                ppm = data[1] / data[0] # points/minutes = points per min
+                min_per_game = data[0]/data[2] - surplus
+                points += (ppm * min_per_game)
+                total_time += min_per_game
+                player_count += 1
         arr = [float(points), float(total_time), float(player_count)]
         return arr
     
@@ -168,6 +170,13 @@ class PointPrediction:
         points[1] += hna[1]
         return points
 
+    def return_odds(self):
+        team1 = self.match_info_arr[0]
+        at_vs = self.match_info_arr[1]
+        team2 = self.match_info_arr[2]
+        t1_odds, t2_odds = self.run_the_numbers(team1, at_vs, team2)
+        return t1_odds, t2_odds
+    
     def run_the_numbers(self, team1, at_or_vs, team2):
         team1_data, team2_data = self.get_individual_data(team1, team2)
         match_hist_score = self.check_match_history(team1_data, team2_data)
@@ -179,4 +188,5 @@ class PointPrediction:
         t2_playerMinutes_score += hna_score[1]
         # print(f'{team1}: {t1_playerMinutes_score:.2f} | {team2}: {t2_playerMinutes_score:.2f}')
         pts = self.calculate_points_final(hna_score, playerMin_score_arr, match_hist_score)
-        print(f'{team1}: {pts[0]:.2f} | {team2}: {pts[1]:.2f}')
+        # print(f'{team1}: {pts[0]:.2f} | {team2}: {pts[1]:.2f}')
+        return pts

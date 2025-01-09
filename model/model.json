@@ -7,16 +7,16 @@
             "PointPrediction": 1
         },
         "AnalyzeMatchHist": {
-            "HomeAway": 2,
-            "TRank": 2,
-            "MatchHist": 16
+            "HomeAway": 5,
+            "TRank": 3,
+            "MatchHist": 25
         },
         "PointPrediction": {
-            "SimilarMatch_PtAverages_loop": 3,
-            "PlayerMin_PtAvgs_loop": 4,
-            "SimilarMatch_PtAverages": 20,
-            "PlayerMin_PtAvgs": 80,
-            "HNA": 3
+            "SimilarMatch_PtAverages_loop": 2,
+            "PlayerMin_PtAvgs_loop": 3,
+            "SimilarMatch_PtAverages": 30,
+            "PlayerMin_PtAvgs": 70,
+            "HNA": 0
         }
     }
 }

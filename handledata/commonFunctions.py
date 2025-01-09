@@ -32,6 +32,13 @@ class CommonFunctions:
         month,day = date_str.split('-')
         day = str(int(day))
         return f'{month}-{day}'
+    
+    def get_score_from_str(self, score_str):
+        pt1, pt2 = score_str.split('-')
+        pt1 = int(pt1)
+        pt2 = int(pt2)
+        arr = [pt1, pt2]
+        return arr
 
     def get_schedule_data(self, data_set, date_key): 
         matchups = data_set.get(date_key, [])
