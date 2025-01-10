@@ -16,11 +16,15 @@ def get_paths():
     schedule_path = os.path.expandvars(paths.get("SCHEDULE"))
     specific_match_player_stats = os.path.expandvars(paths.get("SPECIFICMATCH_PLAYER_STATS"))
     model_path = os.path.expandvars(paths.get("MODELS"))
-    return matchhistory_path, leaderboard_path, schedule_path, specific_match_player_stats, model_path
+    handledata_path = os.path.expandvars(paths.get("HANDLEDATA"))
+    scrapedata_path = os.path.expandvars(paths.get("SCRAPEDATA"))
+    path_to_path = os.path.expandvars(paths.get("PATHTOPATH"))
+    return matchhistory_path, leaderboard_path, schedule_path, specific_match_player_stats, model_path, handledata_path, scrapedata_path, path_to_path
 
 from .analyzeMatchHist import AnalyzeMatchHist
 from .commonFunctions import CommonFunctions
 from .pointPrediction import PointPrediction
 from .accuracyEstimate import AccuracyEstimate
+from .prevWinner import PrevWinner
 
-__all__ = ['AnalyzeMatchHist', 'CommonFunctions', 'PointPrediction', 'AccuracyEstimate']
+__all__ = ['AnalyzeMatchHist', 'CommonFunctions', 'PointPrediction', 'AccuracyEstimate', 'PrevWinner']

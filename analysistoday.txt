@@ -1,0 +1,158 @@
+<- Games on 01/10/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+UCLA at Maryland
+	<-> Analyze Match History Prediction <->
+	UCLA: 46.35% | Maryland: 53.65%
+	<-> Current Win Streaks <->
+	UCLA: 0 | Maryland: 0
+	<-> Prediction Accuracy Estimate <->
+	UCLA: -1.00 | Maryland: 1.25
+	<-> Historical Prediction Accuracy (of this game) <->
+	UCLA: 58.42% | Maryland: 41.58%
+
+
+Merrimack at Sacred+Heart
+	<-> Analyze Match History Prediction <->
+	Merrimack: 57.44% | Sacred+Heart: 42.56%
+	<-> Current Win Streaks <->
+	Merrimack: 1 | Sacred+Heart: 2
+	<-> Prediction Accuracy Estimate <->
+	Merrimack: 20.50 | Sacred+Heart: 15.25
+	<-> Historical Prediction Accuracy (of this game) <->
+	Merrimack: 59.83% | Sacred+Heart: 40.17%
+
+
+Mount+St.+Mary%27s at Manhattan
+	<-> Analyze Match History Prediction <->
+	Mount+St.+Mary%27s: 52.86% | Manhattan: 47.14%
+	<-> Current Win Streaks <->
+	Mount+St.+Mary%27s: 1 | Manhattan: 1
+	<-> Prediction Accuracy Estimate <->
+	Mount+St.+Mary%27s: 0.00 | Manhattan: -0.25
+	<-> Historical Prediction Accuracy (of this game) <->
+	Mount+St.+Mary%27s: 100.00% | Manhattan: 0.00%
+
+
+Minnesota at Wisconsin
+	<-> Analyze Match History Prediction <->
+	Minnesota: 11.93% | Wisconsin: 88.07%
+	<-> Current Win Streaks <->
+	Minnesota: 0 | Wisconsin: 4
+	<-> Prediction Accuracy Estimate <->
+	Minnesota: 12.00 | Wisconsin: -23.50
+	<-> Historical Prediction Accuracy (of this game) <->
+	Minnesota: 0.00% | Wisconsin: 100.00%
+
+
+Central+Michigan at Toledo
+	<-> Analyze Match History Prediction <->
+	Central+Michigan: 54.26% | Toledo: 45.74%
+	<-> Current Win Streaks <->
+	Central+Michigan: 0 | Toledo: 2
+	<-> Prediction Accuracy Estimate <->
+	Central+Michigan: -58.75 | Toledo: -30.50
+	<-> Historical Prediction Accuracy (of this game) <->
+	Central+Michigan: 23.86% | Toledo: 76.14%
+
+
+Iona at Fairfield
+	<-> Analyze Match History Prediction <->
+	Iona: 49.72% | Fairfield: 50.28%
+	<-> Current Win Streaks <->
+	Iona: 1 | Fairfield: 0
+	<-> Prediction Accuracy Estimate <->
+	Iona: -41.50 | Fairfield: -7.00
+	<-> Historical Prediction Accuracy (of this game) <->
+	Iona: 71.16% | Fairfield: 28.84%
+
+
+Saint+Peter%27s at Niagara
+	<-> Analyze Match History Prediction <->
+	Saint+Peter%27s: 59.68% | Niagara: 40.32%
+	<-> Current Win Streaks <->
+	Saint+Peter%27s: 0 | Niagara: 0
+	<-> Prediction Accuracy Estimate <->
+	Saint+Peter%27s: -22.00 | Niagara: 35.00
+	<-> Historical Prediction Accuracy (of this game) <->
+	Saint+Peter%27s: 70.90% | Niagara: 29.10%
+
+
+Fairleigh+Dickinson at Le+Moyne
+	<-> Analyze Match History Prediction <->
+	Fairleigh+Dickinson: 53.84% | Le+Moyne: 46.16%
+	<-> Current Win Streaks <->
+	Fairleigh+Dickinson: 1 | Le+Moyne: 0
+	<-> Prediction Accuracy Estimate <->
+	Fairleigh+Dickinson: 37.00 | Le+Moyne: -4.75
+	<-> Historical Prediction Accuracy (of this game) <->
+	Fairleigh+Dickinson: -1.00% | Le+Moyne: -1.00%
+
+
+Siena at Quinnipiac
+	<-> Analyze Match History Prediction <->
+	Siena: 47.04% | Quinnipiac: 52.96%
+	<-> Current Win Streaks <->
+	Siena: 0 | Quinnipiac: 0
+	<-> Prediction Accuracy Estimate <->
+	Siena: -28.00 | Quinnipiac: 7.50
+	<-> Historical Prediction Accuracy (of this game) <->
+	Siena: 0.00% | Quinnipiac: 100.00%
+
+
+Rider at Canisius
+	<-> Analyze Match History Prediction <->
+	Rider: 57.34% | Canisius: 42.66%
+	<-> Current Win Streaks <->
+	Rider: 0 | Canisius: 0
+	<-> Prediction Accuracy Estimate <->
+	Rider: -15.25 | Canisius: -45.75
+	<-> Historical Prediction Accuracy (of this game) <->
+	Rider: 61.54% | Canisius: 38.46%
+
+
+Kent+St. at Buffalo
+	<-> Analyze Match History Prediction <->
+	Kent+St.: 76.73% | Buffalo: 23.27%
+	<-> Current Win Streaks <->
+	Kent+St.: 1 | Buffalo: 0
+	<-> Prediction Accuracy Estimate <->
+	Kent+St.: 39.50 | Buffalo: 6.25
+	<-> Historical Prediction Accuracy (of this game) <->
+	Kent+St.: 100.00% | Buffalo: 0.00%
+
+
+LIU at Stonehill
+	<-> Analyze Match History Prediction <->
+	LIU: 35.27% | Stonehill: 64.73%
+	<-> Current Win Streaks <->
+	LIU: 2 | Stonehill: 1
+	<-> Prediction Accuracy Estimate <->
+	LIU: 11.75 | Stonehill: 5.25
+	<-> Historical Prediction Accuracy (of this game) <->
+	LIU: 47.62% | Stonehill: 52.38%
+
+
+Mercyhurst at Saint+Francis
+	<-> Analyze Match History Prediction <->
+	Mercyhurst: 39.44% | Saint+Francis: 60.56%
+	<-> Current Win Streaks <->
+	Mercyhurst: 0 | Saint+Francis: 0
+	<-> Prediction Accuracy Estimate <->
+	Mercyhurst: 9.25 | Saint+Francis: 42.25
+	<-> Historical Prediction Accuracy (of this game) <->
+	Mercyhurst: -1.00% | Saint+Francis: -1.00%
+
+
+Wagner at Central+Connecticut
+	<-> Analyze Match History Prediction <->
+	Wagner: 25.82% | Central+Connecticut: 74.18%
+	<-> Current Win Streaks <->
+	Wagner: 0 | Central+Connecticut: 5
+	<-> Prediction Accuracy Estimate <->
+	Wagner: 18.75 | Central+Connecticut: 19.50
+	<-> Historical Prediction Accuracy (of this game) <->
+	Wagner: 30.35% | Central+Connecticut: 69.65%
+
+<>

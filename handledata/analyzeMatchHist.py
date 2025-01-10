@@ -5,7 +5,6 @@ class AnalyzeMatchHist:
         self.commonFuncObj = commonFunctions.CommonFunctions()
         self.ignore_data_boolean = ignore_data_bool
         self.match_info_arr = [team1, at_or_vs, team2]
-        # self.run_the_numbers(team1, at_or_vs, team2)
         
     def get_path(self):
         from . import get_paths
@@ -13,8 +12,9 @@ class AnalyzeMatchHist:
         return paths_arr
 
     def get_individual_data(self, team1, team2):
-        file_path_arr = self.get_path()
-        file_path = file_path_arr[0]
+        dateStr = self.commonFuncObj.get_formatted_date()
+        yearStr = self.commonFuncObj.get_ncaa_season_year(dateStr)
+        file_path = self.commonFuncObj.adjust_matchHist_file_path(yearStr)
         dataset = self.commonFuncObj.load_json_file(file_path)
         team1_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team1)
         team2_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team2)
@@ -22,13 +22,14 @@ class AnalyzeMatchHist:
     
     def check_match_history(self, team1_data, team2_data):
         total_ranked = self.commonFuncObj.get_lowest_rank()
+        win_streak = [0, 0]
         for i in range(0, 2):
             if i == 0:
                 data = team1_data.copy()    # Create a copy of the data to work with
-                ops_team_name = team2_data.get('team_name')
+                ops_team_name = team2_data.get('team_name', None)
             else:
                 data = team2_data.copy()    # Create a copy of the data to work with
-                ops_team_name = team1_data.get('team_name')
+                ops_team_name = team1_data.get('team_name', None)
             data.pop('Rank', None)
             data.pop('team_name', None)
             match_score = 0
@@ -37,6 +38,11 @@ class AnalyzeMatchHist:
                 if self.ignore_data_boolean != True:
                     ops_rank = items.get("Rank")
                     ops_diff = items.get("Diff")
+                    win_loss = items.get("W/L")
+                    if win_loss == 1:
+                        win_streak[i] = win_streak[i] + 1
+                    else:
+                        win_streak[i] = 0
                     if ops_rank == None:
                         ops_rank = self.commonFuncObj.get_lowest_rank()
                     x = (ops_rank/ops_diff/total_ranked)
@@ -53,8 +59,13 @@ class AnalyzeMatchHist:
                     else:
                         ops_rank = items.get("Rank")
                         ops_diff = items.get("Diff")
+                        win_loss = items.get("W/L")
+                        if win_loss == 1:
+                            win_streak[i] = win_streak[i] + 1
+                        else:
+                            win_streak[i] = 0
                         if ops_rank == None:
-                            ops_rank = self.commonFuncObj.get_lowest_rank()
+                            ops_rank = self.commonFuncObj.get_lowest_rank() + 51
                         x = (ops_rank/ops_diff/total_ranked)
                         if ops_diff < 0:
                             x = (ops_rank/total_ranked) * (ops_diff * -1)
@@ -81,7 +92,7 @@ class AnalyzeMatchHist:
         total_match_score = match_score_t2 + match_score_t1
         winr_t1 = match_score_t2 / total_match_score
         winr_t2 = match_score_t1 / total_match_score
-        return winr_t1, winr_t2
+        return winr_t1, winr_t2, win_streak
     
     def hna_check(self, at_vs:str):
         # if at, then that team is home and gets 100% of home/away pts
@@ -119,19 +130,16 @@ class AnalyzeMatchHist:
         team1 = self.match_info_arr[0]
         at_vs = self.match_info_arr[1]
         team2 = self.match_info_arr[2]
-        t1_odds, t2_odds = self.run_the_numbers(team1, at_vs, team2)
-        return t1_odds, t2_odds
+        t1_odds, t2_odds, winstreak_array = self.run_the_numbers(team1, at_vs, team2)
+        return t1_odds, t2_odds, winstreak_array
 
     def run_the_numbers(self, team1, at_or_vs, team2):
         team1_data, team2_data = self.get_individual_data(team1, team2)
         match_hist_score = self.check_match_history(team1_data, team2_data)
+        win_streak_arr = match_hist_score[2]
         trank_score = self.trank_comparison(team1_data, team2_data)
         hna_score = self.hna_check(at_or_vs)
         scores = self.add_points(trank_score, match_hist_score, hna_score)
         data1 = (scores[0] / (scores[0] + scores[1])) * 100
         data2 = (scores[1] / (scores[0] + scores[1])) * 100
-        # if data1 > data2:
-        #     print(f'{team1}, W, {data1:.2f}% | {team2}, L, {data2:.2f}%')
-        # else:
-        #     print(f'{team1}, L, {data1:.2f}% | {team2}, W, {data2:.2f}%')
-        return data1, data2
+        return data1, data2, win_streak_arr

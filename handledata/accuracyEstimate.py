@@ -7,8 +7,9 @@ class AccuracyEstimate:
         self.match_info_arr = [team1, at_or_vs, team2]
     
     def get_individual_data(self, team1, team2):
-        paths_arr = self.commonFuncObj.get_path()
-        file_path = paths_arr[0]
+        dateStr = self.commonFuncObj.get_formatted_date()
+        yearStr = self.commonFuncObj.get_ncaa_season_year(dateStr)
+        file_path = self.commonFuncObj.adjust_matchHist_file_path(yearStr)
         dataset = self.commonFuncObj.load_json_file(file_path)
         team1_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team1)
         team2_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team2)
@@ -24,9 +25,10 @@ class AccuracyEstimate:
         return t1_list, t2_list, t1_rank, t2_rank
     
     def accuracy_estimator(self, team_arr, ops_rank):
-        file_path_arr = self.commonFuncObj.get_path()
-        file_path = file_path_arr[1]
-        leaderboard_json = self.commonFuncObj.load_json_file(file_path)
+        dateStr = self.commonFuncObj.get_formatted_date()
+        yearStr = self.commonFuncObj.get_ncaa_season_year(dateStr)
+        adjusted_path = self.commonFuncObj.adjust_leaderboard_file_path(yearStr)
+        leaderboard_json = self.commonFuncObj.load_json_file(adjusted_path)
         if len(team_arr) > 3:
             top4_array = team_arr[:4]
         else:
@@ -36,9 +38,17 @@ class AccuracyEstimate:
             if team['team_name'] in top4_array:
                 teams_rank = team['Rank']
                 rank_arr.append(teams_rank)
+        rank_arr_len = len(rank_arr)
+        if rank_arr_len != 4:
+            lowest_rank_in_league = self.commonFuncObj.get_lowest_rank() + 51
+            for i in range(0, 4):
+                try:
+                    test = rank_arr[i]
+                except Exception:
+                    rank_arr.append(lowest_rank_in_league)
         rank_avg = sum(rank_arr) / len(rank_arr)
         range_avg = rank_avg - ops_rank
-        return abs(range_avg)
+        return range_avg
     
     def return_odds(self):
         t1 = self.match_info_arr[0]
@@ -49,5 +59,4 @@ class AccuracyEstimate:
         t1_list, t2_list, t1_rank, t2_rank = ordered_lists[0], ordered_lists[1], ordered_lists[2], ordered_lists[3]
         t1_range = self.accuracy_estimator(t1_list, t2_rank)
         t2_range = self.accuracy_estimator(t2_list, t1_rank)
-        range_total = t1_range + t2_range
-        return range_total
+        return t1_range, t2_range

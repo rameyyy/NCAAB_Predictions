@@ -16,8 +16,11 @@ class LeaderboardStats:
 		return paths_arr		# path to leaderboard str in [1]
 
 	def __put_in_json(self, data):
-		file_path = self.__get_path()
-		with open(file_path[1], 'w') as json_file:
+		file_path_arr = self.__get_path()
+		file_path = file_path_arr[1]
+		file_p, dot_json = file_path.split('.')
+		file_path = file_p + f'_{self.year}.' + dot_json
+		with open(file_path, 'w') as json_file:
 			json.dump(data, json_file, indent=4)
 	
 	def __format_number(self, num):

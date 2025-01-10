@@ -5,6 +5,9 @@
         "MATCHHIST": "$HOME/projects/NCAAB_Predictions/database/match_history_stats.json",
         "LEADERBOARD": "$HOME/projects/NCAAB_Predictions/database/leaderboard_data.json",
         "SPECIFICMATCH_PLAYER_STATS": "$HOME/projects/NCAAB_Predictions/database/match_player_stats.json",
-        "MODELS": "$HOME/projects/NCAAB_Predictions/model/model.json"
+        "MODELS": "$HOME/projects/NCAAB_Predictions/model/model.json",
+        "HANDLEDATA": "$HOME/projects/NCAAB_Predictions/handledata",
+        "SCRAPEDATA": "$HOME/projects/NCAAB_Predictions/scrapedata",
+        "PATHTOPATH": "$HOME/projects/NCAAB_Predictions/database/paths.json"
     }
 }

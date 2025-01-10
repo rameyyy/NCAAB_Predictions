@@ -1,0 +1,306 @@
+Oregon at Ohio+St.
+	Oregon: 70.57% | Ohio+St.: 29.43%
+	Oregon: 73.51 | Ohio+St.: 85.43
+	Prediction Accuracy (2.0, 4.0)
+	Safe bet
+
+UC+Irvine at Cal+St.+Northridge
+	UC+Irvine: 53.51% | Cal+St.+Northridge: 46.49%
+	UC+Irvine: 72.31 | Cal+St.+Northridge: 67.30
+	Prediction Accuracy (0.75, 23.75)
+Purdue at Rutgers
+	Purdue: 64.14% | Rutgers: 35.86%
+	Purdue: 78.17 | Rutgers: 101.57
+	Prediction Accuracy (11.0, 2.0)
+	Safe bet
+
+Grand+Canyon at Utah+Valley
+	Grand+Canyon: 58.61% | Utah+Valley: 41.39%
+	Grand+Canyon: 75.34 | Utah+Valley: 87.40
+	Prediction Accuracy (11.75, 2.75)
+Arkansas+St. at South+Alabama
+	Arkansas+St.: 41.72% | South+Alabama: 58.28%
+	Arkansas+St.: 80.34 | South+Alabama: 68.70
+	Prediction Accuracy (18.75, 3.0)
+	Unsafe bet
+
+Oregon+St. at Santa+Clara
+	Oregon+St.: 49.73% | Santa+Clara: 50.27%
+	Oregon+St.: 79.51 | Santa+Clara: 82.64
+	Prediction Accuracy (13.5, 3.75)
+Charleston at Hofstra
+	Charleston: 54.97% | Hofstra: 45.03%
+	Charleston: 89.23 | Hofstra: 85.30
+	Prediction Accuracy (17.75, 18.0)
+	Unsafe bet
+
+Elon at William+%26+Mary
+	Elon: 45.97% | William+%26+Mary: 54.03%
+	Elon: 107.14 | William+%26+Mary: 98.11
+	Prediction Accuracy (2.25, 7.5)
+James+Madison at Marshall
+	James+Madison: 48.86% | Marshall: 51.14%
+	James+Madison: 80.99 | Marshall: 91.44
+	Prediction Accuracy (24.75, 5.5)
+	Unsafe bet
+
+Northern+Colorado at Montana+St.
+	Northern+Colorado: 66.34% | Montana+St.: 33.66%
+	Northern+Colorado: 93.32 | Montana+St.: 85.93
+	Prediction Accuracy (16.5, 11.0)
+	Unsafe bet
+
+North+Alabama at Florida+Gulf+Coast
+	North+Alabama: 46.31% | Florida+Gulf+Coast: 53.69%
+	North+Alabama: 91.04 | Florida+Gulf+Coast: 79.22
+	Prediction Accuracy (0.25, 8.75)
+UNC+Greensboro at Chattanooga
+	UNC+Greensboro: 49.81% | Chattanooga: 50.19%
+	UNC+Greensboro: 82.66 | Chattanooga: 79.07
+	Prediction Accuracy (23.0, 0.25)
+	Unsafe bet
+
+Washington at Michigan+St.
+	Washington: 11.20% | Michigan+St.: 88.80%
+	Washington: 91.27 | Michigan+St.: 84.72
+	Prediction Accuracy (0.5, 3.25)
+	Safe bet
+
+Liberty at Sam+Houston+St.
+	Liberty: 82.86% | Sam+Houston+St.: 17.14%
+	Liberty: 76.66 | Sam+Houston+St.: 78.97
+	Prediction Accuracy (6.75, 6.25)
+	Safe bet
+
+Northeastern at Towson
+	Northeastern: 51.82% | Towson: 48.18%
+	Northeastern: 92.61 | Towson: 78.66
+	Prediction Accuracy (1.75, 11.5)
+Jacksonville+St. at Western+Kentucky
+	Jacksonville+St.: 45.36% | Western+Kentucky: 54.64%
+	Jacksonville+St.: 105.65 | Western+Kentucky: 86.65
+	Prediction Accuracy (23.25, 15.0)
+	Unsafe bet
+
+Hawaii at UC+Riverside
+	Hawaii: 63.47% | UC+Riverside: 36.53%
+	Hawaii: 70.60 | UC+Riverside: 105.64
+	Prediction Accuracy (13.0, 1.5)
+	Safe bet
+
+FIU at Louisiana+Tech
+	FIU: 41.80% | Louisiana+Tech: 58.20%
+	FIU: 80.72 | Louisiana+Tech: 87.30
+	Prediction Accuracy (16.75, 5.75)
+	Unsafe bet
+
+UT+Arlington at Utah+Tech
+	UT+Arlington: 59.08% | Utah+Tech: 40.92%
+	UT+Arlington: 75.61 | Utah+Tech: 106.90
+	Prediction Accuracy (6.0, 7.0)
+Delaware at North+Carolina+A%26T
+	Delaware: 64.78% | North+Carolina+A%26T: 35.22%
+	Delaware: 87.17 | North+Carolina+A%26T: 117.98
+	Prediction Accuracy (10.25, 3.5)
+	Safe bet
+
+Eastern+Washington at Portland+St.
+	Eastern+Washington: 40.03% | Portland+St.: 59.97%
+	Eastern+Washington: 84.23 | Portland+St.: 72.59
+	Prediction Accuracy (48.0, 21.25)
+	Unsafe bet
+
+Tennessee+Tech at Eastern+Illinois
+	Tennessee+Tech: 53.73% | Eastern+Illinois: 46.27%
+	Tennessee+Tech: 73.97 | Eastern+Illinois: 69.98
+	Prediction Accuracy (12.75, 8.25)
+Kennesaw+St. at Middle+Tennessee
+	Kennesaw+St.: 35.46% | Middle+Tennessee: 64.54%
+	Kennesaw+St.: 88.11 | Middle+Tennessee: 92.64
+	Prediction Accuracy (16.25, 21.75)
+	Unsafe bet
+
+Cal+Poly at UC+San+Diego
+	Cal+Poly: 15.01% | UC+San+Diego: 84.99%
+	Cal+Poly: 104.15 | UC+San+Diego: 83.32
+	Prediction Accuracy (9.5, 12.0)
+	Safe bet
+
+Texas+St. at Troy
+	Texas+St.: 19.86% | Troy: 80.14%
+	Texas+St.: 85.93 | Troy: 98.64
+	Prediction Accuracy (4.0, 4.5)
+	Safe bet
+
+Tennessee+St. at Lindenwood
+	Tennessee+St.: 46.50% | Lindenwood: 53.50%
+	Tennessee+St.: 73.16 | Lindenwood: 94.18
+	Prediction Accuracy (9.333333333333314, 6.0)
+North+Florida at Eastern+Kentucky
+	North+Florida: 46.80% | Eastern+Kentucky: 53.20%
+	North+Florida: 102.85 | Eastern+Kentucky: 98.06
+	Prediction Accuracy (11.25, 28.5)
+Oakland at Wright+St.
+	Oakland: 34.70% | Wright+St.: 65.30%
+	Oakland: 80.17 | Wright+St.: 84.33
+	Prediction Accuracy (2.0, 0.0)
+	Safe bet
+
+UNC+Wilmington at Monmouth
+	UNC+Wilmington: 73.96% | Monmouth: 26.04%
+	UNC+Wilmington: 87.06 | Monmouth: 72.05
+	Prediction Accuracy (1.5, 4.0)
+	Safe bet
+
+Tennessee+Martin at Western+Illinois
+	Tennessee+Martin: 54.58% | Western+Illinois: 45.42%
+	Tennessee+Martin: 74.42 | Western+Illinois: 98.38
+	Prediction Accuracy (3.3333333333333144, 11.75)
+Vermont at UMass+Lowell
+	Vermont: 12.89% | UMass+Lowell: 87.11%
+	Vermont: 93.78 | UMass+Lowell: 92.14
+	Prediction Accuracy (10.0, 7.5)
+	Safe bet
+
+North+Dakota at Denver
+	North+Dakota: 53.02% | Denver: 46.98%
+	North+Dakota: 78.13 | Denver: 76.63
+	Prediction Accuracy (45.75, 19.75)
+	Unsafe bet
+
+Queens at Lipscomb
+	Queens: 17.07% | Lipscomb: 82.93%
+	Queens: 58.46 | Lipscomb: 94.06
+	Prediction Accuracy (5.0, 25.5)
+	Safe bet
+
+Northern+Arizona at Montana
+	Northern+Arizona: 34.89% | Montana: 65.11%
+	Northern+Arizona: 102.79 | Montana: 98.30
+	Prediction Accuracy (10.5, 11.0)
+	Safe bet
+
+Pacific at Washington+St.
+	Pacific: 14.64% | Washington+St.: 85.36%
+	Pacific: 87.69 | Washington+St.: 119.12
+	Prediction Accuracy (8.75, 10.0)
+	Safe bet
+
+Cal+St.+Bakersfield at UC+Santa+Barbara
+	Cal+St.+Bakersfield: 31.97% | UC+Santa+Barbara: 68.03%
+	Cal+St.+Bakersfield: 90.03 | UC+Santa+Barbara: 73.58
+	Prediction Accuracy (14.25, 17.25)
+	Safe bet
+
+North+Dakota+St. at Oral+Roberts
+	North+Dakota+St.: 64.85% | Oral+Roberts: 35.15%
+	North+Dakota+St.: 69.50 | Oral+Roberts: 88.80
+	Prediction Accuracy (3.5, 9.25)
+	Safe bet
+
+Central+Arkansas at Stetson
+	Central+Arkansas: 59.97% | Stetson: 40.03%
+	Central+Arkansas: 107.02 | Stetson: 74.64
+	Prediction Accuracy (2.25, 9.0)
+Old+Dominion at Louisiana
+	Old+Dominion: 54.54% | Louisiana: 45.46%
+	Old+Dominion: 94.11 | Louisiana: 98.43
+	Prediction Accuracy (48.75, 60.333333333333314)
+	Unsafe bet
+
+Portland at San+Francisco
+	Portland: 6.63% | San+Francisco: 93.37%
+	Portland: 107.34 | San+Francisco: 109.72
+	Prediction Accuracy (12.25, 4.25)
+	Safe bet
+
+Campbell at Hampton
+	Campbell: 36.42% | Hampton: 63.58%
+	Campbell: 73.83 | Hampton: 84.94
+	Prediction Accuracy (1.0, 4.0)
+	Safe bet
+
+Idaho at Sacramento+St.
+	Idaho: 56.85% | Sacramento+St.: 43.15%
+	Idaho: 76.10 | Sacramento+St.: 69.57
+	Prediction Accuracy (71.5, 39.0)
+	Unsafe bet
+
+Detroit+Mercy at IU+Indy
+	Detroit+Mercy: 43.36% | IU+Indy: 56.64%
+	Detroit+Mercy: 96.82 | IU+Indy: 95.33
+	Prediction Accuracy (28.333333333333314, 6.0)
+	Unsafe bet
+
+Binghamton at Maine
+	Binghamton: 43.22% | Maine: 56.78%
+	Binghamton: 75.74 | Maine: 70.98
+	Prediction Accuracy (15.25, 10.75)
+	Unsafe bet
+
+Morehead+St. at Little+Rock
+	Morehead+St.: 36.95% | Little+Rock: 63.05%
+	Morehead+St.: 88.65 | Little+Rock: 80.62
+	Prediction Accuracy (6.5, 11.75)
+	Safe bet
+
+Jacksonville at Bellarmine
+	Jacksonville: 72.46% | Bellarmine: 27.54%
+	Jacksonville: 53.36 | Bellarmine: 83.76
+	Prediction Accuracy (51.5, 6.75)
+	Unsafe bet
+
+Tarleton+St. at Southern+Utah
+	Tarleton+St.: 25.04% | Southern+Utah: 74.96%
+	Tarleton+St.: 68.23 | Southern+Utah: 74.17
+	Prediction Accuracy (16.5, 44.0)
+	Unsafe bet
+
+Drexel at Stony+Brook
+	Drexel: 75.97% | Stony+Brook: 24.03%
+	Drexel: 76.63 | Stony+Brook: 84.76
+	Prediction Accuracy (9.333333333333314, 2.0)
+	Safe bet
+
+UMBC at NJIT
+	UMBC: 67.15% | NJIT: 32.85%
+	UMBC: 77.78 | NJIT: 82.48
+	Prediction Accuracy (0.5, 12.0)
+	Safe bet
+
+Cal+St.+Fullerton at UC+Davis
+	Cal+St.+Fullerton: 43.23% | UC+Davis: 56.77%
+	Cal+St.+Fullerton: 88.90 | UC+Davis: 69.02
+	Prediction Accuracy (30.5, 42.0)
+	Unsafe bet
+
+Albany at New+Hampshire
+	Albany: 68.84% | New+Hampshire: 31.16%
+	Albany: 77.15 | New+Hampshire: 56.93
+	Prediction Accuracy (46.0, 9.5)
+	Unsafe bet
+
+Southern+Indiana at Southeast+Missouri+St.
+	Southern+Indiana: 34.65% | Southeast+Missouri+St.: 65.35%
+	Southern+Indiana: 77.02 | Southeast+Missouri+St.: 89.86
+	Prediction Accuracy (1.5, 12.0)
+	Safe bet
+
+VMI at Samford
+	VMI: 8.65% | Samford: 91.35%
+	VMI: 61.20 | Samford: 96.60
+	Prediction Accuracy (4.0, 3.6666666666666856)
+	Safe bet
+
+West+Georgia at Austin+Peay
+	West+Georgia: 41.59% | Austin+Peay: 58.41%
+	West+Georgia: 73.67 | Austin+Peay: 71.06
+	Prediction Accuracy (9.666666666666686, 44.5)
+	Unsafe bet
+
+Louisiana+Monroe at Southern+Miss
+	Louisiana+Monroe: 38.15% | Southern+Miss: 61.85%
+	Louisiana+Monroe: 67.29 | Southern+Miss: 82.88
+	Prediction Accuracy (12.5, 54.0)
+	Unsafe bet
+

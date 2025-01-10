@@ -1,7 +1,7 @@
-#scrapedata/__init__.py
-# All scraping from NCAAB Barttorvik stats
-import json
+#handledata/__init__.py
+
 import os
+import json
 
 def initialize_path(path_to_paths:str):
     global expanded_path
@@ -15,15 +15,14 @@ def get_paths():
     leaderboard_path = os.path.expandvars(paths.get("LEADERBOARD"))
     schedule_path = os.path.expandvars(paths.get("SCHEDULE"))
     specific_match_player_stats = os.path.expandvars(paths.get("SPECIFICMATCH_PLAYER_STATS"))
+    model_path = os.path.expandvars(paths.get("MODELS"))
+    handledata_path = os.path.expandvars(paths.get("HANDLEDATA"))
+    scrapedata_path = os.path.expandvars(paths.get("SCRAPEDATA"))
     path_to_path = os.path.expandvars(paths.get("PATHTOPATH"))
-    return matchhistory_path, leaderboard_path, schedule_path, specific_match_player_stats, path_to_path
+    return matchhistory_path, leaderboard_path, schedule_path, specific_match_player_stats, model_path, handledata_path, scrapedata_path, path_to_path
 
-# import modules
-from .matchHistory import MatchHistory
-from .leaderboardStats import LeaderboardStats
-from .gameSchedule import GameSchedule
-from .matchPlayerStats import MatchPlayerStats
-from .gameWinners import GameWinners
+from .commonScrapes import CommonScrapes
+from .currentDayScrape import CurrentDayScrape
+from .currentDayReport import CurrentDayReport
 
-# define __all__ aka import *
-__all__ = ['MatchHistory', 'LeaderboardStats', 'GameSchedule', 'MatchPlayerStats', 'GameWinners']
+__all__ = ['CommonScrapes', 'CurrentDayScrape', 'CurrentDayReport']

@@ -34,9 +34,12 @@ class MatchHistory:
 		return abs(val1-val2)
 
 	def __get_teams_ranks(self, team_name:str):
-		file_path = self.__get_path()
+		file_path_arr = self.__get_path()
+		file_path = file_path_arr[1]
+		file_p, dot_json = file_path.split('.')
+		file_path = file_p + f'_{self.year}.' + dot_json
 		try:
-			with open(file_path[1], 'r') as json_file:
+			with open(file_path, 'r') as json_file:
 				data = json.load(json_file)
 		except FileNotFoundError:
 			print(f'File not found: {file_path}')
@@ -67,6 +70,8 @@ class MatchHistory:
 	def __update_json_file(self, data):
 		file_path_arr = self.__get_path()
 		file_path = file_path_arr[0]
+		file_p, dot_json = file_path.split('.')
+		file_path = file_p + f'_{self.year}.' + dot_json
 		try:
 			if os.path.exists(file_path):
 				with open(file_path, 'r') as json_file:

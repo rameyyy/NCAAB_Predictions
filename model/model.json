@@ -17,6 +17,11 @@
             "SimilarMatch_PtAverages": 25,
             "PlayerMin_PtAvgs": 75,
             "HNA": 3
+        },
+        "prevWinner": {
+            "currentYear": 1,
+            "prevYear": 0.7,
+            "prevPrevYear": 0.3
         }
     }
 }

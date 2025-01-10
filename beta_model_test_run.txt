@@ -19,6 +19,7 @@ TCU at Houston
 	PPM: HIT
 	TCU ptAcc: 60.95%
 	Houston ptAcc: 23.47%
+	Parlay 1
 
 Ohio+St. at Minnesota
 	Winner: Ohio St.
@@ -74,6 +75,7 @@ McNeese+St. at Northwestern+St.
 	PPM: HIT
 	McNeese+St. ptAcc: 96.30%
 	Northwestern+St. ptAcc: 98.76%
+	Parlay 2
 
 Norfolk+St. at Delaware+St.
 	Winner: Norfolk St.
@@ -85,6 +87,7 @@ Norfolk+St. at Delaware+St.
 	PPM: HIT
 	Norfolk+St. ptAcc: 80.80%
 	Delaware+St. ptAcc: 96.23%
+	Parlay 3
 
 Texas+A%26M+Corpus+Chris at New+Orleans
 	Winner: Texas A&M Corpus Chris
@@ -140,6 +143,7 @@ South+Carolina+St. at Coppin+St.
 	PPM: HIT
 	South+Carolina+St. ptAcc: 99.49%
 	Coppin+St. ptAcc: 98.01%
+	Parlay 4
 
 Arkansas+Pine+Bluff at Alabama+St.
 	Winner: Alabama St.
@@ -151,6 +155,7 @@ Arkansas+Pine+Bluff at Alabama+St.
 	PPM: HIT
 	Arkansas+Pine+Bluff ptAcc: 87.08%
 	Alabama+St. ptAcc: 80.91%
+	Parlay 5
 
 Mississippi+Valley+St. at Alabama+A%26M
 	Winner: Alabama A&M

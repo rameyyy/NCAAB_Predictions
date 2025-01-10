@@ -8,8 +8,9 @@ class PointPrediction:
         # self.run_the_numbers(team1, at_or_vs, team2)
 
     def get_individual_data(self, team1, team2):
-        paths_arr = self.commonFuncObj.get_path()
-        file_path = paths_arr[0]
+        dateStr = self.commonFuncObj.get_formatted_date()
+        yearStr = self.commonFuncObj.get_ncaa_season_year(dateStr)
+        file_path = self.commonFuncObj.adjust_matchHist_file_path(yearStr)
         dataset = self.commonFuncObj.load_json_file(file_path)
         team1_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team1)
         team2_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team2)
