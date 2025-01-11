@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
+import handledata
 
 class MatchPlayerStats:
 	def __init__(self, team1:str, team2:str, date:str, year:str):
@@ -12,6 +13,11 @@ class MatchPlayerStats:
 		self.url1 = f'https://www.barttorvik.com/box.php?muid={team1}{team2}{date}&year={year}'
 		self.url2 = f'https://www.barttorvik.com/box.php?muid={team2}{team1}{date}&year={year}'
 		self.url = self.url1
+		paths_arr = self.__get_path()
+		path = paths_arr[4]
+		self.handle_data_mod = handledata
+		self.handle_data_mod.initialize_path(path)
+		self.commonFuncs = self.handle_data_mod.CommonFunctions()
 
 	def __check_data(self, data:str): 
 		if data[0] == '+' or data[0] == '-':
@@ -44,8 +50,9 @@ class MatchPlayerStats:
 			json.dump(existing_data, f, indent=4)
 	
 	def __correct_team_in_dict(self, t1_dataset, team1):
-		file_path_arr = self.__get_path()
-		file_path = file_path_arr[0]
+		dateStr = self.commonFuncs.get_formatted_date()
+		yearStr = self.commonFuncs.get_ncaa_season_year(dateStr)
+		file_path = self.commonFuncs.adjust_matchHist_file_path(yearStr)
 		with open(file_path, 'r') as f:
 			dataset_matchHist = json.load(f)
 		for data in dataset_matchHist:

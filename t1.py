@@ -7,7 +7,7 @@ t.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths
 import handledata
 d = handledata
 d.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths.json')
-date = d.CommonFunctions().get_formatted_date()
+date = d.CommonFunctions().clear_match_player_file()
 # t.GameSchedule(date).scrape_data()
 
 def reformat_date(date_str):

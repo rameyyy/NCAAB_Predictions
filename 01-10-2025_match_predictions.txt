@@ -1,0 +1,234 @@
+<- Games on 01/10/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+UCLA at Maryland
+	<-> Analyze Match History Prediction <->
+	UCLA: 45.13% | Maryland: 54.87%
+	<-> Point Prediction Model <->
+	UCLA: 38.89% | Maryland: 61.11%
+	<-> Point Prediction <->
+	UCLA: 77 | Maryland: 122
+	<-> Current Win Streaks <->
+	UCLA: 0 | Maryland: 0
+	<-> Prediction Accuracy Estimate <->
+	UCLA: -1.00 | Maryland: 1.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	UCLA: 37.58% | Maryland: 62.42%
+	2023: UCLA | 2024: Maryland | 2025: 
+	MaryLand
+
+
+Merrimack at Sacred+Heart
+	<-> Analyze Match History Prediction <->
+	Merrimack: 55.92% | Sacred+Heart: 44.08%
+	<-> Point Prediction Model <->
+	Merrimack: 45.16% | Sacred+Heart: 54.84%
+	<-> Point Prediction <->
+	Merrimack: 71 | Sacred+Heart: 85
+	<-> Current Win Streaks <->
+	Merrimack: 1 | Sacred+Heart: 2
+	<-> Prediction Accuracy Estimate <->
+	Merrimack: 19.75 | Sacred+Heart: 15.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Merrimack: 38.96% | Sacred+Heart: 61.04%
+	2023: Merrimack | 2024: Sacred+Heart | 2025: 
+	N/A
+
+Mount+St.+Mary%27s at Manhattan
+	<-> Analyze Match History Prediction <->
+	Mount+St.+Mary%27s: 51.47% | Manhattan: 48.53%
+	<-> Point Prediction Model <->
+	Mount+St.+Mary%27s: 45.81% | Manhattan: 54.19%
+	<-> Point Prediction <->
+	Mount+St.+Mary%27s: 94 | Manhattan: 110
+	<-> Current Win Streaks <->
+	Mount+St.+Mary%27s: 1 | Manhattan: 1
+	<-> Prediction Accuracy Estimate <->
+	Mount+St.+Mary%27s: 0.00 | Manhattan: -0.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Mount+St.+Mary%27s: 100.00% | Manhattan: 0.00%
+	2023: Mount+St.+Mary%27s | 2024: Mount+St.+Mary%27s | 2025: 
+	Mount+St.
+
+Minnesota at Wisconsin
+	<-> Analyze Match History Prediction <->
+	Minnesota: 11.61% | Wisconsin: 88.39%
+	<-> Point Prediction Model <->
+	Minnesota: 50.38% | Wisconsin: 49.62%
+	<-> Point Prediction <->
+	Minnesota: 67 | Wisconsin: 67
+	<-> Current Win Streaks <->
+	Minnesota: 0 | Wisconsin: 4
+	<-> Prediction Accuracy Estimate <->
+	Minnesota: 12.00 | Wisconsin: -23.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Minnesota: 0.00% | Wisconsin: 100.00%
+	2023: Wisconsin | 2024: Wisconsin | 2025:
+	Wisconsin, Parlay 1 
+
+
+Central+Michigan at Toledo
+	<-> Analyze Match History Prediction <->
+	Central+Michigan: 52.83% | Toledo: 47.17%
+	<-> Point Prediction Model <->
+	Central+Michigan: 46.90% | Toledo: 53.10%
+	<-> Point Prediction <->
+	Central+Michigan: 69 | Toledo: 78
+	<-> Current Win Streaks <->
+	Central+Michigan: 0 | Toledo: 2
+	<-> Prediction Accuracy Estimate <->
+	Central+Michigan: -58.50 | Toledo: -30.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Central+Michigan: 42.24% | Toledo: 57.76%
+	2023: Toledo | 2024: Central+Michigan | 2025:
+	Toledo 
+
+
+Iona at Fairfield
+	<-> Analyze Match History Prediction <->
+	Iona: 48.41% | Fairfield: 51.59%
+	<-> Point Prediction Model <->
+	Iona: 49.37% | Fairfield: 50.63%
+	<-> Point Prediction <->
+	Iona: 79 | Fairfield: 80
+	<-> Current Win Streaks <->
+	Iona: 1 | Fairfield: 0
+	<-> Prediction Accuracy Estimate <->
+	Iona: -41.50 | Fairfield: -7.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Iona: 60.74% | Fairfield: 39.26%
+	2023: Iona | 2024: Iona, Fairfield | 2025:
+	Fairfield 
+
+
+Saint+Peter%27s at Niagara
+	<-> Analyze Match History Prediction <->
+	Saint+Peter%27s: 58.11% | Niagara: 41.89%
+	<-> Point Prediction Model <->
+	Saint+Peter%27s: 42.04% | Niagara: 57.96%
+	<-> Point Prediction <->
+	Saint+Peter%27s: 67 | Niagara: 91
+	<-> Current Win Streaks <->
+	Saint+Peter%27s: 0 | Niagara: 0
+	<-> Prediction Accuracy Estimate <->
+	Saint+Peter%27s: -22.00 | Niagara: 35.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Saint+Peter%27s: 51.08% | Niagara: 48.92%
+	2023: Saint+Peter%27s | 2024: Niagara | 2025:
+	St+Peter 
+
+
+Fairleigh+Dickinson at Le+Moyne
+	<-> Analyze Match History Prediction <->
+	Fairleigh+Dickinson: 52.42% | Le+Moyne: 47.58%
+	<-> Point Prediction Model <->
+	Fairleigh+Dickinson: 44.38% | Le+Moyne: 55.62%
+	<-> Point Prediction <->
+	Fairleigh+Dickinson: 75 | Le+Moyne: 94
+	<-> Current Win Streaks <->
+	Fairleigh+Dickinson: 1 | Le+Moyne: 0
+	<-> Prediction Accuracy Estimate <->
+	Fairleigh+Dickinson: 36.75 | Le+Moyne: -4.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Fairleigh+Dickinson: -1.00% | Le+Moyne: -1.00%
+	N/A: N/A, N/A, N/A, N/A, N/A
+	N/A - lack of data
+
+Siena at Quinnipiac
+	<-> Analyze Match History Prediction <->
+	Siena: 45.80% | Quinnipiac: 54.20%
+	<-> Point Prediction Model <->
+	Siena: 48.18% | Quinnipiac: 51.82%
+	<-> Point Prediction <->
+	Siena: 67 | Quinnipiac: 72
+	<-> Current Win Streaks <->
+	Siena: 0 | Quinnipiac: 0
+	<-> Prediction Accuracy Estimate <->
+	Siena: -28.00 | Quinnipiac: 7.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Siena: 0.00% | Quinnipiac: 100.00%
+	2023: Quinnipiac | 2024: Quinnipiac | 2025: 
+	Quinnipiac
+
+Rider at Canisius
+	<-> Analyze Match History Prediction <->
+	Rider: 55.83% | Canisius: 44.17%
+	<-> Point Prediction Model <->
+	Rider: 42.29% | Canisius: 57.71%
+	<-> Point Prediction <->
+	Rider: 74 | Canisius: 101
+	<-> Current Win Streaks <->
+	Rider: 0 | Canisius: 0
+	<-> Prediction Accuracy Estimate <->
+	Rider: -15.50 | Canisius: -45.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Rider: 78.88% | Canisius: 21.12%
+	2023: Canisius | 2024: Rider | 2025: 
+	Canisius
+
+Kent+St. at Buffalo
+	<-> Analyze Match History Prediction <->
+	Kent+St.: 74.71% | Buffalo: 25.29%
+	<-> Point Prediction Model <->
+	Kent+St.: 37.36% | Buffalo: 62.64%
+	<-> Point Prediction <->
+	Kent+St.: 68 | Buffalo: 115
+	<-> Current Win Streaks <->
+	Kent+St.: 1 | Buffalo: 0
+	<-> Prediction Accuracy Estimate <->
+	Kent+St.: 39.50 | Buffalo: 6.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Kent+St.: 100.00% | Buffalo: 0.00%
+	2023: Kent+St. | 2024: Kent+St. | 2025:
+	Kent+St., Parlay 2
+
+
+LIU at Stonehill
+	<-> Analyze Match History Prediction <->
+	LIU: 34.34% | Stonehill: 65.66%
+	<-> Point Prediction Model <->
+	LIU: 51.39% | Stonehill: 48.61%
+	<-> Point Prediction <->
+	LIU: 75 | Stonehill: 71
+	<-> Current Win Streaks <->
+	LIU: 2 | Stonehill: 1
+	<-> Prediction Accuracy Estimate <->
+	LIU: 11.75 | Stonehill: 5.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	LIU: 67.96% | Stonehill: 32.04%
+	2023: Stonehill | 2024: LIU | 2025: 
+	LIU
+
+Mercyhurst at Saint+Francis
+	<-> Analyze Match History Prediction <->
+	Mercyhurst: 38.41% | Saint+Francis: 61.59%
+	<-> Point Prediction Model <->
+	Mercyhurst: 50.00% | Saint+Francis: 50.00%
+	<-> Point Prediction <->
+	Mercyhurst: -1 | Saint+Francis: -1
+	<-> Current Win Streaks <->
+	Mercyhurst: 0 | Saint+Francis: 0
+	<-> Prediction Accuracy Estimate <->
+	Mercyhurst: 9.25 | Saint+Francis: 42.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Mercyhurst: -1.00% | Saint+Francis: -1.00%
+	N/A: N/A, N/A, N/A, N/A, N/A
+	N/A - lack of data
+
+Wagner at Central+Connecticut
+	<-> Analyze Match History Prediction <->
+	Wagner: 25.14% | Central+Connecticut: 74.86%
+	<-> Point Prediction Model <->
+	Wagner: 43.18% | Central+Connecticut: 56.82%
+	<-> Point Prediction <->
+	Wagner: 58 | Central+Connecticut: 76
+	<-> Current Win Streaks <->
+	Wagner: 0 | Central+Connecticut: 5
+	<-> Prediction Accuracy Estimate <->
+	Wagner: 18.25 | Central+Connecticut: 19.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+	Wagner: 35.25% | Central+Connecticut: 64.75%
+	2023: Central+Connecticut | 2024: Wagner, Central+Connecticut | 2025: 
+	Central+Connecticut, Parlay 3
+<>

@@ -5,6 +5,7 @@ class PrevWinner:
         self.commonFuncObj = commonFunctions.CommonFunctions()
         self.match_info_arr = [team1, at_or_vs, team2]
         self.ignore_data = ignore_data_bool
+        self.winner_loser_arr = []
     
     def get_individual_data(self, team1, team2, file_path):
         dataset = self.commonFuncObj.load_json_file(file_path)
@@ -26,7 +27,7 @@ class PrevWinner:
     
     def win_or_lose(self, teams_data, ops_name):
         data = teams_data.copy()
-        data.pop('team_name', None)
+        teams_name = data.pop('team_name', None)
         data.pop('Rank', None)
         match_count = 0
         win_loss = 0
@@ -34,6 +35,8 @@ class PrevWinner:
             if ops_name == op:
                 who_won = stats.get('W/L')
                 who_won = int(who_won)
+                if who_won == 1:
+                    self.winner_loser_arr.append(teams_name)
                 match_count += 1
                 win_loss += who_won
         if match_count == 0:
@@ -43,12 +46,16 @@ class PrevWinner:
     
     # the higher the number for a team the more likely they will win based on previous year matchups
     def the_math(self, win_prcnt_arr, odds_arr, year_index, teams_value):
-        if year_index == 0:
+        dateString = self.commonFuncObj.get_formatted_date()
+        NCAA_year_str = self.commonFuncObj.get_ncaa_season_year(dateString)
+        NCAA_year_int_curr = int(NCAA_year_str)
+        if year_index == NCAA_year_int_curr:
             x = self.commonFuncObj.get_function_weight('prevWinner', 'currentYear')
-        elif year_index == 1:
+        elif year_index == (NCAA_year_int_curr -1):
             x = self.commonFuncObj.get_function_weight('prevWinner', 'prevYear')
-        else:
+        elif year_index == (NCAA_year_int_curr - 2):
             x = self.commonFuncObj.get_function_weight('prevWinner', 'prevPrevYear')
+        else: x=0.1
         t1_value = win_prcnt_arr[0] * odds_arr[0] * x
         t2_value = win_prcnt_arr[1] * odds_arr[1] * x
         teams_value[0] = teams_value[0] + t1_value
@@ -74,6 +81,7 @@ class PrevWinner:
                 file_path = self.commonFuncObj.adjust_matchHist_file_path(current_NCAA_year_str)
                 t1_old_data, t2_old_data = self.get_individual_data(t1, t2, file_path)
                 odds_arr = self.analyze_old_matchHist(t1_old_data, t2_old_data)
+                self.winner_loser_arr.append(current_NCAA_year_str)
                 t1_win_percent = self.win_or_lose(t1_old_data, t2)
                 t2_win_percent = self.win_or_lose(t2_old_data, t1)
                 if t1_win_percent < 0 or t2_win_percent < 0:
@@ -82,13 +90,17 @@ class PrevWinner:
                     win_percent_arr = [t1_win_percent, t2_win_percent]
                     teams_value = self.the_math(win_percent_arr, odds_arr, i, teams_value)
             if teams_value[0] == 0 and teams_value[1] == 0:
-                return [-1, -1]
+                return [-1, -1], ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
             else:
                 t1_value = teams_value[0]
                 t2_value = teams_value[1]
                 t1_value_percent = (t1_value / (t1_value + t2_value)) * 100
                 t2_value_percent = (t2_value / (t1_value + t2_value)) * 100
                 arr = [t1_value_percent, t2_value_percent]
-                return arr
+                dateStr = self.commonFuncObj.get_formatted_date()
+                yearStr = self.commonFuncObj.get_ncaa_season_year(dateStr)
+                if self.winner_loser_arr[-1] == yearStr:
+                    self.winner_loser_arr.append('N/A')
+                return arr, self.winner_loser_arr
         except Exception as e:
-            return [-1, -1]
+            return [-1, -1], ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']

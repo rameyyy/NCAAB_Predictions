@@ -19,9 +19,8 @@ class CommonScrapes:
         self.commonFuncs.clear_game_sched_file()
         self.scrapedata_module.GameSchedule(dateStr).scrape_data()
     
-    def game_winners_refresh(self, dateStr):
-        self.commonFuncs.clear_game_sched_file()
-        self.scrapedata_module.GameSchedule(dateStr).scrape_data()
+    def game_winners(self, dateStr):
+        self.scrapedata_module.GameWinners(dateStr).scrape_data()
     
     def teams_matchHist_thisSeason_plusPrevTwoYears_noRefresh(self, teams_name):
         dateStr = self.commonFuncs.get_formatted_date()
@@ -50,10 +49,11 @@ class CommonScrapes:
         self.scrapedata_module.LeaderboardStats(yearStr_prev).scrape_data()
         self.scrapedata_module.LeaderboardStats(yearStr_prevPrev).scrape_data()
         
-    def get_matches_with_match_hist(self, team):
+    def get_playerStats_with_match_hist(self, team):
         paths_arr = self.commonFuncs.get_path()
-        year_str = self.commonFuncs.get_ncaa_season_year()
-        matchHist_path = paths_arr[0]
+        dateStr = self.commonFuncs.get_formatted_date()
+        year_str = self.commonFuncs.get_ncaa_season_year(dateStr)
+        matchHist_path = self.commonFuncs.adjust_matchHist_file_path(year_str)
         match_history_json_data = self.commonFuncs.load_json_file(matchHist_path)
         teams_matchHist_data = self.commonFuncs.get_team_data(match_history_json_data, team)
         teams_matchHist_data.pop('Rank')

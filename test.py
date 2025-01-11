@@ -2,7 +2,8 @@
 import reportgen
 rg = reportgen
 rg.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths.json')
-rg.CurrentDayReport().generate_report(False, True, 'analysistoday.txt')
+# rg.CurrentDayScrape().scrape_all()
+# rg.CurrentDayReport().generate_report(False, True, '01-10-2025_match_predictions.txt')
 
 # import handledata
 # hd = handledata
@@ -10,9 +11,9 @@ rg.CurrentDayReport().generate_report(False, True, 'analysistoday.txt')
 # t1 = 'UCLA'
 # t2 = 'Maryland'
 # data = hd.AnalyzeMatchHist(t1, 'at', t2, False).return_odds()
-# data2 = hd.PrevWinner(t1, 'at', t2, True).return_odds()
+# data2 = hd.PrevWinner(t1, 'at', t2, False).return_odds()
 # data3 = hd.AccuracyEstimate(t1, 'at', t2, False).return_odds()
-# # data4 = hd.PointPrediction(t1, 'at', t2, True).return_odds()
+# data4 = hd.PointPrediction(t1, 'at', t2, True).return_odds()
 # print(f'{data[0]:.2f}, {data[1]:.2f}')
 # print(f'{data2[0]:.2f}, {data2[1]:.2f}')
 # print(f'winstreak {data[2]}')

@@ -1,0 +1,20 @@
+Safe Bet Parlay params:
+risk value = accuracyEst arr[0] + arr[1]
+if risk value > 2
+if prevWinner prediction and analyzeMatchHist prediction are the same:
+safe bet!
+
+Safe Bet MoneyLines param:
+if prevWinner prediction and analyzeMatchHist prediction are the same:
+safe bet!
+
+Safe Bet Parlay Accuracy: 82.69%
+% of games within params (on average): 30.86% of matches
+
+Safe Bet MoneyLines Accuracy: 81.58% odds
+% of games within params (on average): 56.38% of matches
+
+Models Individual Accuracy: 
+MatchHist accuracy: 75.26% odds
+PrevWinner accuracy: 59.94% odds
+

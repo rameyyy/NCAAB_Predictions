@@ -3,6 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 
 class GameWinners:
 	def __init__(self, date:str):
@@ -15,9 +16,20 @@ class GameWinners:
 		return paths_arr		# path to schedule str in [2]
 	
 	def __put_in_json(self, data):
-		file_path = self.__get_path()
-		with open(file_path[2], 'w') as json_file:
-			json.dump(data, json_file, indent=4)
+		file_path_arr = self.__get_path()
+		file_path = file_path_arr[2]
+		try:
+			if os.path.exists(file_path):
+				with open(file_path, 'r') as json_file:
+					existing_data = json.load(json_file)
+			else:
+				existing_data = []
+		except Exception:
+			existing_data = []
+   
+		existing_data.append(data)
+		with open(file_path, 'w') as f:
+			json.dump(existing_data, f, indent=4)
 
 	def __get_team_name(self, url:str):
 		query_start = url.find('?') + 1

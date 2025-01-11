@@ -24,11 +24,9 @@ class CommonFunctions:
         ncaa_year_prevPrev_int = ncaa_year_int -2
         ncaa_year_prev_str = str(ncaa_year_prev_int)
         ncaa_year_prevPrev_str = str(ncaa_year_prevPrev_int)
-        path = paths_arr[0]
-        file_p, dotjson = path.split('.')
-        curr_year_str = file_p + '_' + ncaa_year + '.' + dotjson
-        prev_year_path = file_p + '_' + ncaa_year_prev_str + '.' + dotjson
-        prevPrev_year_path = file_p + '_' + ncaa_year_prevPrev_str + '.' + dotjson
+        curr_year_str = self.adjust_matchHist_file_path(ncaa_year)
+        prev_year_path = self.adjust_matchHist_file_path(ncaa_year_prev_str)
+        prevPrev_year_path = self.adjust_matchHist_file_path(ncaa_year_prevPrev_str)
         for i in range(0, 3):
             if i == 0:
                 with open(curr_year_str, 'w') as f:

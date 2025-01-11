@@ -1,15 +1,15 @@
 {
     "_comment": "select active model, change model weights, and create models here",
-    "ActiveModel": "Model_OPTIMUS_B",
-    "Model_OPTIMUS_B": {
+    "ActiveModel": "Model_BETA",
+    "Model_BETA": {
         "OVERALL": {
             "AnalyzeMatchHist": 1,
             "PointPrediction": 1
         },
         "AnalyzeMatchHist": {
-            "HomeAway": 5.75,
-            "TRank": 5.5,
-            "MatchHist": 12.2
+            "HomeAway": 2,
+            "TRank": 1,
+            "MatchHist": 16
         },
         "PointPrediction": {
             "SimilarMatch_PtAverages_loop": 4,
@@ -20,7 +20,7 @@
         },
         "prevWinner": {
             "currentYear": 1,
-            "prevYear": 0.73,
+            "prevYear": 0.7,
             "prevPrevYear": 0.3
         }
     }
