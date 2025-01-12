@@ -39,7 +39,6 @@ class CurrentDayScrape:
         for date, matches in schedule_data.items():
             for match in matches:
                 t1 = match[0]
-                at_vs = match[1]
                 t2 = match[2]
                 self.calculate_run_time(start_time, False)
                 self.commonScrape.teams_matchHist_thisSeason_plusPrevTwoYears_noRefresh(t1)

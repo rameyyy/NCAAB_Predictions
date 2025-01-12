@@ -34,18 +34,27 @@ class CurrentDayReport:
     def determine_bet_safety_rating(self, accuracy_est_arr, analyze_matchhist_arr, prevWinner_arr):
         t1_wins_bool_amh = False
         t1_wins_bool_prev = False
-        risk_value = accuracy_est_arr[0] + accuracy_est_arr[1]
+        risk_value = (accuracy_est_arr[0] + accuracy_est_arr[1]) / 2
         if analyze_matchhist_arr[0] > analyze_matchhist_arr[1]:
             t1_wins_bool_amh = True
         if prevWinner_arr[0] > prevWinner_arr[1]:
             t1_wins_bool_prev = True
         if t1_wins_bool_prev == t1_wins_bool_amh:
-            if risk_value > 2:
-                return_string = f'\t<-> Highly Safe Bet (PL)\n'
+            if t1_wins_bool_amh == True:
+                teams_win_percent = analyze_matchhist_arr[0]
             else:
-                return_string = f'\t<-> Very Safe Bet (ML)\n'
+                teams_win_percent = analyze_matchhist_arr[1]
+            if teams_win_percent > 59.99:
+                if risk_value < 3 and risk_value > -3:
+                    return_string = f'\t<-> 5/5 Star Bet (93-99% accuracy, around 6% of matches hit these params)\n'
+                elif risk_value < 6 and risk_value > -6:
+                    return_string = f'\t<-> 4/5 Star Bet (86-93% accuracy, around 14% of matches hit these params)\n'
+                else:
+                    return_string = f'\t<-> 3/5 Star Bet (77-83% accuracy, around 28% of matches hit these params)\n'
+            else:
+                return_string = f'\t<-> 2/5 Star Bet (73-76% accuracy, around 62% of matches hit these params)\n'
         else:
-            return_string = f'\t<-> Risky Bet\n'
+            return_string = f'\t<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)\n'
         return return_string
     
     def prev_winner_str(self, winners_arr):
@@ -116,7 +125,7 @@ class CurrentDayReport:
                 final_write_str += f'\t<-> Current Win Streaks -> '
                 final_write_str += f'\t\t\t\t\t{t1}: {winstreak_arr[0]:.0f} | {t2}: {winstreak_arr[1]:.0f}\n'
                 final_write_str += f'\t<-> Prediction Accuracy Estimate -> '
-                risk_value = accuracyEst_odds_arr[0] + accuracyEst_odds_arr[1]
+                risk_value = (accuracyEst_odds_arr[0] + accuracyEst_odds_arr[1]) / 2
                 final_write_str += f'\t\t{t1}: {accuracyEst_odds_arr[0]:.2f} | {t2}: {accuracyEst_odds_arr[1]:.2f} | Risk Val: {risk_value:.2f}\n'
                 final_write_str += f'\t<-> Historical Prediction Accuracy and Previous Years Winners <->\n'
                 final_write_str += f'\t\t-> {t1}: {prevWinner_odds_arr[0]:.2f}% | {t2}: {prevWinner_odds_arr[1]:.2f}%\n'

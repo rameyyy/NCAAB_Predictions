@@ -1,9 +1,14 @@
-# path_to_path_str = '$HOME/projects/NCAAB_Predictions/database/paths.json'
+path_to_path_str = '$HOME/projects/NCAAB_Predictions/database/paths.json'
 import reportgen
 rg = reportgen
 rg.initialize_path(path_to_paths='$HOME/projects/NCAAB_Predictions/database/paths.json')
 # rg.CurrentDayScrape().scrape_all()
 # rg.CurrentDayReport().generate_report(False, True, '01-10-2025_match_predictions.txt')
+import handledata
+hd = handledata
+hd.initialize_path(path_to_path_str)
+hd.CommonFunctions().clear_game_sched_file()
+rg.CommonScrapes().game_winners('20250111')
 
 # import handledata
 # hd = handledata

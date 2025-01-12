@@ -69,9 +69,13 @@ class GameWinners:
 				at_n.append('vs')
 			else:
 				if lc == 3:
-					winner, score = data.split(', ')
-					winner_score_arr.append(winner)
-					winner_score_arr.append(score)
+					try:
+						winner, score = data.split(', ')
+						winner_score_arr.append(winner)
+						winner_score_arr.append(score)
+					except Exception as e:
+						winner_score_arr.append('postponed')
+						winner_score_arr.append('postponed')
 					lc = 0
 				else:
 					lc += 1
@@ -88,8 +92,9 @@ class GameWinners:
 		lc = 0
 		for i in range(0, teams_count):
 			if i%2 == 0:
-				data = [teams[i], at_n[lc], teams[i+1], winner_score_arr[i], winner_score_arr[i+1]]
-				all_data[self.date].append(data)
+				if winner_score_arr[i] != 'postponed':
+					data = [teams[i], at_n[lc], teams[i+1], winner_score_arr[i], winner_score_arr[i+1]]
+					all_data[self.date].append(data)
 				lc+=1
 		
 		self.__put_in_json(all_data)

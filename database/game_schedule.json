@@ -1,74 +1,109 @@
 {
-    "20250110": [
+    "20250112": [
         [
-            "UCLA",
+            "Oregon",
             "at",
-            "Maryland"
+            "Penn+St."
         ],
         [
-            "Merrimack",
+            "Michigan+St.",
             "at",
-            "Sacred+Heart"
+            "Northwestern"
         ],
         [
-            "Mount+St.+Mary%27s",
+            "Nebraska",
             "at",
-            "Manhattan"
+            "Purdue"
         ],
         [
-            "Minnesota",
+            "West+Virginia",
             "at",
-            "Wisconsin"
+            "Colorado"
         ],
         [
-            "Central+Michigan",
+            "UAB",
             "at",
-            "Toledo"
+            "Florida+Atlantic"
         ],
         [
-            "Iona",
+            "Wright+St.",
             "at",
-            "Fairfield"
+            "Robert+Morris"
+        ],
+        [
+            "Washington",
+            "at",
+            "Michigan"
+        ],
+        [
+            "Quinnipiac",
+            "at",
+            "Iona"
+        ],
+        [
+            "Mercer",
+            "at",
+            "Western+Carolina"
+        ],
+        [
+            "Sacred+Heart",
+            "at",
+            "Mount+St.+Mary%27s"
+        ],
+        [
+            "Charlotte",
+            "at",
+            "Tulsa"
+        ],
+        [
+            "Saint+Francis",
+            "at",
+            "Fairleigh+Dickinson"
+        ],
+        [
+            "Stonehill",
+            "at",
+            "Chicago+St."
         ],
         [
             "Saint+Peter%27s",
             "at",
-            "Niagara"
-        ],
-        [
-            "Fairleigh+Dickinson",
-            "at",
-            "Le+Moyne"
-        ],
-        [
-            "Siena",
-            "at",
-            "Quinnipiac"
-        ],
-        [
-            "Rider",
-            "at",
             "Canisius"
         ],
         [
-            "Kent+St.",
+            "Manhattan",
             "at",
-            "Buffalo"
+            "Merrimack"
         ],
         [
             "LIU",
             "at",
-            "Stonehill"
+            "Central+Connecticut"
+        ],
+        [
+            "Southern+Indiana",
+            "at",
+            "Little+Rock"
         ],
         [
             "Mercyhurst",
             "at",
-            "Saint+Francis"
+            "Le+Moyne"
         ],
         [
-            "Wagner",
+            "Fairfield",
             "at",
-            "Central+Connecticut"
+            "Marist"
+        ],
+        [
+            "VMI",
+            "at",
+            "Chattanooga"
+        ],
+        [
+            "Rider",
+            "at",
+            "Niagara"
         ]
     ]
 }

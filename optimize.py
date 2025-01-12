@@ -28,10 +28,11 @@ def update_value(key, value):
 
 def run_the_nums():
     predicted_correct = 0 
+    predicted_correct_unsafe = 0
     match_counter = 0
     safe_bets = 0
-    risk_avg_yes = 0
-    risk_avg_no = 0
+    super_safe_predicted_correct = 0
+    super_safe_bet_quantity = 0
     for dataEntry in sched_data:
         for dateStr, matches in dataEntry.items():
             for match in matches:
@@ -59,18 +60,31 @@ def run_the_nums():
                     ## MH Part
                     if analyzeMH_arr[0] > analyzeMH_arr[1]:
                         AMH_winner = decoded_t1
+                        amh_percent = analyzeMH_arr[0]
+                        winner_risk_rating = risk_arr[0]
+                        losers_risk_rating = risk_arr[1]
                     else:
                         AMH_winner = decoded_t2
+                        amh_percent = analyzeMH_arr[1]
+                        winner_risk_rating = risk_arr[1]
+                        losers_risk_rating = risk_arr[0]
                     ##
                     if data[0] > data[1]:
                         matchHistWinner = decoded_t1
                     else:
                         matchHistWinner = decoded_t2
+                    if AMH_winner == winner:
+                        predicted_correct_unsafe += 1
                     ## safe bet feature ##
-                    risk_value = risk_arr[0] + risk_arr[1]
-                    if AMH_winner == matchHistWinner and risk_value > 2:
+                    risk_value = (risk_arr[0] + risk_arr[1]) / 2
+                    if AMH_winner == matchHistWinner:
                         safe_bets += 1
                         safe_bet_bool = True
+                        if amh_percent > 59.99 and risk_value > -6 and risk_value < 6:
+                            super_safe_bet_quantity += 1
+                            print(decoded_t1, decoded_t2)
+                            if winner == matchHistWinner:
+                                super_safe_predicted_correct += 1
                     else: safe_bet_bool = False
                     if safe_bet_bool == True:
                         if winner == matchHistWinner:
@@ -78,10 +92,13 @@ def run_the_nums():
                     match_counter += 1
                 except Exception as e:
                     pass
+    AMH_acc = float(predicted_correct_unsafe) / float(match_counter)
     sb_accuracy = float(predicted_correct) / float(safe_bets)
     percent_of_games_bet_on = float(safe_bets) / float(match_counter)
+    supa_safe = float(super_safe_predicted_correct) / float(super_safe_bet_quantity)
+    percent_games_supa_safe = float(super_safe_bet_quantity) / float(match_counter)
     
-    return sb_accuracy, percent_of_games_bet_on
+    return sb_accuracy, percent_of_games_bet_on, AMH_acc, supa_safe, percent_games_supa_safe
  
 def optimize_Trank_value():
     accuracy_best = 0.0
@@ -174,7 +191,10 @@ def optimize_PrevWinner_value():
     print(f'Finished PrevWinner Optimization\nBest accuracy = {accuracy_best_percent} with PrevYear equal to: {accuracy_best_value}')
     
 # optimize_PrevWinner_value()
-sb_acc, pgb_on = run_the_nums()
+sb_acc, pgb_on, amh_acc, supa_safe_Acc, pgb_on_supasafe = run_the_nums()
 sb_acc *= 100
 pgb_on *=100
-print(f'Safe Bet Accuracy: {sb_acc:.5f}%\nGames considered a safe bet: {pgb_on:.3f}%')
+amh_acc *= 100
+supa_safe_Acc *= 100
+pgb_on_supasafe *= 100
+print(f'Safe Bet Accuracy: {sb_acc:.5f}%\nGames considered a safe bet: {pgb_on:.3f}%\nAMH accuracy: {amh_acc:.5f}%\nSuper safe accuracy: {supa_safe_Acc:.5f}%\nGames considered supa safe: {pgb_on_supasafe:.4f}%')

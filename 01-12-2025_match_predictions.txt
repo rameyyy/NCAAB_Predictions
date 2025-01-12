@@ -1,0 +1,214 @@
+<- Games on 01/12/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+Oregon at Penn+St.
+	<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)
+	<-> Analyze Match History Prediction -> 	Oregon: 55.62% | Penn+St.: 44.38%
+	<-> Current Win Streaks -> 					Oregon: 2 | Penn+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Oregon: -6.25 | Penn+St.: 5.50 | Risk Val: -0.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Oregon: -1.00% | Penn+St.: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Michigan+St. at Northwestern
+	<-> 2/5 Star Bet (73-76% accuracy, around 62% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Michigan+St.: 55.08% | Northwestern: 44.92%
+	<-> Current Win Streaks -> 					Michigan+St.: 8 | Northwestern: 0
+	<-> Prediction Accuracy Estimate -> 		Michigan+St.: -3.00 | Northwestern: 13.25 | Risk Val: 5.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Michigan+St.: 71.69% | Northwestern: 28.31%
+		-> 2023: Northwestern | 2024: Michigan+St. | 2025: 
+
+
+Nebraska at Purdue
+	<-> 5/5 Star Bet (93-99% accuracy, around 6% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Nebraska: 35.63% | Purdue: 64.37%
+	<-> Current Win Streaks -> 					Nebraska: 0 | Purdue: 4
+	<-> Prediction Accuracy Estimate -> 		Nebraska: 8.50 | Purdue: -7.00 | Risk Val: 0.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Nebraska: 18.71% | Purdue: 81.29%
+		-> 2023: Purdue | 2024: Nebraska | 2025: 
+
+
+West+Virginia at Colorado
+	<-> 2/5 Star Bet (73-76% accuracy, around 62% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	West+Virginia: 46.32% | Colorado: 53.68%
+	<-> Current Win Streaks -> 					West+Virginia: 6 | Colorado: 0
+	<-> Prediction Accuracy Estimate -> 		West+Virginia: -21.00 | Colorado: -0.25 | Risk Val: -10.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> West+Virginia: -1.00% | Colorado: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+UAB at Florida+Atlantic
+	<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)
+	<-> Analyze Match History Prediction -> 	UAB: 34.66% | Florida+Atlantic: 65.34%
+	<-> Current Win Streaks -> 					UAB: 2 | Florida+Atlantic: 2
+	<-> Prediction Accuracy Estimate -> 		UAB: -7.25 | Florida+Atlantic: -3.75 | Risk Val: -5.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UAB: 56.34% | Florida+Atlantic: 43.66%
+		-> 2023: Florida+Atlantic | 2024: UAB | 2025: 
+
+
+Wright+St. at Robert+Morris
+	<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)
+	<-> Analyze Match History Prediction -> 	Wright+St.: 42.25% | Robert+Morris: 57.75%
+	<-> Current Win Streaks -> 					Wright+St.: 1 | Robert+Morris: 0
+	<-> Prediction Accuracy Estimate -> 		Wright+St.: -15.50 | Robert+Morris: -4.00 | Risk Val: -9.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Wright+St.: 100.00% | Robert+Morris: 0.00%
+		-> 2023: Wright+St. | 2024: Wright+St. | 2025: 
+
+
+Washington at Michigan
+	<-> 3/5 Star Bet (77-83% accuracy, around 28% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Washington: 5.90% | Michigan: 94.10%
+	<-> Current Win Streaks -> 					Washington: 0 | Michigan: 4
+	<-> Prediction Accuracy Estimate -> 		Washington: 9.50 | Michigan: 12.00 | Risk Val: 10.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Washington: -1.00% | Michigan: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Quinnipiac at Iona
+	<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)
+	<-> Analyze Match History Prediction -> 	Quinnipiac: 44.53% | Iona: 55.47%
+	<-> Current Win Streaks -> 					Quinnipiac: 1 | Iona: 0
+	<-> Prediction Accuracy Estimate -> 		Quinnipiac: 12.25 | Iona: 11.50 | Risk Val: 11.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Quinnipiac: 55.89% | Iona: 44.11%
+		-> 2023: Iona | 2024: Quinnipiac | 2025: 
+
+
+Mercer at Western+Carolina
+	<-> 2/5 Star Bet (73-76% accuracy, around 62% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Mercer: 49.24% | Western+Carolina: 50.76%
+	<-> Current Win Streaks -> 					Mercer: 0 | Western+Carolina: 0
+	<-> Prediction Accuracy Estimate -> 		Mercer: 13.75 | Western+Carolina: -25.75 | Risk Val: -6.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Mercer: 0.00% | Western+Carolina: 100.00%
+		-> 2023: Western+Carolina | 2024: Western+Carolina | 2025: 
+
+
+Sacred+Heart at Mount+St.+Mary%27s
+	<-> 3/5 Star Bet (77-83% accuracy, around 28% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Sacred+Heart: 27.26% | Mount+St.+Mary%27s: 72.74%
+	<-> Current Win Streaks -> 					Sacred+Heart: 0 | Mount+St.+Mary%27s: 2
+	<-> Prediction Accuracy Estimate -> 		Sacred+Heart: 7.25 | Mount+St.+Mary%27s: 36.50 | Risk Val: 21.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Sacred+Heart: -1.00% | Mount+St.+Mary%27s: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Charlotte at Tulsa
+	<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)
+	<-> Analyze Match History Prediction -> 	Charlotte: 42.26% | Tulsa: 57.74%
+	<-> Current Win Streaks -> 					Charlotte: 0 | Tulsa: 1
+	<-> Prediction Accuracy Estimate -> 		Charlotte: -3.75 | Tulsa: -1.75 | Risk Val: -2.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Charlotte: 52.15% | Tulsa: 47.85%
+		-> 2023: Charlotte | 2024: Tulsa | 2025: 
+
+
+Saint+Francis at Fairleigh+Dickinson
+	<-> 5/5 Star Bet (93-99% accuracy, around 6% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Saint+Francis: 38.41% | Fairleigh+Dickinson: 61.59%
+	<-> Current Win Streaks -> 					Saint+Francis: 1 | Fairleigh+Dickinson: 2
+	<-> Prediction Accuracy Estimate -> 		Saint+Francis: -10.75 | Fairleigh+Dickinson: 6.00 | Risk Val: -2.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Saint+Francis: 22.36% | Fairleigh+Dickinson: 77.64%
+		-> 2023: Saint+Francis, Fairleigh+Dickinson | 2024: Fairleigh+Dickinson | 2025: 
+
+
+Stonehill at Chicago+St.
+	<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)
+	<-> Analyze Match History Prediction -> 	Stonehill: 50.53% | Chicago+St.: 49.47%
+	<-> Current Win Streaks -> 					Stonehill: 0 | Chicago+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Stonehill: 29.25 | Chicago+St.: -23.25 | Risk Val: 3.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Stonehill: -1.00% | Chicago+St.: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Saint+Peter%27s at Canisius
+	<-> 2/5 Star Bet (73-76% accuracy, around 62% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Saint+Peter%27s: 53.46% | Canisius: 46.54%
+	<-> Current Win Streaks -> 					Saint+Peter%27s: 0 | Canisius: 1
+	<-> Prediction Accuracy Estimate -> 		Saint+Peter%27s: -21.50 | Canisius: -15.25 | Risk Val: -18.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Saint+Peter%27s: 76.32% | Canisius: 23.68%
+		-> 2023: Canisius | 2024: Saint+Peter%27s | 2025: 
+
+
+Manhattan at Merrimack
+	<-> 3/5 Star Bet (77-83% accuracy, around 28% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Manhattan: 34.09% | Merrimack: 65.91%
+	<-> Current Win Streaks -> 					Manhattan: 0 | Merrimack: 2
+	<-> Prediction Accuracy Estimate -> 		Manhattan: 42.75 | Merrimack: 12.75 | Risk Val: 27.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Manhattan: -1.00% | Merrimack: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+LIU at Central+Connecticut
+	<-> 5/5 Star Bet (93-99% accuracy, around 6% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	LIU: 26.27% | Central+Connecticut: 73.73%
+	<-> Current Win Streaks -> 					LIU: 3 | Central+Connecticut: 0
+	<-> Prediction Accuracy Estimate -> 		LIU: -5.75 | Central+Connecticut: 9.25 | Risk Val: 1.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> LIU: 0.00% | Central+Connecticut: 100.00%
+		-> 2023: Central+Connecticut | 2024: Central+Connecticut | 2025: 
+
+
+Southern+Indiana at Little+Rock
+	<-> 3/5 Star Bet (77-83% accuracy, around 28% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Southern+Indiana: 29.38% | Little+Rock: 70.62%
+	<-> Current Win Streaks -> 					Southern+Indiana: 0 | Little+Rock: 0
+	<-> Prediction Accuracy Estimate -> 		Southern+Indiana: -5.00 | Little+Rock: 46.50 | Risk Val: 20.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Southern+Indiana: 25.51% | Little+Rock: 74.49%
+		-> 2023: Southern+Indiana | 2024: Little+Rock | 2025: 
+
+
+Mercyhurst at Le+Moyne
+	<-> 3/5 Star Bet (77-83% accuracy, around 28% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	Mercyhurst: 37.25% | Le+Moyne: 62.75%
+	<-> Current Win Streaks -> 					Mercyhurst: 0 | Le+Moyne: 0
+	<-> Prediction Accuracy Estimate -> 		Mercyhurst: 9.25 | Le+Moyne: 14.75 | Risk Val: 12.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Mercyhurst: -1.00% | Le+Moyne: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Fairfield at Marist
+	<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)
+	<-> Analyze Match History Prediction -> 	Fairfield: 22.59% | Marist: 77.41%
+	<-> Current Win Streaks -> 					Fairfield: 1 | Marist: 7
+	<-> Prediction Accuracy Estimate -> 		Fairfield: 1.00 | Marist: 3.25 | Risk Val: 2.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Fairfield: 73.25% | Marist: 26.75%
+		-> 2023: Fairfield | 2024: Fairfield, Marist | 2025: 
+
+
+VMI at Chattanooga
+	<-> 3/5 Star Bet (77-83% accuracy, around 28% of matches hit these params)
+	<-> Analyze Match History Prediction -> 	VMI: 26.65% | Chattanooga: 73.35%
+	<-> Current Win Streaks -> 					VMI: 0 | Chattanooga: 0
+	<-> Prediction Accuracy Estimate -> 		VMI: 0.75 | Chattanooga: 24.50 | Risk Val: 12.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> VMI: 0.00% | Chattanooga: 100.00%
+		-> 2023: Chattanooga | 2024: Chattanooga | 2025: 
+
+
+Rider at Niagara
+	<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)
+	<-> Analyze Match History Prediction -> 	Rider: 29.75% | Niagara: 70.25%
+	<-> Current Win Streaks -> 					Rider: 0 | Niagara: 1
+	<-> Prediction Accuracy Estimate -> 		Rider: 9.25 | Niagara: 10.50 | Risk Val: 9.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Rider: 100.00% | Niagara: 0.00%
+		-> 2023: Rider | 2024: Rider | 2025: 
+
+<>
