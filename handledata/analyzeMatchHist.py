@@ -74,6 +74,8 @@ class AnalyzeMatchHist:
                         x *= 100
                         match_score += x
                         match_count += 1
+            if match_count == 0:
+                return -1, -1, win_streak
             avg_match_score = match_score / match_count
             if i == 0:
                 match_score_t1 = match_score
@@ -105,7 +107,11 @@ class AnalyzeMatchHist:
     def trank_comparison(self, team1_datas, team2_datas):
         lowest_ranked = self.commonFuncObj.get_lowest_rank()
         t1_rank =team1_datas.get('Rank')
+        if t1_rank == None:
+            t1_rank = lowest_ranked
         t2_rank =team2_datas.get('Rank')
+        if t2_rank == None:
+            t2_rank = lowest_ranked
         t1 = t1_rank/lowest_ranked
         t2 = t2_rank/lowest_ranked
         t1_prcnt = t2 / (t1 + t2)

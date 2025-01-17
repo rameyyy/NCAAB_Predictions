@@ -3,4 +3,4 @@ import reportgen
 rg = reportgen
 rg.initialize_path(file_path_to_path)
 # rg.CurrentDayScrape().scrape_all(True)
-rg.CurrentDayReport().generate_report(True, True, '01-12-2025_match_predictions.txt', True)
+rg.CurrentDayReport().generate_report(True, True, '01-17-2025_match_predictions.txt', True)

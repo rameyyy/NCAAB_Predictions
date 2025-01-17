@@ -105,7 +105,10 @@ class CommonFunctions:
         data = teams_data.copy()
         rank = data.pop('Rank', None)
         data.pop('team_name', None)
-        rank = int(rank)
+        if rank == None:
+            rank = self.get_lowest_rank() + 10
+        else:
+            rank = int(rank)
         match_arr = []
         rank_arr = []
         for match, match_data in data.items():

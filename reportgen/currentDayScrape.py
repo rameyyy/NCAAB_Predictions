@@ -28,8 +28,10 @@ class CurrentDayScrape:
     def scrape_all(self, dont_scrape_player_stats:bool):
         start_time = time.time()
         self.commonFuncs.clear_match_hist_stats()
+        self.commonFuncs.clear_game_sched_file()
         self.calculate_run_time(start_time, False)
-        self.commonScrape.get_todays_schedule_refresh()
+        # self.commonScrape.get_todays_schedule_refresh()
+        self.scrapedata_module.GameSchedule('20250117').scrape_data()
         self.calculate_run_time(start_time, False)
         self.commonScrape.leaderboard_refresh()
         self.calculate_run_time(start_time, False)

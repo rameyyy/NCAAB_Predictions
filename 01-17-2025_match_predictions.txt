@@ -1,0 +1,104 @@
+<- Games on 01/17/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+Boise+St. at New+Mexico
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Boise+St.: 35.67% | New+Mexico: 64.33%
+	<-> Current Win Streaks -> 					Boise+St.: 0 | New+Mexico: 7
+	<-> Prediction Accuracy Estimate -> 		Boise+St.: -2.25 | New+Mexico: -1.25 | Risk Val: -1.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Boise+St.: 20.44% | New+Mexico: 79.56%
+		-> 2023: Boise+St. | 2024: New+Mexico | 2025: 
+
+
+VCU at Saint+Joseph%27s
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	VCU: 55.79% | Saint+Joseph%27s: 44.21%
+	<-> Current Win Streaks -> 					VCU: 3 | Saint+Joseph%27s: 1
+	<-> Prediction Accuracy Estimate -> 		VCU: -10.25 | Saint+Joseph%27s: -1.75 | Risk Val: -6.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> VCU: 100.00% | Saint+Joseph%27s: 0.00%
+		-> 2023: VCU | 2024: VCU | 2025: 
+
+
+Iowa at UCLA
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Iowa: 39.15% | UCLA: 60.85%
+	<-> Current Win Streaks -> 					Iowa: 0 | UCLA: 0
+	<-> Prediction Accuracy Estimate -> 		Iowa: 5.50 | UCLA: -0.25 | Risk Val: 2.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Iowa: -1.00% | UCLA: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Indiana at Ohio+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Indiana: 26.13% | Ohio+St.: 73.87%
+	<-> Current Win Streaks -> 					Indiana: 0 | Ohio+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Indiana: -1.75 | Ohio+St.: -14.25 | Risk Val: -8.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Indiana: 100.00% | Ohio+St.: 0.00%
+		-> 2023: Indiana | 2024: Indiana | 2025: 
+
+
+Ohio at Akron
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Ohio: 35.10% | Akron: 64.90%
+	<-> Current Win Streaks -> 					Ohio: 6 | Akron: 4
+	<-> Prediction Accuracy Estimate -> 		Ohio: -2.00 | Akron: 0.50 | Risk Val: -0.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Ohio: 52.48% | Akron: 47.52%
+		-> 2023: Ohio | 2024: Ohio, Akron | 2025: 
+
+
+DePaul at Georgetown
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	DePaul: 24.16% | Georgetown: 75.84%
+	<-> Current Win Streaks -> 					DePaul: 0 | Georgetown: 0
+	<-> Prediction Accuracy Estimate -> 		DePaul: -2.00 | Georgetown: 4.25 | Risk Val: 1.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> DePaul: 0.00% | Georgetown: 100.00%
+		-> 2023: Georgetown | 2024: Georgetown | 2025: 
+
+
+Providence at Villanova
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Providence: 34.52% | Villanova: 65.48%
+	<-> Current Win Streaks -> 					Providence: 0 | Villanova: 0
+	<-> Prediction Accuracy Estimate -> 		Providence: 1.25 | Villanova: 1.25 | Risk Val: 1.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Providence: 38.26% | Villanova: 61.74%
+		-> 2023: Providence | 2024: Villanova | 2025: 
+
+
+Youngstown+St. at Milwaukee
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Youngstown+St.: 29.55% | Milwaukee: 70.45%
+	<-> Current Win Streaks -> 					Youngstown+St.: 0 | Milwaukee: 0
+	<-> Prediction Accuracy Estimate -> 		Youngstown+St.: -0.25 | Milwaukee: -14.75 | Risk Val: -7.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Youngstown+St.: 100.00% | Milwaukee: 0.00%
+		-> 2023: Youngstown+St. | 2024: Youngstown+St. | 2025: 
+
+
+Robert+Morris at Green+Bay
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Robert+Morris: 54.94% | Green+Bay: 45.06%
+	<-> Current Win Streaks -> 					Robert+Morris: 1 | Green+Bay: 0
+	<-> Prediction Accuracy Estimate -> 		Robert+Morris: -2.00 | Green+Bay: 9.50 | Risk Val: 3.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Robert+Morris: 40.89% | Green+Bay: 59.11%
+		-> 2023: Robert+Morris | 2024: Green+Bay | 2025: 
+
+
+Air+Force at Fresno+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Air+Force: 36.33% | Fresno+St.: 63.67%
+	<-> Current Win Streaks -> 					Air+Force: 0 | Fresno+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Air+Force: -12.25 | Fresno+St.: -21.25 | Risk Val: -16.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Air+Force: 0.00% | Fresno+St.: 100.00%
+		-> 2023: Fresno+St. | 2024: Fresno+St. | 2025: 
+
+<>

@@ -14,6 +14,7 @@ sd.initialize_path(path_to_path_str)
 file_path_arr = hd.CommonFunctions().get_path()
 path_to_sched = file_path_arr[2]
 sched_data = hd.CommonFunctions().load_json_file(path_to_sched)
+import sqlDBmanage
 # start_time = time.time()
 # rg.CurrentDayScrape().calculate_run_time(start_time, False)
 # hd.CommonFunctions().clear_match_hist_stats()
@@ -27,12 +28,13 @@ def update_value(key, value):
         json.dump(data, f, indent=4)
 
 def run_the_nums():
-    predicted_correct = 0 
-    predicted_correct_unsafe = 0
     match_counter = 0
-    safe_bets = 0
-    super_safe_predicted_correct = 0
-    super_safe_bet_quantity = 0
+    amh_correct = 0
+    prevWinner_correct = 0
+    safe_bet_correct = 0
+    safe_bet_count = 0
+    super_safe_bet_correct = 0
+    super_safe_bet_count = 0
     for dataEntry in sched_data:
         for dateStr, matches in dataEntry.items():
             for match in matches:
@@ -43,62 +45,91 @@ def run_the_nums():
                     at_vs = match[1]
                     t2 = match[2]
                     winner = match[3]
+                    matchID = f'{dateStr}_{t1}_{t2}'
+                    insert_data_arr = []
+                    insert_data_arr.append(matchID)
                     ## data = return if optimizing analyze math hist
                     analyzeMH_arr = hd.AnalyzeMatchHist(t1, at_vs, t2, True).return_odds()
                     #
                     risk_arr = hd.AccuracyEstimate(t1, at_vs, t2, True).return_odds()
                     # data = return if optimizing prev winner
                     prevWinner_arr = hd.PrevWinner(t1, at_vs, t2, True).return_odds()
-                    data = prevWinner_arr[0]
-                    if data[0] == -1 or data[1] == -1:
+                    prevWinner_prcnt_arr = prevWinner_arr[0]
+                    if prevWinner_prcnt_arr[0] == -1 or prevWinner_prcnt_arr[1] == -1:
                         continue
                     #
-
-                    matchHistWinner = ''
                     decoded_t1 = urllib.parse.unquote_plus(t1)
                     decoded_t2 = urllib.parse.unquote_plus(t2)
-                    ## MH Part
+                    
                     if analyzeMH_arr[0] > analyzeMH_arr[1]:
-                        AMH_winner = decoded_t1
-                        amh_percent = analyzeMH_arr[0]
-                        winner_risk_rating = risk_arr[0]
-                        losers_risk_rating = risk_arr[1]
+                        AMHwinner = decoded_t1
+                        AMHwinner_percent = analyzeMH_arr[0]
+                        winner_risk = risk_arr[0]
+                        loser_risk = risk_arr[1]
                     else:
-                        AMH_winner = decoded_t2
-                        amh_percent = analyzeMH_arr[1]
-                        winner_risk_rating = risk_arr[1]
-                        losers_risk_rating = risk_arr[0]
-                    ##
-                    if data[0] > data[1]:
-                        matchHistWinner = decoded_t1
+                        AMHwinner = decoded_t2
+                        AMHwinner_percent = analyzeMH_arr[1]
+                        winner_risk = risk_arr[1]
+                        loser_risk = risk_arr[0]
+                        
+                    if prevWinner_prcnt_arr[0] > prevWinner_prcnt_arr[1]:
+                        prevWinnerWinner = decoded_t1
+                        prevWinnerWinner_percent = prevWinner_prcnt_arr[0]
                     else:
-                        matchHistWinner = decoded_t2
-                    if AMH_winner == winner:
-                        predicted_correct_unsafe += 1
-                    ## safe bet feature ##
-                    risk_value = (risk_arr[0] + risk_arr[1]) / 2
-                    if AMH_winner == matchHistWinner:
-                        safe_bets += 1
-                        safe_bet_bool = True
-                        if amh_percent > 59.99 and risk_value > -6 and risk_value < 6:
-                            super_safe_bet_quantity += 1
-                            print(decoded_t1, decoded_t2)
-                            if winner == matchHistWinner:
-                                super_safe_predicted_correct += 1
-                    else: safe_bet_bool = False
-                    if safe_bet_bool == True:
-                        if winner == matchHistWinner:
-                            predicted_correct += 1
+                        prevWinnerWinner = decoded_t2
+                        prevWinnerWinner_percent = prevWinner_prcnt_arr[1]
+                    
+                    if AMHwinner == winner:
+                        amh_correct += 1
+                        insert_data_arr.append(winner_risk)
+                        insert_data_arr.append(loser_risk)
+                        insert_data_arr.append(1)
+                    else:
+                        insert_data_arr.append(loser_risk)
+                        insert_data_arr.append(winner_risk)
+                        insert_data_arr.append(0)
+                    
+                    if prevWinnerWinner == winner:
+                        insert_data_arr.append(1)
+                        prevWinner_correct += 1
+                    else:
+                        insert_data_arr.append(0)
+                    
+                    if prevWinnerWinner == AMHwinner:
+                        safe_bet_count += 1
+                        if AMHwinner == winner:
+                            safe_bet_correct += 1
+                            insert_data_arr.append(1)
+                        else:
+                            insert_data_arr.append(0)
+                    else:
+                        insert_data_arr.append(-1)
+                    
+                    if prevWinnerWinner == AMHwinner and AMHwinner_percent > 59.99:
+                        super_safe_bet_count += 1
+                        if AMHwinner == winner:
+                            super_safe_bet_correct += 1
+                            insert_data_arr.append(1)
+                        else:
+                            insert_data_arr.append(0)
+                    else:
+                        insert_data_arr.append(-1)
+                    
+                    insert_data_arr.append(AMHwinner_percent)
+                    insert_data_arr.append(prevWinnerWinner_percent)
+                    sqlDBmanage.SQLdbManage(insert_data_array=insert_data_arr)
                     match_counter += 1
                 except Exception as e:
-                    pass
-    AMH_acc = float(predicted_correct_unsafe) / float(match_counter)
-    sb_accuracy = float(predicted_correct) / float(safe_bets)
-    percent_of_games_bet_on = float(safe_bets) / float(match_counter)
-    supa_safe = float(super_safe_predicted_correct) / float(super_safe_bet_quantity)
-    percent_games_supa_safe = float(super_safe_bet_quantity) / float(match_counter)
+                    print(t1, at_vs, t2, '<> had a bug <>')
+    # calculations after loop
+    AMH_acc = float(amh_correct) / float(match_counter)
+    sb_accuracy = float(safe_bet_correct) / float(safe_bet_count)
+    percent_of_games_bet_on = float(safe_bet_count) / float(match_counter)
+    supa_safe = float(super_safe_bet_correct) / float(super_safe_bet_count)
+    percent_games_supa_safe = float(super_safe_bet_count) / float(match_counter)
+    prevwinner_accuracy = float(prevWinner_correct) / float(match_counter)
     
-    return sb_accuracy, percent_of_games_bet_on, AMH_acc, supa_safe, percent_games_supa_safe
+    return sb_accuracy, percent_of_games_bet_on, AMH_acc, supa_safe, percent_games_supa_safe, prevwinner_accuracy
  
 def optimize_Trank_value():
     accuracy_best = 0.0
@@ -191,10 +222,11 @@ def optimize_PrevWinner_value():
     print(f'Finished PrevWinner Optimization\nBest accuracy = {accuracy_best_percent} with PrevYear equal to: {accuracy_best_value}')
     
 # optimize_PrevWinner_value()
-sb_acc, pgb_on, amh_acc, supa_safe_Acc, pgb_on_supasafe = run_the_nums()
+sb_acc, pgb_on, amh_acc, supa_safe_Acc, pgb_on_supasafe, prevwinner_acc = run_the_nums()
 sb_acc *= 100
 pgb_on *=100
 amh_acc *= 100
 supa_safe_Acc *= 100
 pgb_on_supasafe *= 100
-print(f'Safe Bet Accuracy: {sb_acc:.5f}%\nGames considered a safe bet: {pgb_on:.3f}%\nAMH accuracy: {amh_acc:.5f}%\nSuper safe accuracy: {supa_safe_Acc:.5f}%\nGames considered supa safe: {pgb_on_supasafe:.4f}%')
+prevwinner_acc *= 100
+print(f'Safe Bet Accuracy: {sb_acc:.5f}%\nGames considered a safe bet: {pgb_on:.3f}%\nAMH accuracy: {amh_acc:.5f}%\nPrevWinner accuracy: {prevwinner_acc:.5f}%\nSuper safe accuracy: {supa_safe_Acc:.5f}%\nGames considered supa safe: {pgb_on_supasafe:.4f}%')

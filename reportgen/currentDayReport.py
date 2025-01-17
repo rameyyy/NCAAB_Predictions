@@ -45,16 +45,16 @@ class CurrentDayReport:
             else:
                 teams_win_percent = analyze_matchhist_arr[1]
             if teams_win_percent > 59.99:
-                if risk_value < 3 and risk_value > -3:
-                    return_string = f'\t<-> 5/5 Star Bet (93-99% accuracy, around 6% of matches hit these params)\n'
-                elif risk_value < 6 and risk_value > -6:
-                    return_string = f'\t<-> 4/5 Star Bet (86-93% accuracy, around 14% of matches hit these params)\n'
-                else:
-                    return_string = f'\t<-> 3/5 Star Bet (77-83% accuracy, around 28% of matches hit these params)\n'
+                # if risk_value < 3 and risk_value > -3:
+                #     return_string = f'\t<-> 5/5 Star Bet (93-99% accuracy, around 6% of matches hit these params)\n'
+                # elif risk_value < 6 and risk_value > -6:
+                #     return_string = f'\t<-> 4/5 Star Bet (86-93% accuracy, around 14% of matches hit these params)\n'
+                # else:
+                return_string = f'\t<-> 3-Star Bet ***\n'
             else:
-                return_string = f'\t<-> 2/5 Star Bet (73-76% accuracy, around 62% of matches hit these params)\n'
+                return_string = f'\t<-> 2-Star Bet **\n'
         else:
-            return_string = f'\t<-> 1/5 Star Bet (60-73% accuracy, fully based on AMH model results)\n'
+            return_string = f'\t<-> 1-Star Bet *\n'
         return return_string
     
     def prev_winner_str(self, winners_arr):
@@ -97,39 +97,42 @@ class CurrentDayReport:
             final_write_str += f'<- Games on {date_string} analysis ->\n'
             final_write_str += f'If <Historical Prediction Accuracy> fields = -1:\n\t-> historic matches were not recorded...\n'
             for match in matches:
-                t1 = match[0]
-                at_vs = match[1]
-                t2 = match[2]
-                final_write_str += f'\n{t1} {at_vs} {t2}\n'
-                self.calculate_run_time(start_time, False)
-                matchHist_odds_arr = self.analysis_module.AnalyzeMatchHist(t1, at_vs, t2, False).return_odds()
-                accuracyEst_odds_arr = self.analysis_module.AccuracyEstimate(t1, at_vs, t2, False).return_odds()
-                prevWinner_arr = self.analysis_module.PrevWinner(t1, at_vs, t2, False).return_odds()
-                prevWinner_odds_arr = prevWinner_arr[0]
-                prevWinners_str_arr = prevWinner_arr[1]
-                if ignore_point_predict != True:
-                    pointPrediction_arr = self.analysis_module.PointPrediction(t1, at_vs, t2, False).return_odds()
-                winstreak_arr = matchHist_odds_arr[2]
-                safe_bet_string = self.determine_bet_safety_rating(accuracyEst_odds_arr, matchHist_odds_arr, prevWinner_odds_arr)
-                final_write_str += safe_bet_string
-                final_write_str += f'\t<-> Analyze Match History Prediction -> '
-                final_write_str += f'\t{t1}: {matchHist_odds_arr[0]:.2f}% | {t2}: {matchHist_odds_arr[1]:.2f}%\n'
-                if ignore_point_predict != True:
-                    if pointPrediction_arr == 'Fail':
-                        pointPrediction_arr = [-1, -1]
-                    point_prcnt_arr = self.__point_analysis(pointPrediction_arr)
-                    final_write_str += f'\t<-> Point Prediction Model -> '
-                    final_write_str += f'{t1}: {point_prcnt_arr[0]*100:.2f}% | {t2}: {point_prcnt_arr[1]*100:.2f}%\n'
-                    final_write_str += f'\t<-> Point Prediction -> '
-                    final_write_str += f'{t1}: {pointPrediction_arr[0]:.0f} | {t2}: {pointPrediction_arr[1]:.0f}\n'
-                final_write_str += f'\t<-> Current Win Streaks -> '
-                final_write_str += f'\t\t\t\t\t{t1}: {winstreak_arr[0]:.0f} | {t2}: {winstreak_arr[1]:.0f}\n'
-                final_write_str += f'\t<-> Prediction Accuracy Estimate -> '
-                risk_value = (accuracyEst_odds_arr[0] + accuracyEst_odds_arr[1]) / 2
-                final_write_str += f'\t\t{t1}: {accuracyEst_odds_arr[0]:.2f} | {t2}: {accuracyEst_odds_arr[1]:.2f} | Risk Val: {risk_value:.2f}\n'
-                final_write_str += f'\t<-> Historical Prediction Accuracy and Previous Years Winners <->\n'
-                final_write_str += f'\t\t-> {t1}: {prevWinner_odds_arr[0]:.2f}% | {t2}: {prevWinner_odds_arr[1]:.2f}%\n'
-                final_write_str += self.prev_winner_str(prevWinners_str_arr)
+                try:
+                    t1 = match[0]
+                    at_vs = match[1]
+                    t2 = match[2]
+                    final_write_str += f'\n{t1} {at_vs} {t2}\n'
+                    self.calculate_run_time(start_time, False)
+                    matchHist_odds_arr = self.analysis_module.AnalyzeMatchHist(t1, at_vs, t2, False).return_odds()
+                    accuracyEst_odds_arr = self.analysis_module.AccuracyEstimate(t1, at_vs, t2, False).return_odds()
+                    prevWinner_arr = self.analysis_module.PrevWinner(t1, at_vs, t2, False).return_odds()
+                    prevWinner_odds_arr = prevWinner_arr[0]
+                    prevWinners_str_arr = prevWinner_arr[1]
+                    if ignore_point_predict != True:
+                        pointPrediction_arr = self.analysis_module.PointPrediction(t1, at_vs, t2, False).return_odds()
+                    winstreak_arr = matchHist_odds_arr[2]
+                    safe_bet_string = self.determine_bet_safety_rating(accuracyEst_odds_arr, matchHist_odds_arr, prevWinner_odds_arr)
+                    final_write_str += safe_bet_string
+                    final_write_str += f'\t<-> Analyze Match History Prediction -> '
+                    final_write_str += f'\t{t1}: {matchHist_odds_arr[0]:.2f}% | {t2}: {matchHist_odds_arr[1]:.2f}%\n'
+                    if ignore_point_predict != True:
+                        if pointPrediction_arr == 'Fail':
+                            pointPrediction_arr = [-1, -1]
+                        point_prcnt_arr = self.__point_analysis(pointPrediction_arr)
+                        final_write_str += f'\t<-> Point Prediction Model -> '
+                        final_write_str += f'{t1}: {point_prcnt_arr[0]*100:.2f}% | {t2}: {point_prcnt_arr[1]*100:.2f}%\n'
+                        final_write_str += f'\t<-> Point Prediction -> '
+                        final_write_str += f'{t1}: {pointPrediction_arr[0]:.0f} | {t2}: {pointPrediction_arr[1]:.0f}\n'
+                    final_write_str += f'\t<-> Current Win Streaks -> '
+                    final_write_str += f'\t\t\t\t\t{t1}: {winstreak_arr[0]:.0f} | {t2}: {winstreak_arr[1]:.0f}\n'
+                    final_write_str += f'\t<-> Prediction Accuracy Estimate -> '
+                    risk_value = (accuracyEst_odds_arr[0] + accuracyEst_odds_arr[1]) / 2
+                    final_write_str += f'\t\t{t1}: {accuracyEst_odds_arr[0]:.2f} | {t2}: {accuracyEst_odds_arr[1]:.2f} | Risk Val: {risk_value:.2f}\n'
+                    final_write_str += f'\t<-> Historical Prediction Accuracy and Previous Years Winners <->\n'
+                    final_write_str += f'\t\t-> {t1}: {prevWinner_odds_arr[0]:.2f}% | {t2}: {prevWinner_odds_arr[1]:.2f}%\n'
+                    final_write_str += self.prev_winner_str(prevWinners_str_arr)
+                except Exception as e:
+                    print(t1, t2, '\nBug:', e)
         final_write_str += f'<>'
         if print_yes_no == True:
             print(final_write_str)
