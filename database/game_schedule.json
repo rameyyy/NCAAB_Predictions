@@ -1,54 +1,99 @@
 {
-    "20250117": [
+    "20250210": [
         [
-            "Boise+St.",
+            "North+Carolina",
             "at",
-            "New+Mexico"
+            "Clemson"
         ],
         [
-            "VCU",
+            "Baylor",
             "at",
-            "Saint+Joseph%27s"
+            "Houston"
         ],
         [
-            "Iowa",
+            "Texas+A%26M+Corpus+Chris",
             "at",
-            "UCLA"
+            "Lamar"
         ],
         [
-            "Indiana",
+            "Southeastern+Louisiana",
             "at",
-            "Ohio+St."
+            "Houston+Christian"
         ],
         [
-            "Ohio",
+            "UT+Rio+Grande+Valley",
             "at",
-            "Akron"
+            "Stephen+F.+Austin"
         ],
         [
-            "DePaul",
+            "Bethune+Cookman",
             "at",
-            "Georgetown"
+            "Texas+Southern"
         ],
         [
-            "Providence",
+            "Southern",
             "at",
-            "Villanova"
+            "Alabama+St."
         ],
         [
-            "Youngstown+St.",
+            "Northwestern+St.",
             "at",
-            "Milwaukee"
+            "Nicholls+St."
         ],
         [
-            "Robert+Morris",
+            "Fresno+St.",
             "at",
-            "Green+Bay"
+            "Nevada"
         ],
         [
-            "Air+Force",
+            "Grambling+St.",
             "at",
-            "Fresno+St."
+            "Alabama+A%26M"
+        ],
+        [
+            "Charlotte",
+            "at",
+            "Florida+Atlantic"
+        ],
+        [
+            "Florida+A%26M",
+            "at",
+            "Prairie+View+A%26M"
+        ],
+        [
+            "Lafayette",
+            "at",
+            "American"
+        ],
+        [
+            "Howard",
+            "at",
+            "Maryland+Eastern+Shore"
+        ],
+        [
+            "Texas+A%26M+Commerce",
+            "at",
+            "McNeese+St."
+        ],
+        [
+            "North+Carolina+A%26T",
+            "at",
+            "Campbell"
+        ],
+        [
+            "New+Orleans",
+            "at",
+            "Incarnate+Word"
+        ],
+        [
+            "Arkansas+Pine+Bluff",
+            "at",
+            "Jackson+St."
+        ],
+        [
+            "Mississippi+Valley+St.",
+            "at",
+            "Alcorn+St."
         ]
     ]
 }

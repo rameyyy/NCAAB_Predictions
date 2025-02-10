@@ -1,0 +1,84 @@
+<- Games on 02/09/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+Ohio+St. at Nebraska
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Ohio+St.: 51.78% | Nebraska: 48.22%
+	<-> Current Win Streaks -> 					Ohio+St.: 0 | Nebraska: 3
+	<-> Prediction Accuracy Estimate -> 		Ohio+St.: -12.00 | Nebraska: -0.50 | Risk Val: -6.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Ohio+St.: 82.44% | Nebraska: 17.56%
+		-> 2023: Nebraska | 2024: Ohio+St. | 2025: 
+
+
+Arizona+St. at Oklahoma+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Arizona+St.: 52.84% | Oklahoma+St.: 47.16%
+	<-> Current Win Streaks -> 					Arizona+St.: 0 | Oklahoma+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Arizona+St.: -20.00 | Oklahoma+St.: -4.25 | Risk Val: -12.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Arizona+St.: -1.00% | Oklahoma+St.: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Xavier at Villanova
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Xavier: 52.48% | Villanova: 47.52%
+	<-> Current Win Streaks -> 					Xavier: 0 | Villanova: 0
+	<-> Prediction Accuracy Estimate -> 		Xavier: -8.50 | Villanova: -0.25 | Risk Val: -4.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Xavier: 96.99% | Villanova: 3.01%
+		-> 2023: Villanova | 2024: Xavier | 2025: Xavier
+
+
+Rutgers at Maryland
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Rutgers: 19.65% | Maryland: 80.35%
+	<-> Current Win Streaks -> 					Rutgers: 1 | Maryland: 4
+	<-> Prediction Accuracy Estimate -> 		Rutgers: 2.00 | Maryland: -3.50 | Risk Val: -0.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Rutgers: 19.87% | Maryland: 80.13%
+		-> 2023: Rutgers | 2024: Maryland | 2025: 
+
+
+Massachusetts at La+Salle
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Massachusetts: 42.40% | La+Salle: 57.60%
+	<-> Current Win Streaks -> 					Massachusetts: 0 | La+Salle: 0
+	<-> Prediction Accuracy Estimate -> 		Massachusetts: -0.75 | La+Salle: -5.00 | Risk Val: -2.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Massachusetts: 65.58% | La+Salle: 34.42%
+		-> 2023: La+Salle | 2024: La+Salle | 2025: Massachusetts
+
+
+Wichita+St. at South+Florida
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Wichita+St.: 38.23% | South+Florida: 61.77%
+	<-> Current Win Streaks -> 					Wichita+St.: 0 | South+Florida: 1
+	<-> Prediction Accuracy Estimate -> 		Wichita+St.: 1.00 | South+Florida: 8.25 | Risk Val: 4.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Wichita+St.: 18.00% | South+Florida: 82.00%
+		-> 2023: Wichita+St. | 2024: South+Florida | 2025: South+Florida
+
+
+Temple at Memphis
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Temple: 18.20% | Memphis: 81.80%
+	<-> Current Win Streaks -> 					Temple: 0 | Memphis: 6
+	<-> Prediction Accuracy Estimate -> 		Temple: 11.25 | Memphis: -2.00 | Risk Val: 4.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Temple: 16.29% | Memphis: 83.71%
+		-> 2023: Memphis | 2024: Memphis | 2025: Temple
+
+
+George+Washington at St.+Bonaventure
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	George+Washington: 36.02% | St.+Bonaventure: 63.98%
+	<-> Current Win Streaks -> 					George+Washington: 0 | St.+Bonaventure: 0
+	<-> Prediction Accuracy Estimate -> 		George+Washington: -8.50 | St.+Bonaventure: -2.25 | Risk Val: -5.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> George+Washington: 100.00% | St.+Bonaventure: 0.00%
+		-> 2023: George+Washington | 2024: George+Washington | 2025: 
+
+<>
