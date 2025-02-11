@@ -1,99 +1,194 @@
 {
-    "20250210": [
+    "20250211": [
         [
-            "North+Carolina",
+            "Tennessee",
             "at",
-            "Clemson"
+            "Kentucky"
         ],
         [
-            "Baylor",
+            "Purdue",
             "at",
-            "Houston"
+            "Michigan"
         ],
         [
-            "Texas+A%26M+Corpus+Chris",
+            "Alabama",
             "at",
-            "Lamar"
+            "Texas"
         ],
         [
-            "Southeastern+Louisiana",
+            "Florida",
             "at",
-            "Houston+Christian"
+            "Mississippi+St."
         ],
         [
-            "UT+Rio+Grande+Valley",
+            "UCLA",
             "at",
-            "Stephen+F.+Austin"
+            "Illinois"
         ],
         [
-            "Bethune+Cookman",
+            "Arizona",
             "at",
-            "Texas+Southern"
+            "Kansas+St."
         ],
         [
-            "Southern",
+            "Auburn",
             "at",
-            "Alabama+St."
+            "Vanderbilt"
         ],
         [
-            "Northwestern+St.",
+            "Iowa+St.",
             "at",
-            "Nicholls+St."
+            "UCF"
         ],
         [
-            "Fresno+St.",
+            "BYU",
             "at",
-            "Nevada"
+            "West+Virginia"
         ],
         [
-            "Grambling+St.",
+            "Connecticut",
             "at",
-            "Alabama+A%26M"
+            "Creighton"
         ],
         [
-            "Charlotte",
+            "Georgia",
             "at",
-            "Florida+Atlantic"
+            "Texas+A%26M"
         ],
         [
-            "Florida+A%26M",
+            "Pittsburgh",
             "at",
-            "Prairie+View+A%26M"
+            "SMU"
         ],
         [
-            "Lafayette",
+            "Penn+St.",
             "at",
-            "American"
+            "USC"
         ],
         [
-            "Howard",
+            "Colorado+St.",
             "at",
-            "Maryland+Eastern+Shore"
+            "Utah+St."
         ],
         [
-            "Texas+A%26M+Commerce",
+            "Northwestern",
             "at",
-            "McNeese+St."
+            "Oregon"
         ],
         [
-            "North+Carolina+A%26T",
+            "Indiana",
             "at",
-            "Campbell"
+            "Michigan+St."
         ],
         [
-            "New+Orleans",
+            "George+Mason",
             "at",
-            "Incarnate+Word"
+            "Saint+Louis"
         ],
         [
-            "Arkansas+Pine+Bluff",
+            "Santa+Clara",
             "at",
-            "Jackson+St."
+            "Saint+Mary%27s"
         ],
         [
-            "Mississippi+Valley+St.",
+            "Loyola+Marymount",
             "at",
-            "Alcorn+St."
+            "Pepperdine"
+        ],
+        [
+            "UAB",
+            "at",
+            "East+Carolina"
+        ],
+        [
+            "Illinois+Chicago",
+            "at",
+            "Murray+St."
+        ],
+        [
+            "Utah",
+            "at",
+            "Cincinnati"
+        ],
+        [
+            "Syracuse",
+            "at",
+            "Miami+FL"
+        ],
+        [
+            "San+Diego+St.",
+            "at",
+            "San+Jose+St."
+        ],
+        [
+            "Loyola+Chicago",
+            "at",
+            "Richmond"
+        ],
+        [
+            "Colorado",
+            "at",
+            "Kansas"
+        ],
+        [
+            "DePaul",
+            "at",
+            "Marquette"
+        ],
+        [
+            "North+Texas",
+            "at",
+            "Rice"
+        ],
+        [
+            "Ohio",
+            "at",
+            "Bowling+Green"
+        ],
+        [
+            "Toledo",
+            "at",
+            "Miami+OH"
+        ],
+        [
+            "Southeast+Missouri+St.",
+            "at",
+            "Little+Rock"
+        ],
+        [
+            "Indiana+St.",
+            "at",
+            "Northern+Iowa"
+        ],
+        [
+            "Central+Michigan",
+            "at",
+            "Kent+St."
+        ],
+        [
+            "Buffalo",
+            "at",
+            "Northern+Illinois"
+        ],
+        [
+            "Western+Michigan",
+            "at",
+            "Akron"
+        ],
+        [
+            "Eastern+Michigan",
+            "at",
+            "Ball+St."
+        ],
+        [
+            "Pacific",
+            "at",
+            "Loyola+Marymount"
+        ],
+        [
+            "Air+Force",
+            "at",
+            "UNLV"
         ]
     ]
 }
