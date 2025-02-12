@@ -1,194 +1,224 @@
 {
-    "20250211": [
+    "20250212": [
         [
-            "Tennessee",
+            "St.+John%27s",
             "at",
-            "Kentucky"
+            "Villanova"
         ],
         [
-            "Purdue",
+            "Xavier",
             "at",
-            "Michigan"
+            "Providence"
         ],
         [
-            "Alabama",
+            "Stanford",
             "at",
-            "Texas"
+            "Georgia+Tech"
         ],
         [
-            "Florida",
+            "Iowa",
             "at",
-            "Mississippi+St."
+            "Rutgers"
         ],
         [
-            "UCLA",
+            "Oklahoma",
             "at",
-            "Illinois"
+            "Missouri"
         ],
         [
-            "Arizona",
+            "Mississippi",
             "at",
-            "Kansas+St."
+            "South+Carolina"
         ],
         [
-            "Auburn",
+            "St.+Bonaventure",
             "at",
-            "Vanderbilt"
+            "Rhode+Island"
         ],
         [
-            "Iowa+St.",
+            "Florida+St.",
             "at",
-            "UCF"
+            "Wake+Forest"
         ],
         [
-            "BYU",
+            "Davidson",
             "at",
-            "West+Virginia"
+            "Massachusetts"
         ],
         [
-            "Connecticut",
+            "VCU",
             "at",
-            "Creighton"
+            "George+Washington"
         ],
         [
-            "Georgia",
+            "Louisville",
             "at",
-            "Texas+A%26M"
+            "N.C.+State"
         ],
         [
-            "Pittsburgh",
+            "LSU",
             "at",
-            "SMU"
+            "Arkansas"
         ],
         [
-            "Penn+St.",
+            "Purdue+Fort+Wayne",
             "at",
-            "USC"
+            "Youngstown+St."
         ],
         [
-            "Colorado+St.",
+            "Arizona+St.",
             "at",
-            "Utah+St."
+            "Texas+Tech"
         ],
         [
-            "Northwestern",
+            "Drake",
             "at",
-            "Oregon"
+            "Illinois+St."
         ],
         [
-            "Indiana",
+            "Oklahoma+St.",
             "at",
-            "Michigan+St."
+            "TCU"
         ],
         [
-            "George+Mason",
+            "Washington",
             "at",
-            "Saint+Louis"
+            "Ohio+St."
         ],
         [
-            "Santa+Clara",
+            "Chattanooga",
             "at",
-            "Saint+Mary%27s"
+            "Samford"
         ],
         [
-            "Loyola+Marymount",
+            "Dayton",
             "at",
-            "Pepperdine"
+            "Fordham"
         ],
         [
-            "UAB",
+            "Radford",
             "at",
-            "East+Carolina"
+            "Winthrop"
         ],
         [
-            "Illinois+Chicago",
+            "California",
             "at",
-            "Murray+St."
+            "Duke"
         ],
         [
-            "Utah",
+            "Notre+Dame",
             "at",
-            "Cincinnati"
+            "Boston+College"
         ],
         [
-            "Syracuse",
+            "Belmont",
             "at",
-            "Miami+FL"
+            "Valparaiso"
         ],
         [
-            "San+Diego+St.",
+            "UTSA",
             "at",
-            "San+Jose+St."
+            "Wichita+St."
         ],
         [
-            "Loyola+Chicago",
+            "Robert+Morris",
             "at",
-            "Richmond"
+            "Cleveland+St."
         ],
         [
-            "Colorado",
+            "Wyoming",
             "at",
-            "Kansas"
+            "New+Mexico"
         ],
         [
-            "DePaul",
+            "Southern+Illinois",
             "at",
-            "Marquette"
+            "Bradley"
         ],
         [
-            "North+Texas",
+            "Army",
             "at",
-            "Rice"
+            "Loyola+MD"
         ],
         [
-            "Ohio",
+            "Colgate",
             "at",
-            "Bowling+Green"
+            "Holy+Cross"
         ],
         [
-            "Toledo",
+            "La+Salle",
             "at",
-            "Miami+OH"
+            "Saint+Joseph%27s"
         ],
         [
-            "Southeast+Missouri+St.",
+            "Mercer",
             "at",
-            "Little+Rock"
+            "Furman"
         ],
         [
-            "Indiana+St.",
+            "UNC+Asheville",
             "at",
-            "Northern+Iowa"
+            "USC+Upstate"
         ],
         [
-            "Central+Michigan",
+            "Evansville",
             "at",
-            "Kent+St."
+            "Missouri+St."
         ],
         [
-            "Buffalo",
+            "Lehigh",
             "at",
-            "Northern+Illinois"
+            "Navy"
         ],
         [
-            "Western+Michigan",
+            "Presbyterian",
             "at",
-            "Akron"
+            "Charleston+Southern"
         ],
         [
-            "Eastern+Michigan",
+            "Tulsa",
             "at",
-            "Ball+St."
+            "Temple"
         ],
         [
-            "Pacific",
+            "Southern+Miss",
             "at",
-            "Loyola+Marymount"
+            "Arkansas+St."
         ],
         [
-            "Air+Force",
+            "Troy",
             "at",
-            "UNLV"
+            "Louisiana"
+        ],
+        [
+            "Oakland",
+            "at",
+            "IU+Indy"
+        ],
+        [
+            "East+Tennessee+St.",
+            "at",
+            "Western+Carolina"
+        ],
+        [
+            "VMI",
+            "at",
+            "UNC+Greensboro"
+        ],
+        [
+            "Boston+University",
+            "at",
+            "Bucknell"
+        ],
+        [
+            "Canisius",
+            "at",
+            "Niagara"
+        ],
+        [
+            "Wofford",
+            "at",
+            "The+Citadel"
         ]
     ]
 }
