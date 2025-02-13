@@ -31,7 +31,7 @@ class CurrentDayScrape:
         self.commonFuncs.clear_game_sched_file()
         self.calculate_run_time(start_time, False)
         # self.commonScrape.get_todays_schedule_refresh()
-        self.scrapedata_module.GameSchedule('20250212').scrape_data()
+        self.scrapedata_module.GameSchedule('20250213').scrape_data()
         self.calculate_run_time(start_time, False)
         self.commonScrape.leaderboard_refresh()
         self.calculate_run_time(start_time, False)
