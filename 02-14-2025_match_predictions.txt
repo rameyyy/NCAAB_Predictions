@@ -1,0 +1,164 @@
+<- Games on 02/14/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+UCLA at Indiana
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	UCLA: 53.63% | Indiana: 46.37%
+	<-> Current Win Streaks -> 					UCLA: 0 | Indiana: 1
+	<-> Prediction Accuracy Estimate -> 		UCLA: -0.25 | Indiana: -4.00 | Risk Val: -2.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UCLA: -1.00% | Indiana: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Nevada at San+Jose+St.
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Nevada: 52.45% | San+Jose+St.: 47.55%
+	<-> Current Win Streaks -> 					Nevada: 1 | San+Jose+St.: 1
+	<-> Prediction Accuracy Estimate -> 		Nevada: 12.75 | San+Jose+St.: -3.25 | Risk Val: 4.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Nevada: 91.17% | San+Jose+St.: 8.83%
+		-> 2023: San+Jose+St. | 2024: Nevada | 2025: Nevada
+
+
+Quinnipiac at Sacred+Heart
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Quinnipiac: 44.65% | Sacred+Heart: 55.35%
+	<-> Current Win Streaks -> 					Quinnipiac: 0 | Sacred+Heart: 4
+	<-> Prediction Accuracy Estimate -> 		Quinnipiac: 4.75 | Sacred+Heart: -6.25 | Risk Val: -0.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Quinnipiac: 100.00% | Sacred+Heart: 0.00%
+		-> 2023:  | 2024:  | 2025: Quinnipiac
+
+
+Saint+Louis at Loyola+Chicago
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Saint+Louis: 32.51% | Loyola+Chicago: 67.49%
+	<-> Current Win Streaks -> 					Saint+Louis: 0 | Loyola+Chicago: 1
+	<-> Prediction Accuracy Estimate -> 		Saint+Louis: 2.75 | Loyola+Chicago: 25.50 | Risk Val: 14.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Saint+Louis: 28.82% | Loyola+Chicago: 71.18%
+		-> 2023: Saint+Louis | 2024: Loyola+Chicago | 2025: 
+
+
+Princeton at Brown
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Princeton: 47.21% | Brown: 52.79%
+	<-> Current Win Streaks -> 					Princeton: 2 | Brown: 0
+	<-> Prediction Accuracy Estimate -> 		Princeton: 3.25 | Brown: -13.75 | Risk Val: -5.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Princeton: 95.26% | Brown: 4.74%
+		-> 2023: Princeton | 2024: Brown | 2025: Princeton
+
+
+Merrimack at Manhattan
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Merrimack: 39.57% | Manhattan: 60.43%
+	<-> Current Win Streaks -> 					Merrimack: 1 | Manhattan: 0
+	<-> Prediction Accuracy Estimate -> 		Merrimack: -0.25 | Manhattan: 31.25 | Risk Val: 15.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Merrimack: 100.00% | Manhattan: 0.00%
+		-> 2023:  | 2024:  | 2025: Merrimack
+
+
+Wright+St. at Milwaukee
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Wright+St.: 35.92% | Milwaukee: 64.08%
+	<-> Current Win Streaks -> 					Wright+St.: 1 | Milwaukee: 2
+	<-> Prediction Accuracy Estimate -> 		Wright+St.: 4.00 | Milwaukee: -0.50 | Risk Val: 1.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Wright+St.: 52.77% | Milwaukee: 47.23%
+		-> 2023: Wright+St., Milwaukee | 2024: Wright+St. | 2025: Milwaukee
+
+
+Ohio at Kent+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Ohio: 31.95% | Kent+St.: 68.05%
+	<-> Current Win Streaks -> 					Ohio: 1 | Kent+St.: 3
+	<-> Prediction Accuracy Estimate -> 		Ohio: -7.75 | Kent+St.: 0.75 | Risk Val: -3.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Ohio: 75.94% | Kent+St.: 24.06%
+		-> 2023: Kent+St. | 2024: Ohio | 2025: Ohio
+
+
+Cornell at Harvard
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Cornell: 54.68% | Harvard: 45.32%
+	<-> Current Win Streaks -> 					Cornell: 0 | Harvard: 0
+	<-> Prediction Accuracy Estimate -> 		Cornell: 4.50 | Harvard: 11.00 | Risk Val: 7.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Cornell: 90.47% | Harvard: 9.53%
+		-> 2023: Harvard | 2024: Cornell | 2025: Cornell
+
+
+Marist at Siena
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Marist: 46.00% | Siena: 54.00%
+	<-> Current Win Streaks -> 					Marist: 3 | Siena: 0
+	<-> Prediction Accuracy Estimate -> 		Marist: -1.00 | Siena: -1.50 | Risk Val: -1.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Marist: 89.20% | Siena: 10.80%
+		-> 2023: Siena | 2024: Marist | 2025: Marist
+
+
+Columbia at Dartmouth
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Columbia: 41.36% | Dartmouth: 58.64%
+	<-> Current Win Streaks -> 					Columbia: 1 | Dartmouth: 2
+	<-> Prediction Accuracy Estimate -> 		Columbia: 2.00 | Dartmouth: -2.50 | Risk Val: -0.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Columbia: 63.51% | Dartmouth: 36.49%
+		-> 2023: Columbia | 2024: Columbia | 2025: Dartmouth
+
+
+Northern+Kentucky at Green+Bay
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Northern+Kentucky: 49.91% | Green+Bay: 50.09%
+	<-> Current Win Streaks -> 					Northern+Kentucky: 0 | Green+Bay: 0
+	<-> Prediction Accuracy Estimate -> 		Northern+Kentucky: 3.25 | Green+Bay: -5.50 | Risk Val: -1.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Northern+Kentucky: 100.00% | Green+Bay: 0.00%
+		-> 2023: Northern+Kentucky | 2024: Northern+Kentucky | 2025: Northern+Kentucky
+
+
+Mount+St.+Mary%27s at Niagara
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Mount+St.+Mary%27s: 37.41% | Niagara: 62.59%
+	<-> Current Win Streaks -> 					Mount+St.+Mary%27s: 0 | Niagara: 2
+	<-> Prediction Accuracy Estimate -> 		Mount+St.+Mary%27s: 0.75 | Niagara: 2.25 | Risk Val: 1.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Mount+St.+Mary%27s: 100.00% | Niagara: 0.00%
+		-> 2023: Mount+St.+Mary%27s | 2024: Mount+St.+Mary%27s | 2025: Mount+St.+Mary%27s
+
+
+Penn at Yale
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Penn: 12.51% | Yale: 87.49%
+	<-> Current Win Streaks -> 					Penn: 0 | Yale: 8
+	<-> Prediction Accuracy Estimate -> 		Penn: 0.50 | Yale: 0.00 | Risk Val: 0.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Penn: 6.83% | Yale: 93.17%
+		-> 2023: Penn | 2024: Yale | 2025: Yale
+
+
+Rider at Iona
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Rider: 33.57% | Iona: 66.43%
+	<-> Current Win Streaks -> 					Rider: 1 | Iona: 1
+	<-> Prediction Accuracy Estimate -> 		Rider: 4.00 | Iona: -2.00 | Risk Val: 1.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Rider: 30.07% | Iona: 69.93%
+		-> 2023: Iona | 2024: Rider | 2025: Iona
+
+
+Fairfield at Saint+Peter%27s
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Fairfield: 33.13% | Saint+Peter%27s: 66.87%
+	<-> Current Win Streaks -> 					Fairfield: 0 | Saint+Peter%27s: 0
+	<-> Prediction Accuracy Estimate -> 		Fairfield: 1.50 | Saint+Peter%27s: 10.50 | Risk Val: 6.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Fairfield: 24.58% | Saint+Peter%27s: 75.42%
+		-> 2023: Fairfield, Saint+Peter%27s | 2024: Saint+Peter%27s | 2025: 
+
+<>

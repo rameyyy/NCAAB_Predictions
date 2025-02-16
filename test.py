@@ -8,7 +8,7 @@ import handledata
 hd = handledata
 hd.initialize_path(path_to_path_str)
 hd.CommonFunctions().clear_game_sched_file()
-rg.CommonScrapes().game_winners('20250212')
+rg.CommonScrapes().game_winners('20250215')
 
 # import handledata
 # hd = handledata
