@@ -1,0 +1,214 @@
+<- Games on 02/17/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+Arizona at Baylor
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Arizona: 53.93% | Baylor: 46.07%
+	<-> Current Win Streaks -> 					Arizona: 0 | Baylor: 1
+	<-> Prediction Accuracy Estimate -> 		Arizona: -0.50 | Baylor: 0.00 | Risk Val: -0.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Arizona: 100.00% | Baylor: 0.00%
+		-> 2023:  | 2024:  | 2025: Arizona
+
+
+Kansas+St. at Utah
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Kansas+St.: 35.52% | Utah: 64.48%
+	<-> Current Win Streaks -> 					Kansas+St.: 0 | Utah: 1
+	<-> Prediction Accuracy Estimate -> 		Kansas+St.: -5.75 | Utah: -13.00 | Risk Val: -9.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Kansas+St.: -1.00% | Utah: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Northern+Iowa at Murray+St.
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Northern+Iowa: 43.64% | Murray+St.: 56.36%
+	<-> Current Win Streaks -> 					Northern+Iowa: 1 | Murray+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Northern+Iowa: -11.50 | Murray+St.: 3.00 | Risk Val: -4.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Northern+Iowa: 21.00% | Murray+St.: 79.00%
+		-> 2023: Northern+Iowa | 2024: Murray+St. | 2025: Murray+St.
+
+
+Duke at Virginia
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Duke: 72.03% | Virginia: 27.97%
+	<-> Current Win Streaks -> 					Duke: 2 | Virginia: 4
+	<-> Prediction Accuracy Estimate -> 		Duke: -2.00 | Virginia: 10.25 | Risk Val: 4.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Duke: 100.00% | Virginia: 0.00%
+		-> 2023: Duke | 2024: Duke | 2025: 
+
+
+Lamar at Northwestern+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Lamar: 49.89% | Northwestern+St.: 50.11%
+	<-> Current Win Streaks -> 					Lamar: 0 | Northwestern+St.: 1
+	<-> Prediction Accuracy Estimate -> 		Lamar: 6.75 | Northwestern+St.: 3.25 | Risk Val: 5.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Lamar: 85.28% | Northwestern+St.: 14.72%
+		-> 2023: Northwestern+St. | 2024: Lamar | 2025: Lamar
+
+
+McNeese+St. at Southeastern+Louisiana
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	McNeese+St.: 55.90% | Southeastern+Louisiana: 44.10%
+	<-> Current Win Streaks -> 					McNeese+St.: 6 | Southeastern+Louisiana: 8
+	<-> Prediction Accuracy Estimate -> 		McNeese+St.: -5.00 | Southeastern+Louisiana: 18.25 | Risk Val: 6.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> McNeese+St.: 74.41% | Southeastern+Louisiana: 25.59%
+		-> 2023: Southeastern+Louisiana | 2024: Southeastern+Louisiana | 2025: McNeese+St.
+
+
+Stephen+F.+Austin at Texas+A%26M+Commerce
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Stephen+F.+Austin: 50.81% | Texas+A%26M+Commerce: 49.19%
+	<-> Current Win Streaks -> 					Stephen+F.+Austin: 3 | Texas+A%26M+Commerce: 0
+	<-> Prediction Accuracy Estimate -> 		Stephen+F.+Austin: 24.75 | Texas+A%26M+Commerce: -9.25 | Risk Val: 7.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Stephen+F.+Austin: -1.00% | Texas+A%26M+Commerce: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Jackson+St. at Bethune+Cookman
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Jackson+St.: 40.04% | Bethune+Cookman: 59.96%
+	<-> Current Win Streaks -> 					Jackson+St.: 2 | Bethune+Cookman: 4
+	<-> Prediction Accuracy Estimate -> 		Jackson+St.: 15.00 | Bethune+Cookman: 0.00 | Risk Val: 7.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Jackson+St.: 100.00% | Bethune+Cookman: 0.00%
+		-> 2023: Jackson+St. | 2024: Jackson+St. | 2025: Jackson+St.
+
+
+Alcorn+St. at Florida+A%26M
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Alcorn+St.: 36.35% | Florida+A%26M: 63.65%
+	<-> Current Win Streaks -> 					Alcorn+St.: 3 | Florida+A%26M: 2
+	<-> Prediction Accuracy Estimate -> 		Alcorn+St.: -5.00 | Florida+A%26M: -1.25 | Risk Val: -3.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Alcorn+St.: 53.05% | Florida+A%26M: 46.95%
+		-> 2023: Alcorn+St. | 2024: Alcorn+St. | 2025: Florida+A%26M
+
+
+Incarnate+Word at UT+Rio+Grande+Valley
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Incarnate+Word: 36.64% | UT+Rio+Grande+Valley: 63.36%
+	<-> Current Win Streaks -> 					Incarnate+Word: 0 | UT+Rio+Grande+Valley: 0
+	<-> Prediction Accuracy Estimate -> 		Incarnate+Word: 15.50 | UT+Rio+Grande+Valley: -1.25 | Risk Val: 7.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Incarnate+Word: 0.00% | UT+Rio+Grande+Valley: 100.00%
+		-> 2023:  | 2024: UT+Rio+Grande+Valley | 2025: UT+Rio+Grande+Valley
+
+
+Houston+Christian at Texas+A%26M+Corpus+Chris
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Houston+Christian: 28.04% | Texas+A%26M+Corpus+Chris: 71.96%
+	<-> Current Win Streaks -> 					Houston+Christian: 0 | Texas+A%26M+Corpus+Chris: 1
+	<-> Prediction Accuracy Estimate -> 		Houston+Christian: 25.00 | Texas+A%26M+Corpus+Chris: 2.75 | Risk Val: 13.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Houston+Christian: 30.91% | Texas+A%26M+Corpus+Chris: 69.09%
+		-> 2023: Texas+A%26M+Corpus+Chris | 2024: Texas+A%26M+Corpus+Chris | 2025: Houston+Christian
+
+
+Alabama+A%26M at Arkansas+Pine+Bluff
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Alabama+A%26M: 42.04% | Arkansas+Pine+Bluff: 57.96%
+	<-> Current Win Streaks -> 					Alabama+A%26M: 0 | Arkansas+Pine+Bluff: 0
+	<-> Prediction Accuracy Estimate -> 		Alabama+A%26M: 39.75 | Arkansas+Pine+Bluff: 28.00 | Risk Val: 33.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Alabama+A%26M: 100.00% | Arkansas+Pine+Bluff: 0.00%
+		-> 2023: Alabama+A%26M | 2024: Alabama+A%26M | 2025: Alabama+A%26M
+
+
+Nicholls+St. at New+Orleans
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Nicholls+St.: 56.62% | New+Orleans: 43.38%
+	<-> Current Win Streaks -> 					Nicholls+St.: 2 | New+Orleans: 0
+	<-> Prediction Accuracy Estimate -> 		Nicholls+St.: 38.25 | New+Orleans: 2.75 | Risk Val: 20.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Nicholls+St.: 94.99% | New+Orleans: 5.01%
+		-> 2023: New+Orleans | 2024: Nicholls+St. | 2025: Nicholls+St.
+
+
+Texas+Southern at Southern
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Texas+Southern: 28.25% | Southern: 71.75%
+	<-> Current Win Streaks -> 					Texas+Southern: 0 | Southern: 0
+	<-> Prediction Accuracy Estimate -> 		Texas+Southern: -13.75 | Southern: 11.25 | Risk Val: -1.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Texas+Southern: 49.50% | Southern: 50.50%
+		-> 2023: Texas+Southern | 2024: Texas+Southern | 2025: Southern
+
+
+Lehigh at Bucknell
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Lehigh: 33.82% | Bucknell: 66.18%
+	<-> Current Win Streaks -> 					Lehigh: 1 | Bucknell: 0
+	<-> Prediction Accuracy Estimate -> 		Lehigh: 9.50 | Bucknell: 8.75 | Risk Val: 9.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Lehigh: 100.00% | Bucknell: 0.00%
+		-> 2023: Lehigh | 2024: Lehigh | 2025: Lehigh
+
+
+Delaware+St. at Norfolk+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Delaware+St.: 28.62% | Norfolk+St.: 71.38%
+	<-> Current Win Streaks -> 					Delaware+St.: 4 | Norfolk+St.: 4
+	<-> Prediction Accuracy Estimate -> 		Delaware+St.: 1.75 | Norfolk+St.: -0.50 | Risk Val: 0.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Delaware+St.: 29.01% | Norfolk+St.: 70.99%
+		-> 2023: Norfolk+St. | 2024: Delaware+St. | 2025: Norfolk+St.
+
+
+Prairie+View+A%26M at Grambling+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Prairie+View+A%26M: 33.11% | Grambling+St.: 66.89%
+	<-> Current Win Streaks -> 					Prairie+View+A%26M: 0 | Grambling+St.: 2
+	<-> Prediction Accuracy Estimate -> 		Prairie+View+A%26M: -1.00 | Grambling+St.: 3.25 | Risk Val: 1.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Prairie+View+A%26M: 34.93% | Grambling+St.: 65.07%
+		-> 2023: Grambling+St. | 2024: Grambling+St. | 2025: Prairie+View+A%26M
+
+
+Morgan+St. at North+Carolina+Central
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Morgan+St.: 30.18% | North+Carolina+Central: 69.82%
+	<-> Current Win Streaks -> 					Morgan+St.: 0 | North+Carolina+Central: 0
+	<-> Prediction Accuracy Estimate -> 		Morgan+St.: 0.75 | North+Carolina+Central: 7.75 | Risk Val: 4.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Morgan+St.: 68.16% | North+Carolina+Central: 31.84%
+		-> 2023: North+Carolina+Central | 2024: Morgan+St. | 2025: Morgan+St.
+
+
+Coppin+St. at South+Carolina+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Coppin+St.: 20.69% | South+Carolina+St.: 79.31%
+	<-> Current Win Streaks -> 					Coppin+St.: 1 | South+Carolina+St.: 2
+	<-> Prediction Accuracy Estimate -> 		Coppin+St.: 12.25 | South+Carolina+St.: 39.00 | Risk Val: 25.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Coppin+St.: 0.00% | South+Carolina+St.: 100.00%
+		-> 2023: South+Carolina+St. | 2024: South+Carolina+St. | 2025: South+Carolina+St.
+
+
+Maryland+Eastern+Shore at Howard
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Maryland+Eastern+Shore: 31.30% | Howard: 68.70%
+	<-> Current Win Streaks -> 					Maryland+Eastern+Shore: 0 | Howard: 2
+	<-> Prediction Accuracy Estimate -> 		Maryland+Eastern+Shore: -1.50 | Howard: 27.50 | Risk Val: 13.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Maryland+Eastern+Shore: 0.00% | Howard: 100.00%
+		-> 2023: Howard | 2024: Howard | 2025: Howard
+
+
+Alabama+St. at Mississippi+Valley+St.
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Alabama+St.: 54.68% | Mississippi+Valley+St.: 45.32%
+	<-> Current Win Streaks -> 					Alabama+St.: 1 | Mississippi+Valley+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Alabama+St.: 10.50 | Mississippi+Valley+St.: 6.00 | Risk Val: 8.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Alabama+St.: 90.67% | Mississippi+Valley+St.: 9.33%
+		-> 2023: Mississippi+Valley+St. | 2024: Alabama+St. | 2025: Alabama+St.
+
+<>

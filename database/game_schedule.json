@@ -1,44 +1,14 @@
 {
-    "20250216": [
+    "20250217": [
         [
-            "Michigan",
+            "Arizona",
             "at",
-            "Ohio+St."
+            "Baylor"
         ],
         [
-            "Utah+St.",
+            "Kansas+St.",
             "at",
-            "New+Mexico"
-        ],
-        [
-            "Nebraska",
-            "at",
-            "Northwestern"
-        ],
-        [
-            "Creighton",
-            "at",
-            "St.+John%27s"
-        ],
-        [
-            "Florida+Atlantic",
-            "at",
-            "Temple"
-        ],
-        [
-            "Louisville",
-            "at",
-            "Notre+Dame"
-        ],
-        [
-            "Iowa",
-            "at",
-            "Maryland"
-        ],
-        [
-            "Rutgers",
-            "at",
-            "Oregon"
+            "Utah"
         ],
         [
             "Northern+Iowa",
@@ -46,84 +16,94 @@
             "Murray+St."
         ],
         [
-            "Memphis",
+            "Duke",
             "at",
-            "Wichita+St."
+            "Virginia"
         ],
         [
-            "South+Dakota+St.",
+            "Lamar",
             "at",
-            "South+Dakota"
+            "Northwestern+St."
         ],
         [
-            "Bradley",
+            "McNeese+St.",
             "at",
-            "Drake"
+            "Southeastern+Louisiana"
         ],
         [
-            "Youngstown+St.",
+            "Stephen+F.+Austin",
             "at",
-            "Cleveland+St."
+            "Texas+A%26M+Commerce"
         ],
         [
-            "South+Florida",
+            "Jackson+St.",
             "at",
-            "UAB"
+            "Bethune+Cookman"
         ],
         [
-            "Valparaiso",
+            "Alcorn+St.",
             "at",
-            "Evansville"
+            "Florida+A%26M"
         ],
         [
-            "Missouri+St.",
+            "Incarnate+Word",
             "at",
-            "Illinois+Chicago"
+            "UT+Rio+Grande+Valley"
         ],
         [
-            "Siena",
+            "Houston+Christian",
             "at",
-            "Sacred+Heart"
+            "Texas+A%26M+Corpus+Chris"
         ],
         [
-            "Iona",
+            "Alabama+A%26M",
             "at",
-            "Quinnipiac"
+            "Arkansas+Pine+Bluff"
         ],
         [
-            "Manhattan",
+            "Nicholls+St.",
             "at",
-            "Fairfield"
+            "New+Orleans"
         ],
         [
-            "Marist",
+            "Texas+Southern",
             "at",
-            "Merrimack"
+            "Southern"
         ],
         [
-            "Northern+Kentucky",
+            "Lehigh",
             "at",
-            "Milwaukee"
+            "Bucknell"
         ],
         [
-            "Wright+St.",
+            "Delaware+St.",
             "at",
-            "Green+Bay"
+            "Norfolk+St."
         ],
         [
-            "Mount+St.+Mary%27s",
+            "Prairie+View+A%26M",
             "at",
-            "Canisius"
+            "Grambling+St."
         ],
         [
-            "Rider",
+            "Morgan+St.",
             "at",
-            "Saint+Peter%27s"
+            "North+Carolina+Central"
         ],
         [
-            "Detroit+Mercy",
+            "Coppin+St.",
             "at",
-            "Oakland"
+            "South+Carolina+St."
+        ],
+        [
+            "Maryland+Eastern+Shore",
+            "at",
+            "Howard"
+        ],
+        [
+            "Alabama+St.",
+            "at",
+            "Mississippi+Valley+St."
         ]
     ]
 }
