@@ -19,26 +19,7 @@ twostar_correct = 0
 threestar_total = 0
 threestar_correct = 0
 
-range1 = []
-range2 = []
-range3 = []
-range4 = []
-range5 = []
-range6 = []
-range7 = []
-range8 = []
-range9 = []
-range10 = []
-range11 = []
-range12 = []
-range13 = []
-range14 = []
-range15 = []
-range16 = []
-range17 = []
-range18 = []
-range19 = []
-range20 = []
+
 arr = [0] * 100
 def append_to_range(value, mh_val):
     for i in range(51, 101):
@@ -49,7 +30,20 @@ def append_to_range(value, mh_val):
             arr[i-1] = arr[i-1] + 1
             break
             
-
+arr_m = [0] * 20
+def do_math(val, mh_val):
+    for i in range(51, 101):
+        num = float(i)
+        if i % 5 == 0:
+            if val < num:
+                append_val = i-50
+                append_val /= 5
+                append_val -= 1
+                append_val_win_loss = int(append_val)
+                append_val_total = append_val_win_loss + 10
+                arr_m[append_val_win_loss] = arr_m[append_val_win_loss] + mh_val
+                arr_m[append_val_total] += 1
+                break
 
 # Loop through each row and get each value
 for row in rows:
@@ -82,35 +76,46 @@ for row in rows:
     
     # Increment total
     total_games += 1
-    append_to_range(analyze_mh_percent, analyze_mh)
-    
-    
-correct_arr = arr[:50]
-total_arr = arr[50:]
-values = []
-for i in range(0, len(total_arr)):
-    if total_arr[i] != 0:
-        accuracy = correct_arr[i] / total_arr[i]
-        accuracy *= 100
-        prcnt = i+50
-        values.append(accuracy)
-        print(f'{prcnt}%: {accuracy:.3f}% accuracy')
-    
-import matplotlib.pyplot as plt
+    do_math(analyze_mh_percent, analyze_mh)
 
-def plot_line_graph(array):
-    x = range(len(array))
-    y = array
+print(arr_m)
+prcnt = 50
+prcnt2 = 55
+for i in range(0, len(arr_m)):
+    if i < 10:
+        wins = float(arr_m[i])
+        total = float(arr_m[i+10])
+        accuracy = (wins / total) * 100
+        print(f'{prcnt}%-{prcnt2}% - {wins:.0f} / {total:.0f} = {accuracy:.3f}%')
+        prcnt2 += 5
+        prcnt += 5
     
-    plt.figure(figsize=(10, 5))
-    plt.plot(x, y, marker='o', linestyle='-', color='b')
-    plt.xlabel('Index')
-    plt.ylabel('Value')
-    plt.title('Line Graph of Provided Array')
-    plt.grid(True)
-    plt.show()
+# correct_arr = arr[:50]
+# total_arr = arr[50:]
+# values = []
+# for i in range(0, len(total_arr)):
+#     if total_arr[i] != 0:
+#         accuracy = correct_arr[i] / total_arr[i]
+#         accuracy *= 100
+#         prcnt = i+50
+#         values.append(accuracy)
+#         print(f'{prcnt}%: {accuracy:.3f}% accuracy')
+    
+# import matplotlib.pyplot as plt
 
-plot_line_graph(values)
+# def plot_line_graph(array):
+#     x = range(len(array))
+#     y = array
+    
+#     plt.figure(figsize=(10, 5))
+#     plt.plot(x, y, marker='o', linestyle='-', color='b')
+#     plt.xlabel('Index')
+#     plt.ylabel('Value')
+#     plt.title('Line Graph of Provided Array')
+#     plt.grid(True)
+#     plt.show()
+
+# plot_line_graph(values)
    
 # Get %s
 amh_percent = (amh_correct / total_games) * 100
