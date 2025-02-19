@@ -1,164 +1,259 @@
 {
-    "20250218": [
+    "20250219": [
         [
-            "Illinois",
+            "Alabama",
             "at",
-            "Wisconsin"
+            "Missouri"
         ],
         [
-            "Purdue",
+            "Oregon",
             "at",
-            "Michigan+St."
+            "Iowa"
         ],
         [
-            "Kansas",
+            "New+Mexico",
             "at",
-            "BYU"
+            "Boise+St."
         ],
         [
-            "Texas+A%26M",
+            "Nebraska",
             "at",
-            "Mississippi+St."
+            "Penn+St."
         ],
         [
-            "Texas+Tech",
+            "UCF",
             "at",
-            "TCU"
+            "Oklahoma+St."
         ],
         [
-            "Oklahoma",
+            "Vanderbilt",
             "at",
-            "Florida"
+            "Kentucky"
         ],
         [
-            "Houston",
+            "SMU",
             "at",
-            "Arizona+St."
+            "Notre+Dame"
         ],
         [
-            "Villanova",
+            "Rutgers",
             "at",
-            "Connecticut"
+            "Washington"
         ],
         [
-            "Butler",
+            "Saint+Joseph%27s",
             "at",
-            "Xavier"
+            "George+Washington"
         ],
         [
-            "South+Carolina",
+            "Gonzaga",
             "at",
-            "LSU"
+            "Washington+St."
         ],
         [
-            "Lipscomb",
+            "Arkansas",
             "at",
-            "Eastern+Kentucky"
+            "Auburn"
         ],
         [
-            "Virginia+Tech",
+            "Bradley",
             "at",
-            "Boston+College"
+            "Illinois+St."
         ],
         [
-            "Nevada",
+            "Cincinnati",
             "at",
-            "Colorado+St."
+            "West+Virginia"
         ],
         [
-            "Colorado",
+            "Providence",
             "at",
-            "Iowa+St."
+            "Georgetown"
         ],
         [
-            "Loyola+Chicago",
+            "Northern+Iowa",
             "at",
-            "Davidson"
+            "Belmont"
         ],
         [
-            "Minnesota",
+            "UAB",
             "at",
-            "UCLA"
+            "Rice"
         ],
         [
-            "Tennessee+St.",
+            "St.+John%27s",
             "at",
-            "Tennessee+Martin"
+            "DePaul"
         ],
         [
-            "Jacksonville",
+            "North+Dakota+St.",
             "at",
-            "Florida+Gulf+Coast"
+            "South+Dakota+St."
         ],
         [
-            "Syracuse",
+            "St.+Thomas",
             "at",
-            "Pittsburgh"
+            "South+Dakota"
         ],
         [
-            "Central+Michigan",
+            "Nebraska+Omaha",
             "at",
-            "Ohio"
+            "UMKC"
         ],
         [
-            "Western+Michigan",
+            "N.C.+State",
             "at",
-            "Buffalo"
+            "North+Carolina"
         ],
         [
-            "Miami+OH",
+            "South+Florida",
             "at",
-            "Eastern+Michigan"
+            "UTSA"
         ],
         [
-            "Kent+St.",
+            "Winthrop",
             "at",
-            "Bowling+Green"
+            "Presbyterian"
         ],
         [
-            "Seton+Hall",
+            "UNC+Greensboro",
             "at",
-            "Marquette"
+            "East+Tennessee+St."
         ],
         [
-            "Ball+St.",
+            "Southern+Illinois",
             "at",
-            "Toledo"
+            "Murray+St."
         ],
         [
-            "Fresno+St.",
+            "Temple",
             "at",
-            "San+Diego+St."
+            "Charlotte"
         ],
         [
-            "North+Florida",
+            "South+Alabama",
             "at",
-            "Stetson"
+            "Arkansas+St."
         ],
         [
-            "Austin+Peay",
+            "Missouri+St.",
             "at",
-            "Bellarmine"
+            "Valparaiso"
         ],
         [
-            "Northern+Illinois",
+            "San+Jose+St.",
             "at",
-            "Akron"
+            "Utah+St."
         ],
         [
-            "Air+Force",
+            "East+Carolina",
             "at",
-            "Wyoming"
+            "Tulane"
         ],
         [
-            "West+Georgia",
+            "Massachusetts",
             "at",
-            "North+Alabama"
+            "VCU"
         ],
         [
-            "Central+Arkansas",
+            "Richmond",
             "at",
-            "Queens"
+            "La+Salle"
+        ],
+        [
+            "Furman",
+            "at",
+            "Samford"
+        ],
+        [
+            "Miami+FL",
+            "at",
+            "Florida+St."
+        ],
+        [
+            "Gardner+Webb",
+            "at",
+            "Longwood"
+        ],
+        [
+            "Illinois+Chicago",
+            "at",
+            "Drake"
+        ],
+        [
+            "Wofford",
+            "at",
+            "VMI"
+        ],
+        [
+            "Evansville",
+            "at",
+            "Indiana+St."
+        ],
+        [
+            "Fordham",
+            "at",
+            "Duquesne"
+        ],
+        [
+            "American",
+            "at",
+            "Army"
+        ],
+        [
+            "Portland",
+            "at",
+            "Saint+Mary%27s"
+        ],
+        [
+            "Lafayette",
+            "at",
+            "Holy+Cross"
+        ],
+        [
+            "Oral+Roberts",
+            "at",
+            "Denver"
+        ],
+        [
+            "IU+Indy",
+            "at",
+            "Detroit+Mercy"
+        ],
+        [
+            "Navy",
+            "at",
+            "Colgate"
+        ],
+        [
+            "Charleston+Southern",
+            "at",
+            "High+Point"
+        ],
+        [
+            "Tulsa",
+            "at",
+            "North+Texas"
+        ],
+        [
+            "Loyola+MD",
+            "at",
+            "Boston+University"
+        ],
+        [
+            "Mercer",
+            "at",
+            "The+Citadel"
+        ],
+        [
+            "Western+Carolina",
+            "at",
+            "Chattanooga"
+        ],
+        [
+            "Louisiana+Monroe",
+            "at",
+            "Texas+St."
         ]
     ]
 }

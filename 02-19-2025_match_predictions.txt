@@ -1,0 +1,514 @@
+<- Games on 02/19/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+Alabama at Missouri
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Alabama: 49.64% | Missouri: 50.36%
+	<-> Current Win Streaks -> 					Alabama: 0 | Missouri: 2
+	<-> Prediction Accuracy Estimate -> 		Alabama: 0.00 | Missouri: 1.25 | Risk Val: 0.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Alabama: 100.00% | Missouri: 0.00%
+		-> 2023: Alabama | 2024: Alabama | 2025: 
+
+
+Oregon at Iowa
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Oregon: 44.57% | Iowa: 55.43%
+	<-> Current Win Streaks -> 					Oregon: 2 | Iowa: 0
+	<-> Prediction Accuracy Estimate -> 		Oregon: 5.50 | Iowa: -0.25 | Risk Val: 2.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Oregon: -1.00% | Iowa: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+New+Mexico at Boise+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	New+Mexico: 47.76% | Boise+St.: 52.24%
+	<-> Current Win Streaks -> 					New+Mexico: 11 | Boise+St.: 2
+	<-> Prediction Accuracy Estimate -> 		New+Mexico: 2.00 | Boise+St.: -5.00 | Risk Val: -1.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> New+Mexico: 89.16% | Boise+St.: 10.84%
+		-> 2023: Boise+St. | 2024: New+Mexico | 2025: New+Mexico
+
+
+Nebraska at Penn+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Nebraska: 47.66% | Penn+St.: 52.34%
+	<-> Current Win Streaks -> 					Nebraska: 5 | Penn+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Nebraska: -5.75 | Penn+St.: 1.25 | Risk Val: -2.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Nebraska: 100.00% | Penn+St.: 0.00%
+		-> 2023: Nebraska | 2024: Nebraska | 2025: 
+
+
+UCF at Oklahoma+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	UCF: 47.42% | Oklahoma+St.: 52.58%
+	<-> Current Win Streaks -> 					UCF: 0 | Oklahoma+St.: 0
+	<-> Prediction Accuracy Estimate -> 		UCF: -15.50 | Oklahoma+St.: -3.00 | Risk Val: -9.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UCF: 100.00% | Oklahoma+St.: 0.00%
+		-> 2023: UCF | 2024: UCF | 2025: 
+
+
+Vanderbilt at Kentucky
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Vanderbilt: 31.72% | Kentucky: 68.28%
+	<-> Current Win Streaks -> 					Vanderbilt: 0 | Kentucky: 0
+	<-> Prediction Accuracy Estimate -> 		Vanderbilt: 2.25 | Kentucky: -0.50 | Risk Val: 0.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Vanderbilt: 48.80% | Kentucky: 51.20%
+		-> 2023: Vanderbilt | 2024: Kentucky | 2025: Vanderbilt
+
+
+SMU at Notre+Dame
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	SMU: 50.49% | Notre+Dame: 49.51%
+	<-> Current Win Streaks -> 					SMU: 0 | Notre+Dame: 0
+	<-> Prediction Accuracy Estimate -> 		SMU: 0.50 | Notre+Dame: -6.50 | Risk Val: -3.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> SMU: -1.00% | Notre+Dame: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Rutgers at Washington
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Rutgers: 44.48% | Washington: 55.52%
+	<-> Current Win Streaks -> 					Rutgers: 0 | Washington: 1
+	<-> Prediction Accuracy Estimate -> 		Rutgers: -23.75 | Washington: -0.75 | Risk Val: -12.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Rutgers: -1.00% | Washington: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Saint+Joseph%27s at George+Washington
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Saint+Joseph%27s: 48.58% | George+Washington: 51.42%
+	<-> Current Win Streaks -> 					Saint+Joseph%27s: 0 | George+Washington: 1
+	<-> Prediction Accuracy Estimate -> 		Saint+Joseph%27s: 13.50 | George+Washington: -10.25 | Risk Val: 1.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Saint+Joseph%27s: 100.00% | George+Washington: 0.00%
+		-> 2023: Saint+Joseph%27s | 2024: Saint+Joseph%27s | 2025: 
+
+
+Gonzaga at Washington+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Gonzaga: 66.81% | Washington+St.: 33.19%
+	<-> Current Win Streaks -> 					Gonzaga: 2 | Washington+St.: 1
+	<-> Prediction Accuracy Estimate -> 		Gonzaga: -2.75 | Washington+St.: 13.25 | Risk Val: 5.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Gonzaga: 100.00% | Washington+St.: 0.00%
+		-> 2023:  | 2024:  | 2025: Gonzaga
+
+
+Arkansas at Auburn
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Arkansas: 6.88% | Auburn: 93.12%
+	<-> Current Win Streaks -> 					Arkansas: 0 | Auburn: 2
+	<-> Prediction Accuracy Estimate -> 		Arkansas: 4.75 | Auburn: 1.00 | Risk Val: 2.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Arkansas: 17.32% | Auburn: 82.68%
+		-> 2023: Arkansas | 2024: Auburn | 2025: 
+
+
+Bradley at Illinois+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Bradley: 43.23% | Illinois+St.: 56.77%
+	<-> Current Win Streaks -> 					Bradley: 1 | Illinois+St.: 1
+	<-> Prediction Accuracy Estimate -> 		Bradley: -1.00 | Illinois+St.: 1.75 | Risk Val: 0.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Bradley: 100.00% | Illinois+St.: 0.00%
+		-> 2023: Bradley | 2024: Bradley | 2025: Bradley
+
+
+Cincinnati at West+Virginia
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Cincinnati: 42.19% | West+Virginia: 57.81%
+	<-> Current Win Streaks -> 					Cincinnati: 0 | West+Virginia: 0
+	<-> Prediction Accuracy Estimate -> 		Cincinnati: 0.00 | West+Virginia: -0.25 | Risk Val: -0.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Cincinnati: 62.45% | West+Virginia: 37.55%
+		-> 2023:  | 2024: Cincinnati | 2025: West+Virginia
+
+
+Providence at Georgetown
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Providence: 39.31% | Georgetown: 60.69%
+	<-> Current Win Streaks -> 					Providence: 0 | Georgetown: 0
+	<-> Prediction Accuracy Estimate -> 		Providence: -1.75 | Georgetown: 5.00 | Risk Val: 1.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Providence: 100.00% | Georgetown: 0.00%
+		-> 2023: Providence | 2024: Providence | 2025: Providence
+
+
+Northern+Iowa at Belmont
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Northern+Iowa: 36.52% | Belmont: 63.48%
+	<-> Current Win Streaks -> 					Northern+Iowa: 1 | Belmont: 3
+	<-> Prediction Accuracy Estimate -> 		Northern+Iowa: 4.50 | Belmont: -1.00 | Risk Val: 1.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Northern+Iowa: 81.14% | Belmont: 18.86%
+		-> 2023: Belmont | 2024: Northern+Iowa | 2025: Northern+Iowa
+
+
+UAB at Rice
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	UAB: 44.67% | Rice: 55.33%
+	<-> Current Win Streaks -> 					UAB: 0 | Rice: 1
+	<-> Prediction Accuracy Estimate -> 		UAB: 7.50 | Rice: -10.25 | Risk Val: -1.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UAB: 60.17% | Rice: 39.83%
+		-> 2023: UAB | 2024: Rice | 2025: 
+
+
+St.+John%27s at DePaul
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	St.+John%27s: 68.81% | DePaul: 31.19%
+	<-> Current Win Streaks -> 					St.+John%27s: 4 | DePaul: 0
+	<-> Prediction Accuracy Estimate -> 		St.+John%27s: -7.75 | DePaul: 6.25 | Risk Val: -0.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> St.+John%27s: 100.00% | DePaul: 0.00%
+		-> 2023: St.+John%27s | 2024: St.+John%27s | 2025: St.+John%27s
+
+
+North+Dakota+St. at South+Dakota+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	North+Dakota+St.: 30.94% | South+Dakota+St.: 69.06%
+	<-> Current Win Streaks -> 					North+Dakota+St.: 0 | South+Dakota+St.: 4
+	<-> Prediction Accuracy Estimate -> 		North+Dakota+St.: 0.00 | South+Dakota+St.: -1.50 | Risk Val: -0.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> North+Dakota+St.: 11.63% | South+Dakota+St.: 88.37%
+		-> 2023: North+Dakota+St., South+Dakota+St. | 2024: South+Dakota+St. | 2025: South+Dakota+St.
+
+
+St.+Thomas at South+Dakota
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	St.+Thomas: 54.02% | South+Dakota: 45.98%
+	<-> Current Win Streaks -> 					St.+Thomas: 5 | South+Dakota: 1
+	<-> Prediction Accuracy Estimate -> 		St.+Thomas: 12.25 | South+Dakota: -8.75 | Risk Val: 1.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> St.+Thomas: 93.31% | South+Dakota: 6.69%
+		-> 2023: South+Dakota | 2024: St.+Thomas | 2025: St.+Thomas
+
+
+Nebraska+Omaha at UMKC
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Nebraska+Omaha: 38.28% | UMKC: 61.72%
+	<-> Current Win Streaks -> 					Nebraska+Omaha: 0 | UMKC: 0
+	<-> Prediction Accuracy Estimate -> 		Nebraska+Omaha: 1.50 | UMKC: -5.00 | Risk Val: -1.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Nebraska+Omaha: 56.19% | UMKC: 43.81%
+		-> 2023: Nebraska+Omaha, UMKC | 2024: UMKC | 2025: Nebraska+Omaha
+
+
+N.C.+State at North+Carolina
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	N.C.+State: 19.79% | North+Carolina: 80.21%
+	<-> Current Win Streaks -> 					N.C.+State: 1 | North+Carolina: 1
+	<-> Prediction Accuracy Estimate -> 		N.C.+State: -4.00 | North+Carolina: -8.00 | Risk Val: -6.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> N.C.+State: 27.53% | North+Carolina: 72.47%
+		-> 2023: N.C.+State | 2024: N.C.+State | 2025: North+Carolina
+
+
+South+Florida at UTSA
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	South+Florida: 36.59% | UTSA: 63.41%
+	<-> Current Win Streaks -> 					South+Florida: 0 | UTSA: 0
+	<-> Prediction Accuracy Estimate -> 		South+Florida: -4.25 | UTSA: -4.25 | Risk Val: -4.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> South+Florida: 100.00% | UTSA: 0.00%
+		-> 2023:  | 2024: South+Florida | 2025: 
+
+
+Winthrop at Presbyterian
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Winthrop: 52.11% | Presbyterian: 47.89%
+	<-> Current Win Streaks -> 					Winthrop: 1 | Presbyterian: 0
+	<-> Prediction Accuracy Estimate -> 		Winthrop: -1.25 | Presbyterian: -6.25 | Risk Val: -3.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Winthrop: 82.34% | Presbyterian: 17.66%
+		-> 2023: Winthrop | 2024: Presbyterian | 2025: Winthrop
+
+
+UNC+Greensboro at East+Tennessee+St.
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	UNC+Greensboro: 42.17% | East+Tennessee+St.: 57.83%
+	<-> Current Win Streaks -> 					UNC+Greensboro: 2 | East+Tennessee+St.: 0
+	<-> Prediction Accuracy Estimate -> 		UNC+Greensboro: 5.50 | East+Tennessee+St.: 5.25 | Risk Val: 5.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UNC+Greensboro: 48.22% | East+Tennessee+St.: 51.78%
+		-> 2023: East+Tennessee+St. | 2024: East+Tennessee+St. | 2025: UNC+Greensboro
+
+
+Southern+Illinois at Murray+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Southern+Illinois: 41.34% | Murray+St.: 58.66%
+	<-> Current Win Streaks -> 					Southern+Illinois: 0 | Murray+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Southern+Illinois: -12.00 | Murray+St.: -20.00 | Risk Val: -16.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Southern+Illinois: 64.10% | Murray+St.: 35.90%
+		-> 2023: Southern+Illinois | 2024: Southern+Illinois | 2025: Murray+St.
+
+
+Temple at Charlotte
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Temple: 48.54% | Charlotte: 51.46%
+	<-> Current Win Streaks -> 					Temple: 0 | Charlotte: 0
+	<-> Prediction Accuracy Estimate -> 		Temple: -7.75 | Charlotte: 5.00 | Risk Val: -1.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Temple: 65.90% | Charlotte: 34.10%
+		-> 2023:  | 2024: Temple, Charlotte | 2025: Temple
+
+
+South+Alabama at Arkansas+St.
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	South+Alabama: 31.55% | Arkansas+St.: 68.45%
+	<-> Current Win Streaks -> 					South+Alabama: 2 | Arkansas+St.: 0
+	<-> Prediction Accuracy Estimate -> 		South+Alabama: 2.50 | Arkansas+St.: 1.00 | Risk Val: 1.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> South+Alabama: 55.30% | Arkansas+St.: 44.70%
+		-> 2023: South+Alabama | 2024: Arkansas+St. | 2025: South+Alabama
+
+
+Missouri+St. at Valparaiso
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Missouri+St.: 42.11% | Valparaiso: 57.89%
+	<-> Current Win Streaks -> 					Missouri+St.: 0 | Valparaiso: 0
+	<-> Prediction Accuracy Estimate -> 		Missouri+St.: -6.25 | Valparaiso: -11.00 | Risk Val: -8.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Missouri+St.: 63.28% | Valparaiso: 36.72%
+		-> 2023: Missouri+St. | 2024: Missouri+St. | 2025: Valparaiso
+
+
+San+Jose+St. at Utah+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	San+Jose+St.: 7.23% | Utah+St.: 92.77%
+	<-> Current Win Streaks -> 					San+Jose+St.: 1 | Utah+St.: 1
+	<-> Prediction Accuracy Estimate -> 		San+Jose+St.: 0.00 | Utah+St.: 3.75 | Risk Val: 1.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> San+Jose+St.: 3.68% | Utah+St.: 96.32%
+		-> 2023: San+Jose+St. | 2024: Utah+St. | 2025: Utah+St.
+
+
+East+Carolina at Tulane
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	East+Carolina: 40.79% | Tulane: 59.21%
+	<-> Current Win Streaks -> 					East+Carolina: 3 | Tulane: 0
+	<-> Prediction Accuracy Estimate -> 		East+Carolina: -6.00 | Tulane: 5.00 | Risk Val: -0.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> East+Carolina: 47.49% | Tulane: 52.51%
+		-> 2023: Tulane | 2024: East+Carolina | 2025: 
+
+
+Massachusetts at VCU
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Massachusetts: 10.86% | VCU: 89.14%
+	<-> Current Win Streaks -> 					Massachusetts: 0 | VCU: 6
+	<-> Prediction Accuracy Estimate -> 		Massachusetts: 21.00 | VCU: 18.50 | Risk Val: 19.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Massachusetts: 41.11% | VCU: 58.89%
+		-> 2023: VCU | 2024: Massachusetts, VCU | 2025: 
+
+
+Richmond at La+Salle
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Richmond: 39.74% | La+Salle: 60.26%
+	<-> Current Win Streaks -> 					Richmond: 1 | La+Salle: 0
+	<-> Prediction Accuracy Estimate -> 		Richmond: -6.50 | La+Salle: -7.25 | Risk Val: -6.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Richmond: 82.43% | La+Salle: 17.57%
+		-> 2023: La+Salle | 2024: Richmond | 2025: 
+
+
+Furman at Samford
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Furman: 24.21% | Samford: 75.79%
+	<-> Current Win Streaks -> 					Furman: 2 | Samford: 0
+	<-> Prediction Accuracy Estimate -> 		Furman: 13.25 | Samford: -3.50 | Risk Val: 4.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Furman: 50.88% | Samford: 49.12%
+		-> 2023: Furman | 2024: Samford | 2025: Furman
+
+
+Miami+FL at Florida+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Miami+FL: 22.82% | Florida+St.: 77.18%
+	<-> Current Win Streaks -> 					Miami+FL: 0 | Florida+St.: 2
+	<-> Prediction Accuracy Estimate -> 		Miami+FL: -1.50 | Florida+St.: -8.50 | Risk Val: -5.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Miami+FL: 0.00% | Florida+St.: 100.00%
+		-> 2023: Florida+St. | 2024: Florida+St. | 2025: Florida+St.
+
+
+Gardner+Webb at Longwood
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Gardner+Webb: 33.36% | Longwood: 66.64%
+	<-> Current Win Streaks -> 					Gardner+Webb: 1 | Longwood: 0
+	<-> Prediction Accuracy Estimate -> 		Gardner+Webb: -5.25 | Longwood: 10.75 | Risk Val: 2.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Gardner+Webb: 83.44% | Longwood: 16.56%
+		-> 2023: Longwood | 2024: Gardner+Webb | 2025: Gardner+Webb
+
+
+Illinois+Chicago at Drake
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Illinois+Chicago: 10.44% | Drake: 89.56%
+	<-> Current Win Streaks -> 					Illinois+Chicago: 0 | Drake: 6
+	<-> Prediction Accuracy Estimate -> 		Illinois+Chicago: 12.50 | Drake: 1.25 | Risk Val: 6.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Illinois+Chicago: 5.31% | Drake: 94.69%
+		-> 2023: Drake | 2024: Drake | 2025: Illinois+Chicago
+
+
+Wofford at VMI
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Wofford: 47.20% | VMI: 52.80%
+	<-> Current Win Streaks -> 					Wofford: 0 | VMI: 1
+	<-> Prediction Accuracy Estimate -> 		Wofford: -1.75 | VMI: 7.25 | Risk Val: 2.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Wofford: 57.63% | VMI: 42.37%
+		-> 2023: VMI | 2024: Wofford | 2025: VMI
+
+
+Evansville at Indiana+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Evansville: 27.93% | Indiana+St.: 72.07%
+	<-> Current Win Streaks -> 					Evansville: 0 | Indiana+St.: 1
+	<-> Prediction Accuracy Estimate -> 		Evansville: 4.50 | Indiana+St.: -1.75 | Risk Val: 1.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Evansville: 0.00% | Indiana+St.: 100.00%
+		-> 2023: Indiana+St. | 2024: Indiana+St. | 2025: Indiana+St.
+
+
+Fordham at Duquesne
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Fordham: 36.85% | Duquesne: 63.15%
+	<-> Current Win Streaks -> 					Fordham: 0 | Duquesne: 1
+	<-> Prediction Accuracy Estimate -> 		Fordham: -3.50 | Duquesne: -0.50 | Risk Val: -2.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Fordham: 100.00% | Duquesne: 0.00%
+		-> 2023: Fordham | 2024: Fordham | 2025: Fordham
+
+
+American at Army
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	American: 29.50% | Army: 70.50%
+	<-> Current Win Streaks -> 					American: 5 | Army: 1
+	<-> Prediction Accuracy Estimate -> 		American: -3.75 | Army: 0.00 | Risk Val: -1.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> American: 100.00% | Army: 0.00%
+		-> 2023: American | 2024: American | 2025: American
+
+
+Portland at Saint+Mary%27s
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Portland: 2.86% | Saint+Mary%27s: 97.14%
+	<-> Current Win Streaks -> 					Portland: 0 | Saint+Mary%27s: 4
+	<-> Prediction Accuracy Estimate -> 		Portland: 14.75 | Saint+Mary%27s: -10.75 | Risk Val: 2.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Portland: 0.00% | Saint+Mary%27s: 100.00%
+		-> 2023: Saint+Mary%27s | 2024: Saint+Mary%27s | 2025: Saint+Mary%27s
+
+
+Lafayette at Holy+Cross
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Lafayette: 36.77% | Holy+Cross: 63.23%
+	<-> Current Win Streaks -> 					Lafayette: 0 | Holy+Cross: 0
+	<-> Prediction Accuracy Estimate -> 		Lafayette: 2.75 | Holy+Cross: 4.00 | Risk Val: 3.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Lafayette: 100.00% | Holy+Cross: 0.00%
+		-> 2023: Lafayette | 2024: Lafayette | 2025: Lafayette
+
+
+Oral+Roberts at Denver
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Oral+Roberts: 42.24% | Denver: 57.76%
+	<-> Current Win Streaks -> 					Oral+Roberts: 0 | Denver: 2
+	<-> Prediction Accuracy Estimate -> 		Oral+Roberts: -36.25 | Denver: 9.00 | Risk Val: -13.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Oral+Roberts: 60.75% | Denver: 39.25%
+		-> 2023: Oral+Roberts | 2024: Oral+Roberts | 2025: Denver
+
+
+IU+Indy at Detroit+Mercy
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	IU+Indy: 41.10% | Detroit+Mercy: 58.90%
+	<-> Current Win Streaks -> 					IU+Indy: 0 | Detroit+Mercy: 1
+	<-> Prediction Accuracy Estimate -> 		IU+Indy: -5.75 | Detroit+Mercy: -7.75 | Risk Val: -6.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> IU+Indy: 43.96% | Detroit+Mercy: 56.04%
+		-> 2023: Detroit+Mercy | 2024: Detroit+Mercy | 2025: IU+Indy
+
+
+Navy at Colgate
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Navy: 37.02% | Colgate: 62.98%
+	<-> Current Win Streaks -> 					Navy: 2 | Colgate: 2
+	<-> Prediction Accuracy Estimate -> 		Navy: 4.25 | Colgate: 4.50 | Risk Val: 4.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Navy: 0.00% | Colgate: 100.00%
+		-> 2023: Colgate | 2024: Colgate | 2025: Colgate
+
+
+Charleston+Southern at High+Point
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Charleston+Southern: 11.01% | High+Point: 88.99%
+	<-> Current Win Streaks -> 					Charleston+Southern: 1 | High+Point: 8
+	<-> Prediction Accuracy Estimate -> 		Charleston+Southern: 8.50 | High+Point: -11.75 | Risk Val: -1.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Charleston+Southern: 7.35% | High+Point: 92.65%
+		-> 2023: Charleston+Southern, High+Point | 2024: High+Point | 2025: High+Point
+
+
+Tulsa at North+Texas
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Tulsa: 11.48% | North+Texas: 88.52%
+	<-> Current Win Streaks -> 					Tulsa: 1 | North+Texas: 4
+	<-> Prediction Accuracy Estimate -> 		Tulsa: 15.25 | North+Texas: -16.75 | Risk Val: -0.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Tulsa: 0.00% | North+Texas: 100.00%
+		-> 2023:  | 2024: North+Texas | 2025: 
+
+
+Loyola+MD at Boston+University
+	<-> 2-Star Bet **
+	<-> Analyze Match History Prediction -> 	Loyola+MD: 40.74% | Boston+University: 59.26%
+	<-> Current Win Streaks -> 					Loyola+MD: 0 | Boston+University: 0
+	<-> Prediction Accuracy Estimate -> 		Loyola+MD: -5.50 | Boston+University: 0.25 | Risk Val: -2.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Loyola+MD: 48.70% | Boston+University: 51.30%
+		-> 2023: Boston+University | 2024: Boston+University | 2025: Loyola+MD
+
+
+Mercer at The+Citadel
+	<-> 1-Star Bet *
+	<-> Analyze Match History Prediction -> 	Mercer: 46.91% | The+Citadel: 53.09%
+	<-> Current Win Streaks -> 					Mercer: 1 | The+Citadel: 0
+	<-> Prediction Accuracy Estimate -> 		Mercer: 27.00 | The+Citadel: 35.25 | Risk Val: 31.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Mercer: 100.00% | The+Citadel: 0.00%
+		-> 2023: Mercer | 2024: Mercer | 2025: Mercer
+
+
+Western+Carolina at Chattanooga
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Western+Carolina: 18.18% | Chattanooga: 81.82%
+	<-> Current Win Streaks -> 					Western+Carolina: 0 | Chattanooga: 6
+	<-> Prediction Accuracy Estimate -> 		Western+Carolina: 0.00 | Chattanooga: 23.25 | Risk Val: 11.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Western+Carolina: 42.18% | Chattanooga: 57.82%
+		-> 2023: Western+Carolina | 2024: Western+Carolina | 2025: Chattanooga
+
+
+Louisiana+Monroe at Texas+St.
+	<-> 3-Star Bet ***
+	<-> Analyze Match History Prediction -> 	Louisiana+Monroe: 27.02% | Texas+St.: 72.98%
+	<-> Current Win Streaks -> 					Louisiana+Monroe: 0 | Texas+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Louisiana+Monroe: 2.25 | Texas+St.: 29.75 | Risk Val: 16.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Louisiana+Monroe: 9.58% | Texas+St.: 90.42%
+		-> 2023: Louisiana+Monroe | 2024: Texas+St. | 2025: Texas+St.
+
+<>
