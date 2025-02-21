@@ -78,44 +78,55 @@ for row in rows:
     total_games += 1
     do_math(analyze_mh_percent, analyze_mh)
 
-print(arr_m)
-prcnt = 50
-prcnt2 = 55
-for i in range(0, len(arr_m)):
-    if i < 10:
-        wins = float(arr_m[i])
-        total = float(arr_m[i+10])
-        accuracy = (wins / total) * 100
-        print(f'{prcnt}%-{prcnt2}% - {wins:.0f} / {total:.0f} = {accuracy:.3f}%')
-        prcnt2 += 5
-        prcnt += 5
+def every_five_prcnt_accuracy():
+    prcnt = 50
+    prcnt2 = 55
+    for i in range(0, len(arr_m)):
+        if i < 10:
+            wins = float(arr_m[i])
+            total = float(arr_m[i+10])
+            accuracy = (wins / total) * 100
+            print(f'{prcnt}%-{prcnt2}% - {wins:.0f} / {total:.0f} = {accuracy:.3f}%')
+            prcnt2 += 5
+            prcnt += 5
     
-# correct_arr = arr[:50]
-# total_arr = arr[50:]
-# values = []
-# for i in range(0, len(total_arr)):
-#     if total_arr[i] != 0:
-#         accuracy = correct_arr[i] / total_arr[i]
-#         accuracy *= 100
-#         prcnt = i+50
-#         values.append(accuracy)
-#         print(f'{prcnt}%: {accuracy:.3f}% accuracy')
+def check_percent():
+    percent = input('what are winners odds %: ')
+    percent_float = float(percent)
     
-# import matplotlib.pyplot as plt
-
-# def plot_line_graph(array):
-#     x = range(len(array))
-#     y = array
+    total_matches = 0
+    prevwinner_true_matches = 0
+    correct_matches_prevwin = 0
+    correct_amh_only = 0
     
-#     plt.figure(figsize=(10, 5))
-#     plt.plot(x, y, marker='o', linestyle='-', color='b')
-#     plt.xlabel('Index')
-#     plt.ylabel('Value')
-#     plt.title('Line Graph of Provided Array')
-#     plt.grid(True)
-#     plt.show()
-
-# plot_line_graph(values)
+    
+    for row in rows:
+        match_id = row[0]
+        winner_risk = row[1]
+        loser_risk = row[2]
+        analyze_mh = row[3]
+        prevWinner = row[4]
+        safe_bet = row[5]
+        super_safe_bet = row[6]
+        analyze_mh_percent = row[7]
+        prevWinner_percent = row[8]
+        
+        if percent_float < (analyze_mh_percent + 1.51) and percent_float > (analyze_mh_percent - 1.51):
+            # In range!
+            total_matches += 1
+            if prevWinner == analyze_mh:
+                prevwinner_true_matches += 1
+                if analyze_mh == 1:
+                    correct_matches_prevwin += 1
+            if analyze_mh == 1:
+                correct_amh_only += 1
+            
+    # maths
+    prev_and_amh_prcnt = (correct_matches_prevwin / prevwinner_true_matches) * 100
+    amh_prcnt = (correct_amh_only / total_matches) * 100
+    print(f'If PWM == AMHM Prediction, Odds = {prev_and_amh_prcnt:.3f}%, Sample={prevwinner_true_matches}')
+    print(f'AMHM Accuracy is {amh_prcnt:.3f}%, Sample={total_matches}')
+    
    
 # Get %s
 amh_percent = (amh_correct / total_games) * 100
@@ -126,13 +137,19 @@ twostar_totalgames_percent = (twostar_total / total_games) * 100
 threestar_totalgames_percent = (threestar_total / total_games) * 100
 
 # print data
-print(f'1 Star Accuracy (AMH Model): {amh_percent:.2f}%')
-print(f'Prev Winner Model Accuracy: {prev_percent:.2f}%')
-print(f'2 Star Accuracy: {twostar_percent:.2f}%')
-print(f'% of games considered "2 Star": {twostar_totalgames_percent:.2f}%')
-print(f'3 Star Accuracy: {threestar_percent:.2f}%')
-print(f'% of games considered "3 Star": {threestar_totalgames_percent:.2f}%')
-print(f'Total games in data: {total_games}')
+def print_123_star():
+    print(f'1 Star Accuracy (AMH Model): {amh_percent:.2f}%')
+    print(f'Prev Winner Model Accuracy: {prev_percent:.2f}%')
+    print(f'2 Star Accuracy: {twostar_percent:.2f}%')
+    print(f'% of games considered "2 Star": {twostar_totalgames_percent:.2f}%')
+    print(f'3 Star Accuracy: {threestar_percent:.2f}%')
+    print(f'% of games considered "3 Star": {threestar_totalgames_percent:.2f}%')
+    print(f'Total games in data: {total_games}')
 
 # Close the connection
 conn.close()
+
+# Choose methods you want to run!
+# print_123_star()
+# every_five_prcnt_accuracy()
+check_percent()
