@@ -1,104 +1,139 @@
 {
-    "20250221": [
+    "20250224": [
         [
-            "Michigan+St.",
+            "Houston",
             "at",
-            "Michigan"
+            "Texas+Tech"
         ],
         [
-            "Marquette",
+            "Michigan",
             "at",
-            "Villanova"
+            "Nebraska"
         ],
         [
-            "Dayton",
+            "North+Carolina",
             "at",
-            "Loyola+Chicago"
+            "Florida+St."
         ],
         [
-            "Kent+St.",
+            "Kansas",
             "at",
-            "Miami+OH"
+            "Colorado"
         ],
         [
-            "Milwaukee",
+            "UNC+Wilmington",
             "at",
-            "Youngstown+St."
+            "William+%26+Mary"
         ],
         [
-            "Dartmouth",
+            "Northeastern",
             "at",
-            "Penn"
+            "Monmouth"
         ],
         [
-            "Cornell",
+            "Texas+A%26M+Corpus+Chris",
             "at",
-            "Yale"
+            "Nicholls+St."
         ],
         [
-            "Oakland",
+            "Lamar",
             "at",
-            "Purdue+Fort+Wayne"
+            "Incarnate+Word"
         ],
         [
-            "Manhattan",
+            "Eastern+Kentucky",
             "at",
-            "Iona"
+            "Jacksonville"
         ],
         [
-            "Sacred+Heart",
+            "Lipscomb",
             "at",
-            "Merrimack"
+            "Austin+Peay"
         ],
         [
-            "Bowling+Green",
+            "Bethune+Cookman",
             "at",
-            "Toledo"
+            "Alabama+St."
         ],
         [
-            "Harvard",
+            "Florida+A%26M",
             "at",
-            "Princeton"
+            "Alabama+A%26M"
         ],
         [
-            "Columbia",
+            "Stephen+F.+Austin",
             "at",
-            "Brown"
+            "Houston+Christian"
         ],
         [
-            "Northern+Kentucky",
+            "UT+Rio+Grande+Valley",
             "at",
-            "Wright+St."
+            "McNeese+St."
         ],
         [
-            "Cleveland+St.",
+            "Northwestern+St.",
             "at",
-            "Detroit+Mercy"
+            "Southeastern+Louisiana"
         ],
         [
-            "Saint+Peter%27s",
+            "North+Florida",
             "at",
-            "Mount+St.+Mary%27s"
+            "Florida+Gulf+Coast"
         ],
         [
-            "Niagara",
+            "Queens",
             "at",
-            "Siena"
+            "West+Georgia"
         ],
         [
-            "Green+Bay",
+            "North+Carolina+Central",
             "at",
-            "Robert+Morris"
+            "Delaware+St."
         ],
         [
-            "Fairfield",
+            "Texas+A%26M+Commerce",
             "at",
-            "Rider"
+            "New+Orleans"
         ],
         [
-            "Canisius",
+            "Bellarmine",
             "at",
-            "Marist"
+            "Stetson"
+        ],
+        [
+            "North+Alabama",
+            "at",
+            "Central+Arkansas"
+        ],
+        [
+            "Morgan+St.",
+            "at",
+            "Norfolk+St."
+        ],
+        [
+            "Stony+Brook",
+            "at",
+            "Hampton"
+        ],
+        [
+            "South+Carolina+St.",
+            "at",
+            "Maryland+Eastern+Shore"
+        ],
+        [
+            "Howard",
+            "at",
+            "Coppin+St."
+        ],
+        [
+            "Arkansas+Pine+Bluff",
+            "at",
+            "Texas+Southern"
+        ],
+        [
+            "Mississippi+Valley+St.",
+            "at",
+            "Prairie+View+A%26M"
         ]
     ]
 }
