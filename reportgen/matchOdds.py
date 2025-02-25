@@ -59,3 +59,34 @@ class MatchOdds:
             results.append(prev_and_amh_prcnt)
             results.append(prevwinner_true_matches)
         return results
+    
+    def american_to_decimal(self, american_odds):
+        try:
+            odds = int(american_odds)
+        except ValueError:
+            return None  # Handle invalid input
+
+        if odds > 0:
+            return (odds / 100) + 1
+        elif odds < 0:
+            return (100 / abs(odds)) + 1
+        else:
+            return 1.0  # Even odds
+    
+    def calculate_expected_value(self, odds, stake, probability):
+        potential_profit = (odds - 1) * stake
+        expected_value = (probability * potential_profit) - ((1 - probability) * stake)
+        return expected_value
+    
+    def find_lowest_return_positive_EV(self, percent):
+        american_odds = -505
+        for i in range(0,80): # -500 to -105
+            decimal_odds = self.american_to_decimal(american_odds)
+            percent /= 100
+            EV = self.calculate_expected_value(decimal_odds, 1, percent)
+            if EV > .09:
+                print(f'decimal_odds, EV {self.percent}')
+                print(f'+EV if greater than or equal to {american_odds}')
+                break
+            american_odds += 5
+        print('not + EV')

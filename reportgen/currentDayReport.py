@@ -53,7 +53,14 @@ class CurrentDayReport:
                 teams_win_percent = analyze_matchhist_arr[0]
             else:
                 teams_win_percent = analyze_matchhist_arr[1]
-        risk_assesment_arr = matchOdds.MatchOdds(teams_win_percent, two_star).get_match_odds()
+        matchOdds_obj = matchOdds.MatchOdds(teams_win_percent, two_star)
+        risk_assesment_arr = matchOdds_obj.get_match_odds()
+        if two_star:
+            avg_prcnt = risk_assesment_arr[0] + risk_assesment_arr[3]
+            avg_prcnt /= 2
+            matchOdds_obj.find_lowest_return_positive_EV(avg_prcnt)
+        else:
+            matchOdds_obj.find_lowest_return_positive_EV(risk_assesment_arr[0])
         if len(risk_assesment_arr) == 3:
             return_string = f'\t<-> (AMH only) Odds: {risk_assesment_arr[0]:.3f}% from {risk_assesment_arr[1]} sample(s). Percent differential {risk_assesment_arr[2]:.4f}% (neg better than pos).\n'
         else:
@@ -63,14 +70,6 @@ class CurrentDayReport:
                 str1 = f'\t<-> AMH Odds: {risk_assesment_arr[0]:.3f}% from {risk_assesment_arr[1]} sample(s). AMH equal PWM, Odds: {risk_assesment_arr[3]:.3f}% from {risk_assesment_arr[4]} sample(s). '
             return_string = str1 + f'Percent differential {risk_assesment_arr[2]:.4f}% (neg better than pos)\n'
         return return_string
-        
-        #     if teams_win_percent > 59.99:
-        #         return_string = f'\t<-> 3-Star Bet ***\n'
-        #     else:
-        #         return_string = f'\t<-> 2-Star Bet **\n'
-        # else:
-        #     return_string = f'\t<-> 1-Star Bet *\n'
-        # return return_string
     
     def prev_winner_str(self, winners_arr):
         return_string = f'\t\t-> {winners_arr[0]}: '
