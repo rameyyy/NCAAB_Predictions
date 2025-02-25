@@ -2,6 +2,7 @@ import time
 import handledata
 import scrapedata
 from . import commonScrapes
+from . import matchOdds
 
 class CurrentDayReport:
     def __init__(self):
@@ -10,6 +11,7 @@ class CurrentDayReport:
         path_to_path = paths_arr[7]
         handledata_module = handledata
         handledata_module.initialize_path(path_to_path)
+        match_odds_module = matchOdds.MatchOdds
         self.analysis_module = handledata_module
         self.commonFuncs = handledata_module.CommonFunctions()
         self.scrapedata_module = scrapedata
@@ -40,22 +42,35 @@ class CurrentDayReport:
         if prevWinner_arr[0] > prevWinner_arr[1]:
             t1_wins_bool_prev = True
         if t1_wins_bool_prev == t1_wins_bool_amh:
+            two_star = True
             if t1_wins_bool_amh == True:
                 teams_win_percent = analyze_matchhist_arr[0]
             else:
                 teams_win_percent = analyze_matchhist_arr[1]
-            if teams_win_percent > 59.99:
-                # if risk_value < 3 and risk_value > -3:
-                #     return_string = f'\t<-> 5/5 Star Bet (93-99% accuracy, around 6% of matches hit these params)\n'
-                # elif risk_value < 6 and risk_value > -6:
-                #     return_string = f'\t<-> 4/5 Star Bet (86-93% accuracy, around 14% of matches hit these params)\n'
-                # else:
-                return_string = f'\t<-> 3-Star Bet ***\n'
-            else:
-                return_string = f'\t<-> 2-Star Bet **\n'
         else:
-            return_string = f'\t<-> 1-Star Bet *\n'
+            two_star = False
+            if t1_wins_bool_amh == True:
+                teams_win_percent = analyze_matchhist_arr[0]
+            else:
+                teams_win_percent = analyze_matchhist_arr[1]
+        risk_assesment_arr = matchOdds.MatchOdds(teams_win_percent, two_star).get_match_odds()
+        if len(risk_assesment_arr) == 3:
+            return_string = f'\t<-> (AMH only) Odds: {risk_assesment_arr[0]:.3f}% from {risk_assesment_arr[1]} sample(s). Percent differential {risk_assesment_arr[2]:.4f}% (neg better than pos).\n'
+        else:
+            if not two_star:
+                str1 = f'\t<-> AMH Odds: {risk_assesment_arr[0]:.3f}% from {risk_assesment_arr[1]} sample(s). '
+            else:
+                str1 = f'\t<-> AMH Odds: {risk_assesment_arr[0]:.3f}% from {risk_assesment_arr[1]} sample(s). AMH equal PWM, Odds: {risk_assesment_arr[3]:.3f}% from {risk_assesment_arr[4]} sample(s). '
+            return_string = str1 + f'Percent differential {risk_assesment_arr[2]:.4f}% (neg better than pos)\n'
         return return_string
+        
+        #     if teams_win_percent > 59.99:
+        #         return_string = f'\t<-> 3-Star Bet ***\n'
+        #     else:
+        #         return_string = f'\t<-> 2-Star Bet **\n'
+        # else:
+        #     return_string = f'\t<-> 1-Star Bet *\n'
+        # return return_string
     
     def prev_winner_str(self, winners_arr):
         return_string = f'\t\t-> {winners_arr[0]}: '
@@ -137,6 +152,7 @@ class CurrentDayReport:
         if print_yes_no == True:
             print(final_write_str)
         if file_yes_no == True:
-            with open(file_name, 'w') as f:
+            file_n = f'reports/{file_name}'
+            with open(file_n, 'w') as f:
                 f.write(final_write_str)
         self.calculate_run_time(start_time, True)

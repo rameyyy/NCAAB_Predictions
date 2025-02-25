@@ -221,6 +221,11 @@ def optimize_PrevWinner_value():
         prevWinner_value += 0.02
     print(f'Finished PrevWinner Optimization\nBest accuracy = {accuracy_best_percent} with PrevYear equal to: {accuracy_best_value}')
     
+   
+hd.CommonFunctions().clear_game_sched_file()
+rg.CommonScrapes().game_winners('20250224')
+import time
+time.sleep(2)
 # optimize_PrevWinner_value()
 sb_acc, pgb_on, amh_acc, supa_safe_Acc, pgb_on_supasafe, prevwinner_acc = run_the_nums()
 sb_acc *= 100

@@ -4,7 +4,8 @@ import scrapedata
 from . import commonScrapes
 
 class CurrentDayScrape:
-    def __init__(self):
+    def __init__(self, date_str):
+        self.date_string = date_str
         from . import get_paths
         paths_arr = get_paths()
         path_to_path = paths_arr[7]
@@ -30,8 +31,7 @@ class CurrentDayScrape:
         self.commonFuncs.clear_match_hist_stats()
         self.commonFuncs.clear_game_sched_file()
         self.calculate_run_time(start_time, False)
-        # self.commonScrape.get_todays_schedule_refresh()
-        self.scrapedata_module.GameSchedule('20250224').scrape_data()
+        self.scrapedata_module.GameSchedule(self.date_string).scrape_data()
         self.calculate_run_time(start_time, False)
         self.commonScrape.leaderboard_refresh()
         self.calculate_run_time(start_time, False)
