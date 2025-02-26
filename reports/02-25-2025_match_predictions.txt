@@ -3,7 +3,8 @@ If <Historical Prediction Accuracy> fields = -1:
 	-> historic matches were not recorded...
 
 Gonzaga at Santa+Clara
-	<-> AMH Odds: 71.698% from 53 sample(s). AMH equal PWM, Odds: 76.190% from 21 sample(s). Percent differential -0.1641% (neg better than pos)
+	<-> AMH: 71.698% from 53 sample(s). AMH equal PWM: 76.190% from 21 sample(s). % diff -0.1641% (- better than +)
+	<-> Overall Odds: 73.94%, EV>10%: 10.01% when odds less or equal to -205
 	<-> Analyze Match History Prediction -> 	Gonzaga: 62.40% | Santa+Clara: 37.60%
 	<-> Current Win Streaks -> 					Gonzaga: 2 | Santa+Clara: 2
 	<-> Prediction Accuracy Estimate -> 		Gonzaga: -3.00 | Santa+Clara: 25.50 | Risk Val: 11.25
@@ -13,7 +14,8 @@ Gonzaga at Santa+Clara
 
 
 New+Mexico at San+Diego+St.
-	<-> AMH Odds: 46.154% from 65 sample(s). Percent differential -0.0807% (neg better than pos)
+	<-> AMH: 46.154% from 65 sample(s). % diff -0.0807% (- better than +)
+	<-> Overall Odds: 46.15%, EV>10%: 10.77% when odds greater or equal to 140
 	<-> Analyze Match History Prediction -> 	New+Mexico: 47.94% | San+Diego+St.: 52.06%
 	<-> Current Win Streaks -> 					New+Mexico: 3 | San+Diego+St.: 3
 	<-> Prediction Accuracy Estimate -> 		New+Mexico: 5.75 | San+Diego+St.: 1.00 | Risk Val: 3.38
@@ -23,7 +25,8 @@ New+Mexico at San+Diego+St.
 
 
 Mississippi+St. at Alabama
-	<-> AMH Odds: 95.000% from 20 sample(s). AMH equal PWM, Odds: 100.000% from 14 sample(s). Percent differential -0.1883% (neg better than pos)
+	<-> AMH: 95.000% from 20 sample(s). AMH equal PWM: 100.000% from 14 sample(s). % diff -0.1883% (- better than +)
+	<-> Overall Odds: 97.50%, EV>10%: 21.57% when odds less or equal to -405
 	<-> Analyze Match History Prediction -> 	Mississippi+St.: 19.18% | Alabama: 80.82%
 	<-> Current Win Streaks -> 					Mississippi+St.: 0 | Alabama: 0
 	<-> Prediction Accuracy Estimate -> 		Mississippi+St.: -1.50 | Alabama: -0.75 | Risk Val: -1.12
@@ -33,7 +36,8 @@ Mississippi+St. at Alabama
 
 
 Florida at Georgia
-	<-> AMH Odds: 63.462% from 52 sample(s). AMH equal PWM, Odds: 61.538% from 26 sample(s). Percent differential -0.1883% (neg better than pos)
+	<-> AMH: 63.462% from 52 sample(s). AMH equal PWM: 61.538% from 26 sample(s). % diff -0.1883% (- better than +)
+	<-> Overall Odds: 62.50%, EV>10%: 10.58% when odds less or equal to -130
 	<-> Analyze Match History Prediction -> 	Florida: 65.48% | Georgia: 34.52%
 	<-> Current Win Streaks -> 					Florida: 8 | Georgia: 0
 	<-> Prediction Accuracy Estimate -> 		Florida: -0.25 | Georgia: 0.50 | Risk Val: 0.12
@@ -43,7 +47,8 @@ Florida at Georgia
 
 
 Baylor at Cincinnati
-	<-> AMH Odds: 62.963% from 54 sample(s). Percent differential -0.2960% (neg better than pos)
+	<-> AMH: 62.963% from 54 sample(s). % diff -0.2960% (- better than +)
+	<-> Overall Odds: 62.96%, EV>10%: 11.40% when odds less or equal to -130
 	<-> Analyze Match History Prediction -> 	Baylor: 43.01% | Cincinnati: 56.99%
 	<-> Current Win Streaks -> 					Baylor: 0 | Cincinnati: 1
 	<-> Prediction Accuracy Estimate -> 		Baylor: -2.25 | Cincinnati: -3.25 | Risk Val: -2.75
@@ -53,7 +58,8 @@ Baylor at Cincinnati
 
 
 Northwestern at Minnesota
-	<-> AMH Odds: 59.615% from 52 sample(s). Percent differential -0.2906% (neg better than pos)
+	<-> AMH: 59.615% from 52 sample(s). % diff -0.2906% (- better than +)
+	<-> Overall Odds: 59.62%, EV>10%: 11.45% when odds less or equal to -115
 	<-> Analyze Match History Prediction -> 	Northwestern: 43.32% | Minnesota: 56.68%
 	<-> Current Win Streaks -> 					Northwestern: 1 | Minnesota: 2
 	<-> Prediction Accuracy Estimate -> 		Northwestern: -2.25 | Minnesota: 1.25 | Risk Val: -0.50
@@ -63,7 +69,8 @@ Northwestern at Minnesota
 
 
 Tennessee at LSU
-	<-> AMH Odds: 74.419% from 43 sample(s). AMH equal PWM, Odds: 68.966% from 29 sample(s). Percent differential -0.1673% (neg better than pos)
+	<-> AMH: 74.419% from 43 sample(s). AMH equal PWM: 68.966% from 29 sample(s). % diff -0.1673% (- better than +)
+	<-> Overall Odds: 71.69%, EV>10%: 10.44% when odds less or equal to -185
 	<-> Analyze Match History Prediction -> 	Tennessee: 70.64% | LSU: 29.36%
 	<-> Current Win Streaks -> 					Tennessee: 3 | LSU: 0
 	<-> Prediction Accuracy Estimate -> 		Tennessee: -16.25 | LSU: 0.50 | Risk Val: -7.88
@@ -73,7 +80,8 @@ Tennessee at LSU
 
 
 Iowa at Illinois
-	<-> AMH Odds: 79.070% from 43 sample(s). AMH equal PWM, Odds: 81.818% from 33 sample(s). Percent differential -0.3970% (neg better than pos)
+	<-> AMH: 79.070% from 43 sample(s). AMH equal PWM: 81.818% from 33 sample(s). % diff -0.3970% (- better than +)
+	<-> Overall Odds: 80.44%, EV>10%: 10.24% when odds less or equal to -270
 	<-> Analyze Match History Prediction -> 	Iowa: 27.48% | Illinois: 72.52%
 	<-> Current Win Streaks -> 					Iowa: 1 | Illinois: 0
 	<-> Prediction Accuracy Estimate -> 		Iowa: -3.00 | Illinois: 0.25 | Risk Val: -1.38
@@ -83,7 +91,8 @@ Iowa at Illinois
 
 
 Iowa+St. at Oklahoma+St.
-	<-> AMH Odds: 76.786% from 56 sample(s). AMH equal PWM, Odds: 83.333% from 24 sample(s). Percent differential -0.1855% (neg better than pos)
+	<-> AMH: 76.786% from 56 sample(s). AMH equal PWM: 83.333% from 24 sample(s). % diff -0.1855% (- better than +)
+	<-> Overall Odds: 80.06%, EV>10%: 10.27% when odds less or equal to -265
 	<-> Analyze Match History Prediction -> 	Iowa+St.: 62.04% | Oklahoma+St.: 37.96%
 	<-> Current Win Streaks -> 					Iowa+St.: 0 | Oklahoma+St.: 0
 	<-> Prediction Accuracy Estimate -> 		Iowa+St.: -22.25 | Oklahoma+St.: -1.50 | Risk Val: -11.88
@@ -93,7 +102,8 @@ Iowa+St. at Oklahoma+St.
 
 
 UNLV at San+Jose+St.
-	<-> AMH Odds: 63.462% from 52 sample(s). AMH equal PWM, Odds: 52.174% from 23 sample(s). Percent differential -0.2584% (neg better than pos)
+	<-> AMH: 63.462% from 52 sample(s). AMH equal PWM: 52.174% from 23 sample(s). % diff -0.2584% (- better than +)
+	<-> Overall Odds: 57.82%, EV>10%: 10.38% when odds less or equal to -110
 	<-> Analyze Match History Prediction -> 	UNLV: 56.61% | San+Jose+St.: 43.39%
 	<-> Current Win Streaks -> 					UNLV: 0 | San+Jose+St.: 1
 	<-> Prediction Accuracy Estimate -> 		UNLV: 2.25 | San+Jose+St.: -1.00 | Risk Val: 0.62
@@ -103,7 +113,8 @@ UNLV at San+Jose+St.
 
 
 Illinois+St. at Southern+Illinois
-	<-> AMH Odds: 73.913% from 46 sample(s). Percent differential -0.2434% (neg better than pos)
+	<-> AMH: 73.913% from 46 sample(s). % diff -0.2434% (- better than +)
+	<-> Overall Odds: 73.91%, EV>10%: 10.87% when odds less or equal to -200
 	<-> Analyze Match History Prediction -> 	Illinois+St.: 44.34% | Southern+Illinois: 55.66%
 	<-> Current Win Streaks -> 					Illinois+St.: 2 | Southern+Illinois: 0
 	<-> Prediction Accuracy Estimate -> 		Illinois+St.: -6.25 | Southern+Illinois: -7.00 | Risk Val: -6.62
@@ -113,7 +124,8 @@ Illinois+St. at Southern+Illinois
 
 
 TCU at West+Virginia
-	<-> AMH Odds: 68.293% from 41 sample(s). Percent differential -0.1328% (neg better than pos)
+	<-> AMH: 68.293% from 41 sample(s). % diff -0.1328% (- better than +)
+	<-> Overall Odds: 68.29%, EV>10%: 10.98% when odds less or equal to -160
 	<-> Analyze Match History Prediction -> 	TCU: 30.92% | West+Virginia: 69.08%
 	<-> Current Win Streaks -> 					TCU: 0 | West+Virginia: 0
 	<-> Prediction Accuracy Estimate -> 		TCU: -3.50 | West+Virginia: 1.00 | Risk Val: -1.25
@@ -123,7 +135,8 @@ TCU at West+Virginia
 
 
 South+Carolina at Missouri
-	<-> AMH Odds: 100.000% from 11 sample(s). Percent differential -0.4111% (neg better than pos)
+	<-> AMH: 100.000% from 11 sample(s). % diff -0.4111% (- better than +)
+	<-> Overall Odds: 100.00%, EV>10%: 24.69% when odds less or equal to -405
 	<-> Analyze Match History Prediction -> 	South+Carolina: 12.56% | Missouri: 87.44%
 	<-> Current Win Streaks -> 					South+Carolina: 1 | Missouri: 3
 	<-> Prediction Accuracy Estimate -> 		South+Carolina: -0.75 | Missouri: -22.50 | Risk Val: -11.62
@@ -133,7 +146,8 @@ South+Carolina at Missouri
 
 
 Saint+Louis at Davidson
-	<-> AMH Odds: 67.925% from 53 sample(s). AMH equal PWM, Odds: 72.000% from 25 sample(s). Percent differential -0.1457% (neg better than pos)
+	<-> AMH: 67.925% from 53 sample(s). AMH equal PWM: 72.000% from 25 sample(s). % diff -0.1457% (- better than +)
+	<-> Overall Odds: 69.96%, EV>10%: 11.12% when odds less or equal to -170
 	<-> Analyze Match History Prediction -> 	Saint+Louis: 32.38% | Davidson: 67.62%
 	<-> Current Win Streaks -> 					Saint+Louis: 1 | Davidson: 0
 	<-> Prediction Accuracy Estimate -> 		Saint+Louis: -1.25 | Davidson: -5.00 | Risk Val: -3.12
@@ -143,7 +157,8 @@ Saint+Louis at Davidson
 
 
 Louisville at Virginia+Tech
-	<-> AMH Odds: 55.556% from 54 sample(s). Percent differential -0.1657% (neg better than pos)
+	<-> AMH: 55.556% from 54 sample(s). % diff -0.1657% (- better than +)
+	<-> Overall Odds: 55.56%, EV>10%: 11.11% when odds greater or equal to 100
 	<-> Analyze Match History Prediction -> 	Louisville: 65.02% | Virginia+Tech: 34.98%
 	<-> Current Win Streaks -> 					Louisville: 4 | Virginia+Tech: 0
 	<-> Prediction Accuracy Estimate -> 		Louisville: -9.00 | Virginia+Tech: 2.75 | Risk Val: -3.12
@@ -153,7 +168,8 @@ Louisville at Virginia+Tech
 
 
 Troy at Texas+St.
-	<-> AMH Odds: 70.000% from 50 sample(s). Percent differential -0.3129% (neg better than pos)
+	<-> AMH: 70.000% from 50 sample(s). % diff -0.3129% (- better than +)
+	<-> Overall Odds: 70.00%, EV>10%: 10.00% when odds less or equal to -175
 	<-> Analyze Match History Prediction -> 	Troy: 55.95% | Texas+St.: 44.05%
 	<-> Current Win Streaks -> 					Troy: 1 | Texas+St.: 2
 	<-> Prediction Accuracy Estimate -> 		Troy: -2.50 | Texas+St.: 1.75 | Risk Val: -0.38
@@ -163,7 +179,8 @@ Troy at Texas+St.
 
 
 Washington at Wisconsin
-	<-> AMH Odds: 100.000% from 6 sample(s). AMH equal PWM, Odds: 100.000% from 5 sample(s). Percent differential -0.0483% (neg better than pos)
+	<-> AMH: 100.000% from 6 sample(s). AMH equal PWM: 100.000% from 5 sample(s). % diff -0.0483% (- better than +)
+	<-> Overall Odds: 100.00%, EV>10%: 24.69% when odds less or equal to -405
 	<-> Analyze Match History Prediction -> 	Washington: 8.66% | Wisconsin: 91.34%
 	<-> Current Win Streaks -> 					Washington: 0 | Wisconsin: 0
 	<-> Prediction Accuracy Estimate -> 		Washington: 5.00 | Wisconsin: -23.00 | Risk Val: -9.00
@@ -173,7 +190,8 @@ Washington at Wisconsin
 
 
 Georgia+Tech at Pittsburgh
-	<-> AMH Odds: 75.000% from 28 sample(s). AMH equal PWM, Odds: 72.727% from 22 sample(s). Percent differential -0.3343% (neg better than pos)
+	<-> AMH: 75.000% from 28 sample(s). AMH equal PWM: 72.727% from 22 sample(s). % diff -0.3343% (- better than +)
+	<-> Overall Odds: 73.86%, EV>10%: 10.80% when odds less or equal to -200
 	<-> Analyze Match History Prediction -> 	Georgia+Tech: 24.60% | Pittsburgh: 75.40%
 	<-> Current Win Streaks -> 					Georgia+Tech: 2 | Pittsburgh: 0
 	<-> Prediction Accuracy Estimate -> 		Georgia+Tech: -0.75 | Pittsburgh: -5.00 | Risk Val: -2.88
@@ -183,7 +201,8 @@ Georgia+Tech at Pittsburgh
 
 
 Providence at Marquette
-	<-> AMH Odds: 95.238% from 21 sample(s). AMH equal PWM, Odds: 100.000% from 16 sample(s). Percent differential -0.3007% (neg better than pos)
+	<-> AMH: 95.238% from 21 sample(s). AMH equal PWM: 100.000% from 16 sample(s). % diff -0.3007% (- better than +)
+	<-> Overall Odds: 97.62%, EV>10%: 21.72% when odds less or equal to -405
 	<-> Analyze Match History Prediction -> 	Providence: 18.61% | Marquette: 81.39%
 	<-> Current Win Streaks -> 					Providence: 0 | Marquette: 0
 	<-> Prediction Accuracy Estimate -> 		Providence: -2.50 | Marquette: -7.75 | Risk Val: -5.12
@@ -193,7 +212,8 @@ Providence at Marquette
 
 
 Duke at Miami+FL
-	<-> AMH Odds: 83.871% from 31 sample(s). AMH equal PWM, Odds: 86.364% from 22 sample(s). Percent differential -0.1463% (neg better than pos)
+	<-> AMH: 83.871% from 31 sample(s). AMH equal PWM: 86.364% from 22 sample(s). % diff -0.1463% (- better than +)
+	<-> Overall Odds: 85.12%, EV>10%: 10.15% when odds less or equal to -340
 	<-> Analyze Match History Prediction -> 	Duke: 74.01% | Miami+FL: 25.99%
 	<-> Current Win Streaks -> 					Duke: 4 | Miami+FL: 0
 	<-> Prediction Accuracy Estimate -> 		Duke: -7.75 | Miami+FL: 10.25 | Risk Val: 1.25
@@ -203,7 +223,8 @@ Duke at Miami+FL
 
 
 Appalachian+St. at Georgia+Southern
-	<-> AMH Odds: 55.405% from 74 sample(s). Percent differential -0.2463% (neg better than pos)
+	<-> AMH: 55.405% from 74 sample(s). % diff -0.2463% (- better than +)
+	<-> Overall Odds: 55.41%, EV>10%: 10.81% when odds greater or equal to 100
 	<-> Analyze Match History Prediction -> 	Appalachian+St.: 49.17% | Georgia+Southern: 50.83%
 	<-> Current Win Streaks -> 					Appalachian+St.: 0 | Georgia+Southern: 0
 	<-> Prediction Accuracy Estimate -> 		Appalachian+St.: 13.75 | Georgia+Southern: 1.75 | Risk Val: 7.75
@@ -213,7 +234,8 @@ Appalachian+St. at Georgia+Southern
 
 
 Akron at Ball+St.
-	<-> AMH Odds: 50.000% from 54 sample(s). AMH equal PWM, Odds: 36.667% from 30 sample(s). Percent differential -0.2272% (neg better than pos)
+	<-> AMH: 50.000% from 54 sample(s). AMH equal PWM: 36.667% from 30 sample(s). % diff -0.2272% (- better than +)
+	<-> Overall Odds: 43.33%, EV>10%: 10.50% when odds greater or equal to 155
 	<-> Analyze Match History Prediction -> 	Akron: 54.19% | Ball+St.: 45.81%
 	<-> Current Win Streaks -> 					Akron: 7 | Ball+St.: 2
 	<-> Prediction Accuracy Estimate -> 		Akron: 13.25 | Ball+St.: 16.50 | Risk Val: 14.88
@@ -223,7 +245,8 @@ Akron at Ball+St.
 
 
 South+Dakota+St. at Tulsa
-	<-> AMH Odds: 71.667% from 60 sample(s). Percent differential -0.2052% (neg better than pos)
+	<-> AMH: 71.667% from 60 sample(s). % diff -0.2052% (- better than +)
+	<-> Overall Odds: 71.67%, EV>10%: 10.41% when odds less or equal to -185
 	<-> Analyze Match History Prediction -> 	South+Dakota+St.: 58.08% | Tulsa: 41.92%
 	<-> Current Win Streaks -> 					South+Dakota+St.: 0 | Tulsa: 0
 	<-> Prediction Accuracy Estimate -> 		South+Dakota+St.: -10.00 | Tulsa: 0.75 | Risk Val: -4.62
@@ -233,7 +256,8 @@ South+Dakota+St. at Tulsa
 
 
 Ohio at Western+Michigan
-	<-> AMH Odds: 42.188% from 64 sample(s). AMH equal PWM, Odds: 25.714% from 35 sample(s). Percent differential -0.2353% (neg better than pos)
+	<-> AMH: 42.188% from 64 sample(s). AMH equal PWM: 25.714% from 35 sample(s). % diff -0.2353% (- better than +)
+	<-> NEGATIVE EV BET FROM -400 to 200 AMERICAN ODDS
 	<-> Analyze Match History Prediction -> 	Ohio: 53.21% | Western+Michigan: 46.79%
 	<-> Current Win Streaks -> 					Ohio: 1 | Western+Michigan: 0
 	<-> Prediction Accuracy Estimate -> 		Ohio: -3.00 | Western+Michigan: 8.00 | Risk Val: 2.50
@@ -243,7 +267,8 @@ Ohio at Western+Michigan
 
 
 VCU at Richmond
-	<-> AMH Odds: 69.811% from 53 sample(s). AMH equal PWM, Odds: 73.077% from 26 sample(s). Percent differential -0.1653% (neg better than pos)
+	<-> AMH: 69.811% from 53 sample(s). AMH equal PWM: 73.077% from 26 sample(s). % diff -0.1653% (- better than +)
+	<-> Overall Odds: 71.44%, EV>10%: 10.06% when odds less or equal to -185
 	<-> Analyze Match History Prediction -> 	VCU: 67.51% | Richmond: 32.49%
 	<-> Current Win Streaks -> 					VCU: 8 | Richmond: 0
 	<-> Prediction Accuracy Estimate -> 		VCU: -1.00 | Richmond: 11.75 | Risk Val: 5.38
@@ -253,7 +278,8 @@ VCU at Richmond
 
 
 Indiana+St. at Murray+St.
-	<-> AMH Odds: 51.613% from 62 sample(s). Percent differential -0.3468% (neg better than pos)
+	<-> AMH: 51.613% from 62 sample(s). % diff -0.3468% (- better than +)
+	<-> Overall Odds: 51.61%, EV>10%: 10.97% when odds greater or equal to 115
 	<-> Analyze Match History Prediction -> 	Indiana+St.: 35.72% | Murray+St.: 64.28%
 	<-> Current Win Streaks -> 					Indiana+St.: 1 | Murray+St.: 0
 	<-> Prediction Accuracy Estimate -> 		Indiana+St.: 2.00 | Murray+St.: -1.25 | Risk Val: 0.38
@@ -263,7 +289,8 @@ Indiana+St. at Murray+St.
 
 
 Army at Lafayette
-	<-> AMH Odds: 61.818% from 55 sample(s). Percent differential -0.2393% (neg better than pos)
+	<-> AMH: 61.818% from 55 sample(s). % diff -0.2393% (- better than +)
+	<-> Overall Odds: 61.82%, EV>10%: 11.27% when odds less or equal to -125
 	<-> Analyze Match History Prediction -> 	Army: 42.74% | Lafayette: 57.26%
 	<-> Current Win Streaks -> 					Army: 0 | Lafayette: 0
 	<-> Prediction Accuracy Estimate -> 		Army: 2.75 | Lafayette: 2.75 | Risk Val: 2.75
@@ -273,7 +300,8 @@ Army at Lafayette
 
 
 Bowling+Green at Eastern+Michigan
-	<-> AMH Odds: 75.862% from 58 sample(s). AMH equal PWM, Odds: 78.571% from 28 sample(s). Percent differential -0.1390% (neg better than pos)
+	<-> AMH: 75.862% from 58 sample(s). AMH equal PWM: 78.571% from 28 sample(s). % diff -0.1390% (- better than +)
+	<-> Overall Odds: 77.22%, EV>10%: 10.07% when odds less or equal to -235
 	<-> Analyze Match History Prediction -> 	Bowling+Green: 38.59% | Eastern+Michigan: 61.41%
 	<-> Current Win Streaks -> 					Bowling+Green: 0 | Eastern+Michigan: 0
 	<-> Prediction Accuracy Estimate -> 		Bowling+Green: 7.75 | Eastern+Michigan: -9.00 | Risk Val: -0.62
@@ -283,7 +311,8 @@ Bowling+Green at Eastern+Michigan
 
 
 Wyoming at Nevada
-	<-> AMH Odds: 76.744% from 43 sample(s). AMH equal PWM, Odds: 80.645% from 31 sample(s). Percent differential -0.1573% (neg better than pos)
+	<-> AMH: 76.744% from 43 sample(s). AMH equal PWM: 80.645% from 31 sample(s). % diff -0.1573% (- better than +)
+	<-> Overall Odds: 78.69%, EV>10%: 10.17% when odds less or equal to -250
 	<-> Analyze Match History Prediction -> 	Wyoming: 26.56% | Nevada: 73.44%
 	<-> Current Win Streaks -> 					Wyoming: 0 | Nevada: 1
 	<-> Prediction Accuracy Estimate -> 		Wyoming: -12.25 | Nevada: -22.75 | Risk Val: -17.50
@@ -293,7 +322,8 @@ Wyoming at Nevada
 
 
 Toledo at Kent+St.
-	<-> AMH Odds: 83.871% from 31 sample(s). AMH equal PWM, Odds: 85.714% from 21 sample(s). Percent differential -0.1080% (neg better than pos)
+	<-> AMH: 83.871% from 31 sample(s). AMH equal PWM: 85.714% from 21 sample(s). % diff -0.1080% (- better than +)
+	<-> Overall Odds: 84.79%, EV>10%: 10.10% when odds less or equal to -335
 	<-> Analyze Match History Prediction -> 	Toledo: 25.80% | Kent+St.: 74.20%
 	<-> Current Win Streaks -> 					Toledo: 0 | Kent+St.: 3
 	<-> Prediction Accuracy Estimate -> 		Toledo: -2.25 | Kent+St.: 6.50 | Risk Val: 2.12
@@ -303,7 +333,8 @@ Toledo at Kent+St.
 
 
 Lindenwood at Western+Illinois
-	<-> AMH Odds: 43.860% from 57 sample(s). Percent differential -0.2584% (neg better than pos)
+	<-> AMH: 43.860% from 57 sample(s). % diff -0.2584% (- better than +)
+	<-> Overall Odds: 43.86%, EV>10%: 11.84% when odds greater or equal to 155
 	<-> Analyze Match History Prediction -> 	Lindenwood: 46.41% | Western+Illinois: 53.59%
 	<-> Current Win Streaks -> 					Lindenwood: 1 | Western+Illinois: 0
 	<-> Prediction Accuracy Estimate -> 		Lindenwood: 28.75 | Western+Illinois: 5.00 | Risk Val: 16.88
@@ -313,7 +344,8 @@ Lindenwood at Western+Illinois
 
 
 Colorado+St. at Air+Force
-	<-> AMH Odds: 57.692% from 52 sample(s). AMH equal PWM, Odds: 70.833% from 24 sample(s). Percent differential -0.3354% (neg better than pos)
+	<-> AMH: 57.692% from 52 sample(s). AMH equal PWM: 70.833% from 24 sample(s). % diff -0.3354% (- better than +)
+	<-> Overall Odds: 64.26%, EV>10%: 10.16% when odds less or equal to -140
 	<-> Analyze Match History Prediction -> 	Colorado+St.: 63.11% | Air+Force: 36.89%
 	<-> Current Win Streaks -> 					Colorado+St.: 0 | Air+Force: 0
 	<-> Prediction Accuracy Estimate -> 		Colorado+St.: -23.50 | Air+Force: -3.50 | Risk Val: -13.50
@@ -323,7 +355,8 @@ Colorado+St. at Air+Force
 
 
 James+Madison at Louisiana+Monroe
-	<-> AMH Odds: 67.241% from 58 sample(s). AMH equal PWM, Odds: 70.270% from 37 sample(s). Percent differential -0.3595% (neg better than pos)
+	<-> AMH: 67.241% from 58 sample(s). AMH equal PWM: 70.270% from 37 sample(s). % diff -0.3595% (- better than +)
+	<-> Overall Odds: 68.76%, EV>10%: 10.43% when odds less or equal to -165
 	<-> Analyze Match History Prediction -> 	James+Madison: 58.66% | Louisiana+Monroe: 41.34%
 	<-> Current Win Streaks -> 					James+Madison: 1 | Louisiana+Monroe: 0
 	<-> Prediction Accuracy Estimate -> 		James+Madison: 22.50 | Louisiana+Monroe: 1.75 | Risk Val: 12.12
@@ -333,7 +366,8 @@ James+Madison at Louisiana+Monroe
 
 
 Old+Dominion at Marshall
-	<-> AMH Odds: 70.455% from 44 sample(s). AMH equal PWM, Odds: 72.727% from 22 sample(s). Percent differential -0.0283% (neg better than pos)
+	<-> AMH: 70.455% from 44 sample(s). AMH equal PWM: 72.727% from 22 sample(s). % diff -0.0283% (- better than +)
+	<-> Overall Odds: 71.59%, EV>10%: 10.29% when odds less or equal to -185
 	<-> Analyze Match History Prediction -> 	Old+Dominion: 31.80% | Marshall: 68.20%
 	<-> Current Win Streaks -> 					Old+Dominion: 0 | Marshall: 2
 	<-> Prediction Accuracy Estimate -> 		Old+Dominion: 4.75 | Marshall: 9.00 | Risk Val: 6.88
@@ -343,7 +377,8 @@ Old+Dominion at Marshall
 
 
 Northern+Illinois at Miami+OH
-	<-> AMH Odds: 100.000% from 19 sample(s). AMH equal PWM, Odds: 100.000% from 14 sample(s). Percent differential -0.2661% (neg better than pos)
+	<-> AMH: 100.000% from 19 sample(s). AMH equal PWM: 100.000% from 14 sample(s). % diff -0.2661% (- better than +)
+	<-> Overall Odds: 100.00%, EV>10%: 24.69% when odds less or equal to -405
 	<-> Analyze Match History Prediction -> 	Northern+Illinois: 19.33% | Miami+OH: 80.67%
 	<-> Current Win Streaks -> 					Northern+Illinois: 0 | Miami+OH: 4
 	<-> Prediction Accuracy Estimate -> 		Northern+Illinois: 6.00 | Miami+OH: 23.50 | Risk Val: 14.75
@@ -353,7 +388,8 @@ Northern+Illinois at Miami+OH
 
 
 Buffalo at Central+Michigan
-	<-> AMH Odds: 95.455% from 22 sample(s). Percent differential -0.2858% (neg better than pos)
+	<-> AMH: 95.455% from 22 sample(s). % diff -0.2858% (- better than +)
+	<-> Overall Odds: 95.45%, EV>10%: 19.02% when odds less or equal to -405
 	<-> Analyze Match History Prediction -> 	Buffalo: 18.54% | Central+Michigan: 81.46%
 	<-> Current Win Streaks -> 					Buffalo: 1 | Central+Michigan: 0
 	<-> Prediction Accuracy Estimate -> 		Buffalo: -4.75 | Central+Michigan: 44.25 | Risk Val: 19.75

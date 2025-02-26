@@ -58,6 +58,7 @@ class MatchOdds:
             prev_and_amh_prcnt = (correct_matches_prevwin / prevwinner_true_matches) * 100
             results.append(prev_and_amh_prcnt)
             results.append(prevwinner_true_matches)
+        self.results = results
         return results
     
     def american_to_decimal(self, american_odds):
@@ -78,15 +79,23 @@ class MatchOdds:
         expected_value = (probability * potential_profit) - ((1 - probability) * stake)
         return expected_value
     
-    def find_lowest_return_positive_EV(self, percent):
-        american_odds = -505
-        for i in range(0,80): # -500 to -105
+    def find_lowest_return_positive_EV(self):
+        american_odds = -405
+        if self.two_star_bool == True:
+            percent = self.results[0] + self.results[3]
+            percent /= 2
+        else:
+            percent = self.results[0]
+        percent /= 100
+        for i in range(0,82): # -400 to 200
+            if american_odds > -105 and american_odds < 0:
+                american_odds += 200
             decimal_odds = self.american_to_decimal(american_odds)
-            percent /= 100
             EV = self.calculate_expected_value(decimal_odds, 1, percent)
-            if EV > .09:
-                print(f'decimal_odds, EV {self.percent}')
-                print(f'+EV if greater than or equal to {american_odds}')
-                break
+            if EV > .0999:
+                EV *=100
+                percent*=100
+                return american_odds, EV, percent
             american_odds += 5
-        print('not + EV')
+        percent*=100
+        return 'NegEV', 'NegEV', percent
