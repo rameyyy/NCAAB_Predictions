@@ -18,6 +18,10 @@ class CommonScrapes:
         dateStr = self.commonFuncs.get_formatted_date()
         self.commonFuncs.clear_game_sched_file()
         self.scrapedata_module.GameSchedule(dateStr).scrape_data()
+        
+    def get_schedule_set_date(self, date_str):
+        self.commonFuncs.clear_game_sched_file()
+        self.scrapedata_module.GameSchedule(date_str).scrape_data()
     
     def game_winners(self, dateStr):
         self.scrapedata_module.GameWinners(dateStr).scrape_data()

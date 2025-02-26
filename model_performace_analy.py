@@ -150,6 +150,6 @@ def print_123_star():
 conn.close()
 
 # Choose methods you want to run!
-# print_123_star()
-# every_five_prcnt_accuracy()
+print_123_star()
+every_five_prcnt_accuracy()
 check_percent()
