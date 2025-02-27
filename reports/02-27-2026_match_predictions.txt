@@ -1,0 +1,598 @@
+<- Games on 02/27/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+UAB at Wichita+St.
+	<-> AMH: 62.295% from 61 sample(s). % diff -0.1723% (- better than +)
+	<-> Overall Odds: 62.30%, EV>10%: 10.21% when odds less or equal to -130
+	<-> Analyze Match History Prediction -> 	UAB: 42.49% | Wichita+St.: 57.51%
+	<-> Current Win Streaks -> 					UAB: 2 | Wichita+St.: 2
+	<-> Prediction Accuracy Estimate -> 		UAB: -3.50 | Wichita+St.: 9.50 | Risk Val: 3.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UAB: 52.77% | Wichita+St.: 47.23%
+		-> 2023:  | 2024: UAB, Wichita+St. | 2025: 
+
+
+UC+San+Diego at Cal+St.+Northridge
+	<-> AMH: 50.794% from 63 sample(s). AMH equal PWM: 41.176% from 34 sample(s). % diff -0.1654% (- better than +)
+	<-> Overall Odds: 45.99%, EV>10%: 10.36% when odds greater or equal to 140
+	<-> Analyze Match History Prediction -> 	UC+San+Diego: 54.31% | Cal+St.+Northridge: 45.69%
+	<-> Current Win Streaks -> 					UC+San+Diego: 18 | Cal+St.+Northridge: 1
+	<-> Prediction Accuracy Estimate -> 		UC+San+Diego: 22.25 | Cal+St.+Northridge: 24.50 | Risk Val: 23.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UC+San+Diego: 100.00% | Cal+St.+Northridge: 0.00%
+		-> 2023: UC+San+Diego | 2024: UC+San+Diego | 2025: UC+San+Diego
+
+
+North+Texas at Florida+Atlantic
+	<-> AMH: 66.667% from 57 sample(s). AMH equal PWM: 68.182% from 22 sample(s). % diff -0.1998% (- better than +)
+	<-> Overall Odds: 67.42%, EV>10%: 10.92% when odds less or equal to -155
+	<-> Analyze Match History Prediction -> 	North+Texas: 55.53% | Florida+Atlantic: 44.47%
+	<-> Current Win Streaks -> 					North+Texas: 6 | Florida+Atlantic: 0
+	<-> Prediction Accuracy Estimate -> 		North+Texas: -1.25 | Florida+Atlantic: -3.50 | Risk Val: -2.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> North+Texas: 60.11% | Florida+Atlantic: 39.89%
+		-> 2023: Florida+Atlantic | 2024: Florida+Atlantic | 2025: North+Texas
+
+
+Rutgers at Michigan
+	<-> AMH: 76.471% from 17 sample(s). AMH equal PWM: 72.727% from 11 sample(s). % diff -0.3397% (- better than +)
+	<-> Overall Odds: 74.60%, EV>10%: 10.12% when odds less or equal to -210
+	<-> Analyze Match History Prediction -> 	Rutgers: 15.26% | Michigan: 84.74%
+	<-> Current Win Streaks -> 					Rutgers: 2 | Michigan: 1
+	<-> Prediction Accuracy Estimate -> 		Rutgers: -1.50 | Michigan: 3.25 | Risk Val: 0.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Rutgers: 36.36% | Michigan: 63.64%
+		-> 2023: Rutgers | 2024: Rutgers | 2025: Michigan
+
+
+UNC+Wilmington at Campbell
+	<-> AMH: 46.269% from 67 sample(s). % diff -0.3021% (- better than +)
+	<-> Overall Odds: 46.27%, EV>10%: 11.04% when odds greater or equal to 140
+	<-> Analyze Match History Prediction -> 	UNC+Wilmington: 47.38% | Campbell: 52.62%
+	<-> Current Win Streaks -> 					UNC+Wilmington: 0 | Campbell: 0
+	<-> Prediction Accuracy Estimate -> 		UNC+Wilmington: 2.25 | Campbell: 15.25 | Risk Val: 8.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UNC+Wilmington: 81.71% | Campbell: 18.29%
+		-> 2023: UNC+Wilmington | 2024: Campbell | 2025: UNC+Wilmington
+
+
+UC+Riverside at Hawaii
+	<-> AMH: 68.750% from 64 sample(s). AMH equal PWM: 77.500% from 40 sample(s). % diff -0.3989% (- better than +)
+	<-> Overall Odds: 73.12%, EV>10%: 10.62% when odds less or equal to -195
+	<-> Analyze Match History Prediction -> 	UC+Riverside: 41.21% | Hawaii: 58.79%
+	<-> Current Win Streaks -> 					UC+Riverside: 0 | Hawaii: 0
+	<-> Prediction Accuracy Estimate -> 		UC+Riverside: -1.75 | Hawaii: 2.75 | Risk Val: 0.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UC+Riverside: 9.52% | Hawaii: 90.48%
+		-> 2023: UC+Riverside | 2024: Hawaii | 2025: Hawaii
+
+
+Western+Kentucky at UTEP
+	<-> AMH: 68.750% from 48 sample(s). % diff -0.0712% (- better than +)
+	<-> Overall Odds: 68.75%, EV>10%: 10.42% when odds less or equal to -165
+	<-> Analyze Match History Prediction -> 	Western+Kentucky: 31.76% | UTEP: 68.24%
+	<-> Current Win Streaks -> 					Western+Kentucky: 2 | UTEP: 0
+	<-> Prediction Accuracy Estimate -> 		Western+Kentucky: 2.75 | UTEP: 1.25 | Risk Val: 2.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Western+Kentucky: 100.00% | UTEP: 0.00%
+		-> 2023: Western+Kentucky | 2024: Western+Kentucky | 2025: Western+Kentucky
+
+
+Middle+Tennessee at New+Mexico+St.
+	<-> AMH: 67.692% from 65 sample(s). AMH equal PWM: 75.610% from 41 sample(s). % diff -0.3863% (- better than +)
+	<-> Overall Odds: 71.65%, EV>10%: 10.38% when odds less or equal to -185
+	<-> Analyze Match History Prediction -> 	Middle+Tennessee: 41.18% | New+Mexico+St.: 58.82%
+	<-> Current Win Streaks -> 					Middle+Tennessee: 1 | New+Mexico+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Middle+Tennessee: -6.75 | New+Mexico+St.: 4.75 | Risk Val: -1.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Middle+Tennessee: 49.22% | New+Mexico+St.: 50.78%
+		-> 2023:  | 2024: Middle+Tennessee | 2025: New+Mexico+St.
+
+
+Chattanooga at UNC+Greensboro
+	<-> AMH: 57.812% from 64 sample(s). AMH equal PWM: 48.571% from 35 sample(s). % diff -0.1489% (- better than +)
+	<-> Overall Odds: 53.19%, EV>10%: 11.70% when odds greater or equal to 110
+	<-> Analyze Match History Prediction -> 	Chattanooga: 45.30% | UNC+Greensboro: 54.70%
+	<-> Current Win Streaks -> 					Chattanooga: 6 | UNC+Greensboro: 0
+	<-> Prediction Accuracy Estimate -> 		Chattanooga: 4.25 | UNC+Greensboro: 1.00 | Risk Val: 2.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Chattanooga: 37.47% | UNC+Greensboro: 62.53%
+		-> 2023: UNC+Greensboro | 2024: Chattanooga | 2025: UNC+Greensboro
+
+
+Elon at Monmouth
+	<-> AMH: 62.903% from 62 sample(s). AMH equal PWM: 77.143% from 35 sample(s). % diff -0.6249% (- better than +)
+	<-> Overall Odds: 70.02%, EV>10%: 10.04% when odds less or equal to -175
+	<-> Analyze Match History Prediction -> 	Elon: 50.20% | Monmouth: 49.80%
+	<-> Current Win Streaks -> 					Elon: 3 | Monmouth: 2
+	<-> Prediction Accuracy Estimate -> 		Elon: -3.50 | Monmouth: 0.00 | Risk Val: -1.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Elon: 66.04% | Monmouth: 33.96%
+		-> 2023: Elon | 2024: Monmouth | 2025: Elon
+
+
+Pepperdine at Portland
+	<-> AMH: 67.692% from 65 sample(s). % diff -0.3875% (- better than +)
+	<-> Overall Odds: 67.69%, EV>10%: 10.00% when odds less or equal to -160
+	<-> Analyze Match History Prediction -> 	Pepperdine: 41.18% | Portland: 58.82%
+	<-> Current Win Streaks -> 					Pepperdine: 0 | Portland: 0
+	<-> Prediction Accuracy Estimate -> 		Pepperdine: 9.50 | Portland: -2.75 | Risk Val: 3.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Pepperdine: 57.83% | Portland: 42.17%
+		-> 2023: Pepperdine | 2024: Pepperdine | 2025: Portland
+
+
+Cal+Baptist at Seattle
+	<-> AMH: 66.667% from 63 sample(s). % diff -0.3196% (- better than +)
+	<-> Overall Odds: 66.67%, EV>10%: 11.11% when odds less or equal to -150
+	<-> Analyze Match History Prediction -> 	Cal+Baptist: 43.70% | Seattle: 56.30%
+	<-> Current Win Streaks -> 					Cal+Baptist: 1 | Seattle: 0
+	<-> Prediction Accuracy Estimate -> 		Cal+Baptist: -9.50 | Seattle: 0.75 | Risk Val: -4.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Cal+Baptist: 60.56% | Seattle: 39.44%
+		-> 2023: Cal+Baptist | 2024: Seattle | 2025: Cal+Baptist
+
+
+Bryant at UMass+Lowell
+	<-> AMH: 59.155% from 71 sample(s). % diff -0.3549% (- better than +)
+	<-> Overall Odds: 59.15%, EV>10%: 10.59% when odds less or equal to -115
+	<-> Analyze Match History Prediction -> 	Bryant: 49.39% | UMass+Lowell: 50.61%
+	<-> Current Win Streaks -> 					Bryant: 5 | UMass+Lowell: 0
+	<-> Prediction Accuracy Estimate -> 		Bryant: 1.00 | UMass+Lowell: 14.50 | Risk Val: 7.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Bryant: 54.16% | UMass+Lowell: 45.84%
+		-> 2023: UMass+Lowell | 2024: UMass+Lowell | 2025: Bryant
+
+
+Cleveland+St. at Wright+St.
+	<-> AMH: 59.016% from 61 sample(s). % diff -0.2309% (- better than +)
+	<-> Overall Odds: 59.02%, EV>10%: 10.33% when odds less or equal to -115
+	<-> Analyze Match History Prediction -> 	Cleveland+St.: 42.72% | Wright+St.: 57.28%
+	<-> Current Win Streaks -> 					Cleveland+St.: 2 | Wright+St.: 1
+	<-> Prediction Accuracy Estimate -> 		Cleveland+St.: -11.25 | Wright+St.: 1.00 | Risk Val: -5.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Cleveland+St.: 64.74% | Wright+St.: 35.26%
+		-> 2023: Cleveland+St. | 2024: Wright+St. | 2025: Cleveland+St.
+
+
+Kennesaw+St. at FIU
+	<-> AMH: 54.321% from 81 sample(s). % diff -0.2063% (- better than +)
+	<-> Overall Odds: 54.32%, EV>10%: 11.36% when odds greater or equal to 105
+	<-> Analyze Match History Prediction -> 	Kennesaw+St.: 48.72% | FIU: 51.28%
+	<-> Current Win Streaks -> 					Kennesaw+St.: 1 | FIU: 0
+	<-> Prediction Accuracy Estimate -> 		Kennesaw+St.: -20.50 | FIU: -1.75 | Risk Val: -11.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Kennesaw+St.: 63.03% | FIU: 36.97%
+		-> 2023:  | 2024: FIU | 2025: Kennesaw+St.
+
+
+Southeast+Missouri+St. at SIU+Edwardsville
+	<-> AMH: 43.478% from 69 sample(s). % diff -0.2654% (- better than +)
+	<-> Overall Odds: 43.48%, EV>10%: 10.87% when odds greater or equal to 155
+	<-> Analyze Match History Prediction -> 	Southeast+Missouri+St.: 47.24% | SIU+Edwardsville: 52.76%
+	<-> Current Win Streaks -> 					Southeast+Missouri+St.: 12 | SIU+Edwardsville: 1
+	<-> Prediction Accuracy Estimate -> 		Southeast+Missouri+St.: -2.25 | SIU+Edwardsville: 19.00 | Risk Val: 8.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Southeast+Missouri+St.: 53.66% | SIU+Edwardsville: 46.34%
+		-> 2023: SIU+Edwardsville | 2024: SIU+Edwardsville | 2025: Southeast+Missouri+St.
+
+
+Winthrop at Longwood
+	<-> AMH: 67.742% from 62 sample(s). % diff -0.2944% (- better than +)
+	<-> Overall Odds: 67.74%, EV>10%: 10.08% when odds less or equal to -160
+	<-> Analyze Match History Prediction -> 	Winthrop: 43.85% | Longwood: 56.15%
+	<-> Current Win Streaks -> 					Winthrop: 1 | Longwood: 2
+	<-> Prediction Accuracy Estimate -> 		Winthrop: 1.00 | Longwood: -3.50 | Risk Val: -1.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Winthrop: 61.18% | Longwood: 38.82%
+		-> 2023: Winthrop | 2024: Longwood | 2025: Winthrop
+
+
+Abilene+Christian at Tarleton+St.
+	<-> AMH: 62.295% from 61 sample(s). AMH equal PWM: 59.259% from 27 sample(s). % diff -0.2879% (- better than +)
+	<-> Overall Odds: 60.78%, EV>10%: 11.42% when odds less or equal to -120
+	<-> Analyze Match History Prediction -> 	Abilene+Christian: 43.46% | Tarleton+St.: 56.54%
+	<-> Current Win Streaks -> 					Abilene+Christian: 2 | Tarleton+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Abilene+Christian: -2.00 | Tarleton+St.: 20.75 | Risk Val: 9.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Abilene+Christian: 49.52% | Tarleton+St.: 50.48%
+		-> 2023: Tarleton+St. | 2024: Tarleton+St. | 2025: Abilene+Christian
+
+
+Saint+Mary%27s at Loyola+Marymount
+	<-> AMH: 74.468% from 47 sample(s). AMH equal PWM: 70.968% from 31 sample(s). % diff -0.1075% (- better than +)
+	<-> Overall Odds: 72.72%, EV>10%: 10.01% when odds less or equal to -195
+	<-> Analyze Match History Prediction -> 	Saint+Mary%27s: 70.66% | Loyola+Marymount: 29.34%
+	<-> Current Win Streaks -> 					Saint+Mary%27s: 4 | Loyola+Marymount: 1
+	<-> Prediction Accuracy Estimate -> 		Saint+Mary%27s: -10.00 | Loyola+Marymount: 17.25 | Risk Val: 3.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Saint+Mary%27s: 98.43% | Loyola+Marymount: 1.57%
+		-> 2023: Loyola+Marymount | 2024: Saint+Mary%27s | 2025: Saint+Mary%27s
+
+
+Montana+St. at Portland+St.
+	<-> AMH: 69.231% from 65 sample(s). % diff -0.3636% (- better than +)
+	<-> Overall Odds: 69.23%, EV>10%: 11.19% when odds less or equal to -165
+	<-> Analyze Match History Prediction -> 	Montana+St.: 41.00% | Portland+St.: 59.00%
+	<-> Current Win Streaks -> 					Montana+St.: 2 | Portland+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Montana+St.: 5.50 | Portland+St.: -15.00 | Risk Val: -4.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Montana+St.: 100.00% | Portland+St.: 0.00%
+		-> 2023: Montana+St. | 2024: Montana+St. | 2025: Montana+St.
+
+
+Idaho+St. at Idaho
+	<-> AMH: 43.478% from 69 sample(s). % diff -0.3029% (- better than +)
+	<-> Overall Odds: 43.48%, EV>10%: 10.87% when odds greater or equal to 155
+	<-> Analyze Match History Prediction -> 	Idaho+St.: 47.27% | Idaho: 52.73%
+	<-> Current Win Streaks -> 					Idaho+St.: 4 | Idaho: 0
+	<-> Prediction Accuracy Estimate -> 		Idaho+St.: 5.00 | Idaho: 2.50 | Risk Val: 3.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Idaho+St.: 71.00% | Idaho: 29.00%
+		-> 2023: Idaho+St. | 2024: Idaho | 2025: Idaho+St.
+
+
+Jacksonville+St. at Liberty
+	<-> AMH: 100.000% from 28 sample(s). % diff -0.2998% (- better than +)
+	<-> Overall Odds: 100.00%, EV>10%: 24.69% when odds less or equal to -405
+	<-> Analyze Match History Prediction -> 	Jacksonville+St.: 19.77% | Liberty: 80.23%
+	<-> Current Win Streaks -> 					Jacksonville+St.: 2 | Liberty: 0
+	<-> Prediction Accuracy Estimate -> 		Jacksonville+St.: 15.50 | Liberty: -1.25 | Risk Val: 7.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Jacksonville+St.: 75.58% | Liberty: 24.42%
+		-> 2023: Liberty | 2024: Jacksonville+St. | 2025: Jacksonville+St.
+
+
+Cal+Poly at UC+Santa+Barbara
+	<-> AMH: 70.000% from 50 sample(s). AMH equal PWM: 64.000% from 25 sample(s). % diff -0.2354% (- better than +)
+	<-> Overall Odds: 67.00%, EV>10%: 10.23% when odds less or equal to -155
+	<-> Analyze Match History Prediction -> 	Cal+Poly: 30.80% | UC+Santa+Barbara: 69.20%
+	<-> Current Win Streaks -> 					Cal+Poly: 4 | UC+Santa+Barbara: 0
+	<-> Prediction Accuracy Estimate -> 		Cal+Poly: 1.25 | UC+Santa+Barbara: 1.00 | Risk Val: 1.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Cal+Poly: 0.00% | UC+Santa+Barbara: 100.00%
+		-> 2023: UC+Santa+Barbara | 2024: UC+Santa+Barbara | 2025: UC+Santa+Barbara
+
+
+William+%26+Mary at Towson
+	<-> AMH: 68.966% from 58 sample(s). AMH equal PWM: 67.857% from 28 sample(s). % diff -0.1778% (- better than +)
+	<-> Overall Odds: 68.41%, EV>10%: 11.17% when odds less or equal to -160
+	<-> Analyze Match History Prediction -> 	William+%26+Mary: 32.48% | Towson: 67.52%
+	<-> Current Win Streaks -> 					William+%26+Mary: 0 | Towson: 1
+	<-> Prediction Accuracy Estimate -> 		William+%26+Mary: 6.75 | Towson: -8.50 | Risk Val: -0.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> William+%26+Mary: 7.07% | Towson: 92.93%
+		-> 2023: William+%26+Mary | 2024: Towson | 2025: 
+
+
+Oakland at Milwaukee
+	<-> AMH: 56.667% from 60 sample(s). % diff -0.3038% (- better than +)
+	<-> Overall Odds: 56.67%, EV>10%: 10.63% when odds less or equal to -105
+	<-> Analyze Match History Prediction -> 	Oakland: 36.97% | Milwaukee: 63.03%
+	<-> Current Win Streaks -> 					Oakland: 1 | Milwaukee: 2
+	<-> Prediction Accuracy Estimate -> 		Oakland: 6.50 | Milwaukee: 8.50 | Risk Val: 7.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Oakland: 88.28% | Milwaukee: 11.72%
+		-> 2023: Milwaukee | 2024: Oakland | 2025: Oakland
+
+
+Cal+St.+Bakersfield at Long+Beach+St.
+	<-> AMH: 65.079% from 63 sample(s). AMH equal PWM: 62.069% from 29 sample(s). % diff -0.3262% (- better than +)
+	<-> Overall Odds: 63.57%, EV>10%: 10.67% when odds less or equal to -135
+	<-> Analyze Match History Prediction -> 	Cal+St.+Bakersfield: 43.58% | Long+Beach+St.: 56.42%
+	<-> Current Win Streaks -> 					Cal+St.+Bakersfield: 0 | Long+Beach+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Cal+St.+Bakersfield: 28.00 | Long+Beach+St.: -2.25 | Risk Val: 12.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Cal+St.+Bakersfield: 47.41% | Long+Beach+St.: 52.59%
+		-> 2023: Long+Beach+St. | 2024: Long+Beach+St. | 2025: Cal+St.+Bakersfield
+
+
+Hampton at Drexel
+	<-> AMH: 52.239% from 67 sample(s). AMH equal PWM: 52.778% from 36 sample(s). % diff -0.3498% (- better than +)
+	<-> Overall Odds: 52.51%, EV>10%: 10.27% when odds greater or equal to 110
+	<-> Analyze Match History Prediction -> 	Hampton: 35.52% | Drexel: 64.48%
+	<-> Current Win Streaks -> 					Hampton: 3 | Drexel: 1
+	<-> Prediction Accuracy Estimate -> 		Hampton: -1.00 | Drexel: -0.25 | Risk Val: -0.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Hampton: 49.74% | Drexel: 50.26%
+		-> 2023: Hampton | 2024: Drexel | 2025: Hampton
+
+
+Delaware at Charleston
+	<-> AMH: 59.375% from 64 sample(s). AMH equal PWM: 58.065% from 31 sample(s). % diff -0.1689% (- better than +)
+	<-> Overall Odds: 58.72%, EV>10%: 12.10% when odds less or equal to -110
+	<-> Analyze Match History Prediction -> 	Delaware: 34.92% | Charleston: 65.08%
+	<-> Current Win Streaks -> 					Delaware: 0 | Charleston: 0
+	<-> Prediction Accuracy Estimate -> 		Delaware: -1.25 | Charleston: 14.75 | Risk Val: 6.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Delaware: 0.00% | Charleston: 100.00%
+		-> 2023: Charleston | 2024: Charleston | 2025: 
+
+
+Albany at UMBC
+	<-> AMH: 69.565% from 69 sample(s). AMH equal PWM: 79.545% from 44 sample(s). % diff -0.2586% (- better than +)
+	<-> Overall Odds: 74.56%, EV>10%: 10.06% when odds less or equal to -210
+	<-> Analyze Match History Prediction -> 	Albany: 40.19% | UMBC: 59.81%
+	<-> Current Win Streaks -> 					Albany: 0 | UMBC: 0
+	<-> Prediction Accuracy Estimate -> 		Albany: -9.00 | UMBC: -2.25 | Risk Val: -5.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Albany: 8.17% | UMBC: 91.83%
+		-> 2023: Albany | 2024: UMBC | 2025: UMBC
+
+
+South+Dakota+St. at Oral+Roberts
+	<-> AMH: 70.000% from 60 sample(s). AMH equal PWM: 71.429% from 35 sample(s). % diff -0.3005% (- better than +)
+	<-> Overall Odds: 70.71%, EV>10%: 10.00% when odds less or equal to -180
+	<-> Analyze Match History Prediction -> 	South+Dakota+St.: 57.81% | Oral+Roberts: 42.19%
+	<-> Current Win Streaks -> 					South+Dakota+St.: 0 | Oral+Roberts: 1
+	<-> Prediction Accuracy Estimate -> 		South+Dakota+St.: 2.25 | Oral+Roberts: 0.25 | Risk Val: 1.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> South+Dakota+St.: 87.22% | Oral+Roberts: 12.78%
+		-> 2023: Oral+Roberts | 2024: South+Dakota+St. | 2025: South+Dakota+St.
+
+
+UT+Arlington at Grand+Canyon
+	<-> AMH: 96.154% from 26 sample(s). AMH equal PWM: 100.000% from 17 sample(s). % diff -0.0003% (- better than +)
+	<-> Overall Odds: 98.08%, EV>10%: 22.29% when odds less or equal to -405
+	<-> Analyze Match History Prediction -> 	UT+Arlington: 18.87% | Grand+Canyon: 81.13%
+	<-> Current Win Streaks -> 					UT+Arlington: 0 | Grand+Canyon: 12
+	<-> Prediction Accuracy Estimate -> 		UT+Arlington: -10.75 | Grand+Canyon: -8.50 | Risk Val: -9.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UT+Arlington: 0.00% | Grand+Canyon: 100.00%
+		-> 2023: Grand+Canyon | 2024: Grand+Canyon | 2025: Grand+Canyon
+
+
+Samford at VMI
+	<-> AMH: 66.197% from 71 sample(s). AMH equal PWM: 68.293% from 41 sample(s). % diff -0.2285% (- better than +)
+	<-> Overall Odds: 67.24%, EV>10%: 10.63% when odds less or equal to -155
+	<-> Analyze Match History Prediction -> 	Samford: 60.67% | VMI: 39.33%
+	<-> Current Win Streaks -> 					Samford: 0 | VMI: 0
+	<-> Prediction Accuracy Estimate -> 		Samford: 6.50 | VMI: 4.25 | Risk Val: 5.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Samford: 100.00% | VMI: 0.00%
+		-> 2023: Samford | 2024: Samford | 2025: Samford
+
+
+Robert+Morris at IU+Indy
+	<-> AMH: 65.217% from 69 sample(s). AMH equal PWM: 68.421% from 38 sample(s). % diff -0.2471% (- better than +)
+	<-> Overall Odds: 66.82%, EV>10%: 11.37% when odds less or equal to -150
+	<-> Analyze Match History Prediction -> 	Robert+Morris: 60.54% | IU+Indy: 39.46%
+	<-> Current Win Streaks -> 					Robert+Morris: 3 | IU+Indy: 0
+	<-> Prediction Accuracy Estimate -> 		Robert+Morris: -2.50 | IU+Indy: -0.50 | Risk Val: -1.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Robert+Morris: 97.56% | IU+Indy: 2.44%
+		-> 2023: Robert+Morris, IU+Indy | 2024: Robert+Morris | 2025: Robert+Morris
+
+
+North+Dakota at St.+Thomas
+	<-> AMH: 86.207% from 29 sample(s). AMH equal PWM: 84.211% from 19 sample(s). % diff -0.2518% (- better than +)
+	<-> Overall Odds: 85.21%, EV>10%: 10.27% when odds less or equal to -340
+	<-> Analyze Match History Prediction -> 	North+Dakota: 22.10% | St.+Thomas: 77.90%
+	<-> Current Win Streaks -> 					North+Dakota: 1 | St.+Thomas: 0
+	<-> Prediction Accuracy Estimate -> 		North+Dakota: 2.25 | St.+Thomas: 3.50 | Risk Val: 2.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> North+Dakota: 27.14% | St.+Thomas: 72.86%
+		-> 2023: North+Dakota | 2024: North+Dakota | 2025: St.+Thomas
+
+
+Little+Rock at Eastern+Illinois
+	<-> AMH: 56.098% from 82 sample(s). AMH equal PWM: 63.265% from 49 sample(s). % diff -0.2141% (- better than +)
+	<-> Overall Odds: 59.68%, EV>10%: 11.58% when odds less or equal to -115
+	<-> Analyze Match History Prediction -> 	Little+Rock: 50.93% | Eastern+Illinois: 49.07%
+	<-> Current Win Streaks -> 					Little+Rock: 0 | Eastern+Illinois: 3
+	<-> Prediction Accuracy Estimate -> 		Little+Rock: -4.50 | Eastern+Illinois: 7.25 | Risk Val: 1.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Little+Rock: 64.81% | Eastern+Illinois: 35.19%
+		-> 2023: Little+Rock | 2024: Little+Rock | 2025: Eastern+Illinois
+
+
+Southern+Utah at Utah+Tech
+	<-> AMH: 61.017% from 59 sample(s). % diff -0.2028% (- better than +)
+	<-> Overall Odds: 61.02%, EV>10%: 11.86% when odds less or equal to -120
+	<-> Analyze Match History Prediction -> 	Southern+Utah: 42.61% | Utah+Tech: 57.39%
+	<-> Current Win Streaks -> 					Southern+Utah: 0 | Utah+Tech: 0
+	<-> Prediction Accuracy Estimate -> 		Southern+Utah: -20.50 | Utah+Tech: -12.50 | Risk Val: -16.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Southern+Utah: 66.59% | Utah+Tech: 33.41%
+		-> 2023: Southern+Utah | 2024: Utah+Tech | 2025: Southern+Utah
+
+
+San+Diego at Washington+St.
+	<-> AMH: 96.000% from 25 sample(s). AMH equal PWM: 100.000% from 17 sample(s). % diff -0.0512% (- better than +)
+	<-> Overall Odds: 98.00%, EV>10%: 22.20% when odds less or equal to -405
+	<-> Analyze Match History Prediction -> 	San+Diego: 18.98% | Washington+St.: 81.02%
+	<-> Current Win Streaks -> 					San+Diego: 0 | Washington+St.: 1
+	<-> Prediction Accuracy Estimate -> 		San+Diego: -0.25 | Washington+St.: -12.75 | Risk Val: -6.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> San+Diego: 0.00% | Washington+St.: 100.00%
+		-> 2023:  | 2024:  | 2025: Washington+St.
+
+
+Northern+Kentucky at Purdue+Fort+Wayne
+	<-> AMH: 68.750% from 48 sample(s). % diff -0.3630% (- better than +)
+	<-> Overall Odds: 68.75%, EV>10%: 10.42% when odds less or equal to -165
+	<-> Analyze Match History Prediction -> 	Northern+Kentucky: 30.53% | Purdue+Fort+Wayne: 69.47%
+	<-> Current Win Streaks -> 					Northern+Kentucky: 0 | Purdue+Fort+Wayne: 0
+	<-> Prediction Accuracy Estimate -> 		Northern+Kentucky: 7.00 | Purdue+Fort+Wayne: 25.25 | Risk Val: 16.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Northern+Kentucky: 52.04% | Purdue+Fort+Wayne: 47.96%
+		-> 2023: Northern+Kentucky | 2024: Purdue+Fort+Wayne | 2025: Northern+Kentucky
+
+
+Stonehill at Fairleigh+Dickinson
+	<-> AMH: 69.118% from 68 sample(s). AMH equal PWM: 79.545% from 44 sample(s). % diff -0.3377% (- better than +)
+	<-> Overall Odds: 74.33%, EV>10%: 10.59% when odds less or equal to -205
+	<-> Analyze Match History Prediction -> 	Stonehill: 40.52% | Fairleigh+Dickinson: 59.48%
+	<-> Current Win Streaks -> 					Stonehill: 0 | Fairleigh+Dickinson: 0
+	<-> Prediction Accuracy Estimate -> 		Stonehill: 1.50 | Fairleigh+Dickinson: 1.00 | Risk Val: 1.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Stonehill: 9.89% | Fairleigh+Dickinson: 90.11%
+		-> 2023: Stonehill | 2024: Fairleigh+Dickinson | 2025: Fairleigh+Dickinson
+
+
+Hofstra at Stony+Brook
+	<-> AMH: 61.194% from 67 sample(s). % diff -0.4586% (- better than +)
+	<-> Overall Odds: 61.19%, EV>10%: 10.15% when odds less or equal to -125
+	<-> Analyze Match History Prediction -> 	Hofstra: 49.56% | Stony+Brook: 50.44%
+	<-> Current Win Streaks -> 					Hofstra: 0 | Stony+Brook: 0
+	<-> Prediction Accuracy Estimate -> 		Hofstra: 25.00 | Stony+Brook: 5.75 | Risk Val: 15.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Hofstra: 56.37% | Stony+Brook: 43.63%
+		-> 2023: Hofstra | 2024: Hofstra, Stony+Brook | 2025: Stony+Brook
+
+
+Denver at UMKC
+	<-> AMH: 70.455% from 44 sample(s). % diff -0.1258% (- better than +)
+	<-> Overall Odds: 70.45%, EV>10%: 10.71% when odds less or equal to -175
+	<-> Analyze Match History Prediction -> 	Denver: 30.97% | UMKC: 69.03%
+	<-> Current Win Streaks -> 					Denver: 2 | UMKC: 0
+	<-> Prediction Accuracy Estimate -> 		Denver: -3.25 | UMKC: 6.00 | Risk Val: 1.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Denver: 60.67% | UMKC: 39.33%
+		-> 2023: UMKC | 2024: Denver, UMKC | 2025: Denver
+
+
+Weber+St. at Eastern+Washington
+	<-> AMH: 74.576% from 59 sample(s). AMH equal PWM: 79.167% from 24 sample(s). % diff -0.0732% (- better than +)
+	<-> Overall Odds: 76.87%, EV>10%: 10.29% when odds less or equal to -230
+	<-> Analyze Match History Prediction -> 	Weber+St.: 37.75% | Eastern+Washington: 62.25%
+	<-> Current Win Streaks -> 					Weber+St.: 0 | Eastern+Washington: 1
+	<-> Prediction Accuracy Estimate -> 		Weber+St.: -1.75 | Eastern+Washington: -14.75 | Risk Val: -8.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Weber+St.: 36.35% | Eastern+Washington: 63.65%
+		-> 2023: Eastern+Washington | 2024: Weber+St. | 2025: Eastern+Washington
+
+
+UC+Irvine at Cal+St.+Fullerton
+	<-> AMH: 51.515% from 66 sample(s). AMH equal PWM: 51.429% from 35 sample(s). % diff -0.3229% (- better than +)
+	<-> Overall Odds: 51.47%, EV>10%: 10.66% when odds greater or equal to 115
+	<-> Analyze Match History Prediction -> 	UC+Irvine: 64.45% | Cal+St.+Fullerton: 35.55%
+	<-> Current Win Streaks -> 					UC+Irvine: 5 | Cal+St.+Fullerton: 0
+	<-> Prediction Accuracy Estimate -> 		UC+Irvine: -5.75 | Cal+St.+Fullerton: -1.00 | Risk Val: -3.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UC+Irvine: 93.63% | Cal+St.+Fullerton: 6.37%
+		-> 2023: Cal+St.+Fullerton | 2024: UC+Irvine | 2025: UC+Irvine
+
+
+Montana at Sacramento+St.
+	<-> AMH: 68.056% from 72 sample(s). AMH equal PWM: 76.190% from 42 sample(s). % diff -0.2698% (- better than +)
+	<-> Overall Odds: 72.12%, EV>10%: 10.08% when odds less or equal to -190
+	<-> Analyze Match History Prediction -> 	Montana: 60.03% | Sacramento+St.: 39.97%
+	<-> Current Win Streaks -> 					Montana: 9 | Sacramento+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Montana: 51.75 | Sacramento+St.: -7.75 | Risk Val: 22.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Montana: 100.00% | Sacramento+St.: 0.00%
+		-> 2023: Montana | 2024: Montana | 2025: Montana
+
+
+North+Carolina+A%26T at Northeastern
+	<-> AMH: 81.633% from 49 sample(s). % diff -0.2736% (- better than +)
+	<-> Overall Odds: 81.63%, EV>10%: 10.28% when odds less or equal to -285
+	<-> Analyze Match History Prediction -> 	North+Carolina+A%26T: 26.97% | Northeastern: 73.03%
+	<-> Current Win Streaks -> 					North+Carolina+A%26T: 1 | Northeastern: 0
+	<-> Prediction Accuracy Estimate -> 		North+Carolina+A%26T: 2.00 | Northeastern: -17.00 | Risk Val: -7.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> North+Carolina+A%26T: 69.70% | Northeastern: 30.30%
+		-> 2023: Northeastern | 2024: North+Carolina+A%26T | 2025: 
+
+
+Detroit+Mercy at Green+Bay
+	<-> AMH: 62.069% from 58 sample(s). % diff -0.2865% (- better than +)
+	<-> Overall Odds: 62.07%, EV>10%: 11.72% when odds less or equal to -125
+	<-> Analyze Match History Prediction -> 	Detroit+Mercy: 37.16% | Green+Bay: 62.84%
+	<-> Current Win Streaks -> 					Detroit+Mercy: 1 | Green+Bay: 0
+	<-> Prediction Accuracy Estimate -> 		Detroit+Mercy: -12.50 | Green+Bay: 14.00 | Risk Val: 0.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Detroit+Mercy: 56.62% | Green+Bay: 43.38%
+		-> 2023: Detroit+Mercy | 2024: Green+Bay | 2025: Detroit+Mercy
+
+
+Morehead+St. at Tennessee+St.
+	<-> AMH: 76.087% from 46 sample(s). % diff -0.3142% (- better than +)
+	<-> Overall Odds: 76.09%, EV>10%: 10.67% when odds less or equal to -220
+	<-> Analyze Match History Prediction -> 	Morehead+St.: 29.89% | Tennessee+St.: 70.11%
+	<-> Current Win Streaks -> 					Morehead+St.: 0 | Tennessee+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Morehead+St.: -4.75 | Tennessee+St.: 2.50 | Risk Val: -1.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Morehead+St.: 100.00% | Tennessee+St.: 0.00%
+		-> 2023: Morehead+St. | 2024: Morehead+St. | 2025: Morehead+St.
+
+
+Vermont at NJIT
+	<-> AMH: 56.250% from 80 sample(s). AMH equal PWM: 63.830% from 47 sample(s). % diff -0.2125% (- better than +)
+	<-> Overall Odds: 60.04%, EV>10%: 10.07% when odds less or equal to -120
+	<-> Analyze Match History Prediction -> 	Vermont: 51.17% | NJIT: 48.83%
+	<-> Current Win Streaks -> 					Vermont: 2 | NJIT: 0
+	<-> Prediction Accuracy Estimate -> 		Vermont: 13.75 | NJIT: 4.50 | Risk Val: 9.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Vermont: 92.77% | NJIT: 7.23%
+		-> 2023: Vermont | 2024: NJIT | 2025: Vermont
+
+
+Southern+Indiana at Tennessee+Martin
+	<-> AMH: 67.241% from 58 sample(s). AMH equal PWM: 66.667% from 27 sample(s). % diff -0.1794% (- better than +)
+	<-> Overall Odds: 66.95%, EV>10%: 10.15% when odds less or equal to -155
+	<-> Analyze Match History Prediction -> 	Southern+Indiana: 32.40% | Tennessee+Martin: 67.60%
+	<-> Current Win Streaks -> 					Southern+Indiana: 0 | Tennessee+Martin: 0
+	<-> Prediction Accuracy Estimate -> 		Southern+Indiana: -23.00 | Tennessee+Martin: -3.50 | Risk Val: -13.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Southern+Indiana: 0.00% | Tennessee+Martin: 100.00%
+		-> 2023: Tennessee+Martin | 2024: Tennessee+Martin | 2025: Tennessee+Martin
+
+
+Maine at New+Hampshire
+	<-> AMH: 45.455% from 66 sample(s). AMH equal PWM: 30.303% from 33 sample(s). % diff -0.2345% (- better than +)
+	<-> Overall Odds: 37.88%, EV>10%: 11.74% when odds greater or equal to 195
+	<-> Analyze Match History Prediction -> 	Maine: 53.57% | New+Hampshire: 46.43%
+	<-> Current Win Streaks -> 					Maine: 0 | New+Hampshire: 0
+	<-> Prediction Accuracy Estimate -> 		Maine: 28.00 | New+Hampshire: 2.25 | Risk Val: 15.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Maine: 65.79% | New+Hampshire: 34.21%
+		-> 2023: New+Hampshire | 2024: New+Hampshire | 2025: Maine
+
+
+Wagner at LIU
+	<-> AMH: 71.875% from 64 sample(s). % diff -0.2562% (- better than +)
+	<-> Overall Odds: 71.88%, EV>10%: 10.73% when odds less or equal to -185
+	<-> Analyze Match History Prediction -> 	Wagner: 42.02% | LIU: 57.98%
+	<-> Current Win Streaks -> 					Wagner: 0 | LIU: 2
+	<-> Prediction Accuracy Estimate -> 		Wagner: 5.00 | LIU: 0.50 | Risk Val: 2.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Wagner: 64.34% | LIU: 35.66%
+		-> 2023: Wagner | 2024: Wagner | 2025: LIU
+
+
+Le+Moyne at Central+Connecticut
+	<-> AMH: 100.000% from 26 sample(s). AMH equal PWM: 100.000% from 19 sample(s). % diff -0.3018% (- better than +)
+	<-> Overall Odds: 100.00%, EV>10%: 24.69% when odds less or equal to -405
+	<-> Analyze Match History Prediction -> 	Le+Moyne: 20.05% | Central+Connecticut: 79.95%
+	<-> Current Win Streaks -> 					Le+Moyne: 0 | Central+Connecticut: 5
+	<-> Prediction Accuracy Estimate -> 		Le+Moyne: -19.25 | Central+Connecticut: -4.00 | Risk Val: -11.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Le+Moyne: -1.00% | Central+Connecticut: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Western+Illinois at Tennessee+Tech
+	<-> AMH: 72.917% from 48 sample(s). % diff -0.2810% (- better than +)
+	<-> Overall Odds: 72.92%, EV>10%: 10.31% when odds less or equal to -195
+	<-> Analyze Match History Prediction -> 	Western+Illinois: 29.65% | Tennessee+Tech: 70.35%
+	<-> Current Win Streaks -> 					Western+Illinois: 0 | Tennessee+Tech: 2
+	<-> Prediction Accuracy Estimate -> 		Western+Illinois: -18.25 | Tennessee+Tech: 29.75 | Risk Val: 5.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Western+Illinois: 100.00% | Tennessee+Tech: 0.00%
+		-> 2023:  | 2024: Western+Illinois | 2025: Western+Illinois
+
+
+Chicago+St. at Mercyhurst
+	<-> AMH: 73.913% from 46 sample(s). AMH equal PWM: 70.000% from 30 sample(s). % diff -0.2411% (- better than +)
+	<-> Overall Odds: 71.96%, EV>10%: 10.85% when odds less or equal to -185
+	<-> Analyze Match History Prediction -> 	Chicago+St.: 29.50% | Mercyhurst: 70.50%
+	<-> Current Win Streaks -> 					Chicago+St.: 0 | Mercyhurst: 0
+	<-> Prediction Accuracy Estimate -> 		Chicago+St.: -2.75 | Mercyhurst: 42.00 | Risk Val: 19.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Chicago+St.: -1.00% | Mercyhurst: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+<>
