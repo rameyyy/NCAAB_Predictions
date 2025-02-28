@@ -1,0 +1,257 @@
+<- Games on 02/28/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+UCLA at Purdue
+	<-> AMH: 55.556% from 72 sample(s). AMH equal PWM: 58.537% from 41 sample(s). % diff -0.2398% (- better than +)
+	<-> Overall Odds: 57.05%, EV>10%: 11.38% when odds less or equal to -105
+	<-> Analyze Match History Prediction -> 	UCLA: 35.43% | Purdue: 64.57%
+	<-> Current Win Streaks -> 					UCLA: 1 | Purdue: 0
+	<-> Prediction Accuracy Estimate -> 		UCLA: 0.25 | Purdue: 2.75 | Risk Val: 1.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> UCLA: -1.00% | Purdue: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Iowa at Northwestern
+	<-> AMH: 71.930% from 57 sample(s). % diff -0.3358% (- better than +)
+	<-> Overall Odds: 71.93%, EV>10%: 10.81% when odds less or equal to -185
+	<-> Analyze Match History Prediction -> 	Iowa: 33.23% | Northwestern: 66.77%
+	<-> Current Win Streaks -> 					Iowa: 0 | Northwestern: 2
+	<-> Prediction Accuracy Estimate -> 		Iowa: 2.50 | Northwestern: -1.50 | Risk Val: 0.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Iowa: 86.43% | Northwestern: 13.57%
+		-> 2023: Northwestern | 2024: Iowa | 2025: Iowa
+
+
+Nevada at UNLV
+	<-> AMH: 67.241% from 58 sample(s). % diff -0.1663% (- better than +)
+	<-> Overall Odds: 67.24%, EV>10%: 10.62% when odds less or equal to -155
+	<-> Analyze Match History Prediction -> 	Nevada: 37.30% | UNLV: 62.70%
+	<-> Current Win Streaks -> 					Nevada: 1 | UNLV: 0
+	<-> Prediction Accuracy Estimate -> 		Nevada: 6.00 | UNLV: 0.00 | Risk Val: 3.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Nevada: 89.02% | UNLV: 10.98%
+		-> 2023: UNLV | 2024: Nevada | 2025: Nevada
+
+
+Yale at Dartmouth
+	<-> AMH: 68.421% from 76 sample(s). AMH equal PWM: 76.087% from 46 sample(s). % diff -0.2285% (- better than +)
+	<-> Overall Odds: 72.25%, EV>10%: 10.28% when odds less or equal to -190
+	<-> Analyze Match History Prediction -> 	Yale: 60.05% | Dartmouth: 39.95%
+	<-> Current Win Streaks -> 					Yale: 8 | Dartmouth: 4
+	<-> Prediction Accuracy Estimate -> 		Yale: 1.75 | Dartmouth: 57.25 | Risk Val: 29.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Yale: 100.00% | Dartmouth: 0.00%
+		-> 2023: Yale | 2024: Yale | 2025: Yale
+
+
+Kent+St. at Akron
+	<-> AMH: 54.930% from 71 sample(s). AMH equal PWM: 57.500% from 40 sample(s). % diff -0.3268% (- better than +)
+	<-> Overall Odds: 56.21%, EV>10%: 12.43% when odds greater or equal to 100
+	<-> Analyze Match History Prediction -> 	Kent+St.: 35.53% | Akron: 64.47%
+	<-> Current Win Streaks -> 					Kent+St.: 3 | Akron: 7
+	<-> Prediction Accuracy Estimate -> 		Kent+St.: 1.50 | Akron: 6.25 | Risk Val: 3.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Kent+St.: 14.72% | Akron: 85.28%
+		-> 2023: Kent+St. | 2024: Akron | 2025: Akron
+
+
+Appalachian+St. at Marshall
+	<-> AMH: 62.857% from 70 sample(s). AMH equal PWM: 60.606% from 33 sample(s). % diff -0.3367% (- better than +)
+	<-> Overall Odds: 61.73%, EV>10%: 11.12% when odds less or equal to -125
+	<-> Analyze Match History Prediction -> 	Appalachian+St.: 43.48% | Marshall: 56.52%
+	<-> Current Win Streaks -> 					Appalachian+St.: 0 | Marshall: 2
+	<-> Prediction Accuracy Estimate -> 		Appalachian+St.: 5.25 | Marshall: 4.00 | Risk Val: 4.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Appalachian+St.: 47.67% | Marshall: 52.33%
+		-> 2023: Marshall | 2024: Appalachian+St. | 2025: Marshall
+
+
+James+Madison at Texas+St.
+	<-> AMH: 46.575% from 73 sample(s). % diff -0.3043% (- better than +)
+	<-> Overall Odds: 46.58%, EV>10%: 11.78% when odds greater or equal to 140
+	<-> Analyze Match History Prediction -> 	James+Madison: 47.40% | Texas+St.: 52.60%
+	<-> Current Win Streaks -> 					James+Madison: 2 | Texas+St.: 2
+	<-> Prediction Accuracy Estimate -> 		James+Madison: -16.50 | Texas+St.: 0.75 | Risk Val: -7.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> James+Madison: 91.22% | Texas+St.: 8.78%
+		-> 2023: Texas+St. | 2024: James+Madison | 2025: 
+
+
+Brown at Harvard
+	<-> AMH: 49.398% from 83 sample(s). % diff -0.1990% (- better than +)
+	<-> Overall Odds: 49.40%, EV>10%: 11.14% when odds greater or equal to 125
+	<-> Analyze Match History Prediction -> 	Brown: 48.31% | Harvard: 51.69%
+	<-> Current Win Streaks -> 					Brown: 3 | Harvard: 0
+	<-> Prediction Accuracy Estimate -> 		Brown: 7.50 | Harvard: 2.25 | Risk Val: 4.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Brown: 63.22% | Harvard: 36.78%
+		-> 2023: Brown | 2024: Brown | 2025: Harvard
+
+
+Princeton at Columbia
+	<-> AMH: 49.383% from 81 sample(s). % diff -0.1840% (- better than +)
+	<-> Overall Odds: 49.38%, EV>10%: 11.11% when odds greater or equal to 125
+	<-> Analyze Match History Prediction -> 	Princeton: 48.23% | Columbia: 51.77%
+	<-> Current Win Streaks -> 					Princeton: 1 | Columbia: 0
+	<-> Prediction Accuracy Estimate -> 		Princeton: -17.75 | Columbia: -20.50 | Risk Val: -19.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Princeton: 100.00% | Columbia: 0.00%
+		-> 2023: Princeton | 2024: Princeton | 2025: Princeton
+
+
+Davidson at VCU
+	<-> AMH: 100.000% from 24 sample(s). AMH equal PWM: 100.000% from 17 sample(s). % diff -0.3029% (- better than +)
+	<-> Overall Odds: 100.00%, EV>10%: 24.69% when odds less or equal to -405
+	<-> Analyze Match History Prediction -> 	Davidson: 19.44% | VCU: 80.56%
+	<-> Current Win Streaks -> 					Davidson: 0 | VCU: 8
+	<-> Prediction Accuracy Estimate -> 		Davidson: 11.00 | VCU: 1.50 | Risk Val: 6.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Davidson: 0.00% | VCU: 100.00%
+		-> 2023: VCU | 2024: VCU | 2025: 
+
+
+Central+Michigan at Eastern+Michigan
+	<-> AMH: 41.429% from 70 sample(s). AMH equal PWM: 27.027% from 37 sample(s). % diff -0.2303% (- better than +)
+	<-> NEGATIVE EV BET FROM -400 to 200 AMERICAN ODDS
+	<-> Analyze Match History Prediction -> 	Central+Michigan: 53.62% | Eastern+Michigan: 46.38%
+	<-> Current Win Streaks -> 					Central+Michigan: 0 | Eastern+Michigan: 0
+	<-> Prediction Accuracy Estimate -> 		Central+Michigan: 1.50 | Eastern+Michigan: 6.50 | Risk Val: 4.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Central+Michigan: 91.60% | Eastern+Michigan: 8.40%
+		-> 2023: Eastern+Michigan | 2024: Central+Michigan | 2025: Central+Michigan
+
+
+Iona at Niagara
+	<-> AMH: 67.568% from 74 sample(s). % diff -0.3015% (- better than +)
+	<-> Overall Odds: 67.57%, EV>10%: 11.16% when odds less or equal to -155
+	<-> Analyze Match History Prediction -> 	Iona: 42.14% | Niagara: 57.86%
+	<-> Current Win Streaks -> 					Iona: 0 | Niagara: 2
+	<-> Prediction Accuracy Estimate -> 		Iona: 8.75 | Niagara: 2.75 | Risk Val: 5.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Iona: 100.00% | Niagara: 0.00%
+		-> 2023: Iona | 2024: Iona | 2025: 
+
+
+Marist at Sacred+Heart
+	<-> AMH: 49.398% from 83 sample(s). AMH equal PWM: 53.191% from 47 sample(s). % diff -0.1762% (- better than +)
+	<-> Overall Odds: 51.29%, EV>10%: 10.28% when odds greater or equal to 115
+	<-> Analyze Match History Prediction -> 	Marist: 48.29% | Sacred+Heart: 51.71%
+	<-> Current Win Streaks -> 					Marist: 4 | Sacred+Heart: 4
+	<-> Prediction Accuracy Estimate -> 		Marist: -1.50 | Sacred+Heart: 24.50 | Risk Val: 11.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Marist: -1.00% | Sacred+Heart: -1.00%
+		-> N/A: N/A, N/A, N/A, N/A, N/A
+
+
+Georgia+St. at Georgia+Southern
+	<-> AMH: 65.152% from 66 sample(s). % diff -0.1529% (- better than +)
+	<-> Overall Odds: 65.15%, EV>10%: 10.08% when odds less or equal to -145
+	<-> Analyze Match History Prediction -> 	Georgia+St.: 34.58% | Georgia+Southern: 65.42%
+	<-> Current Win Streaks -> 					Georgia+St.: 4 | Georgia+Southern: 1
+	<-> Prediction Accuracy Estimate -> 		Georgia+St.: 9.75 | Georgia+Southern: 9.00 | Risk Val: 9.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Georgia+St.: 69.43% | Georgia+Southern: 30.57%
+		-> 2023: Georgia+St. | 2024: Georgia+Southern | 2025: Georgia+St.
+
+
+Troy at Southern+Miss
+	<-> AMH: 73.016% from 63 sample(s). AMH equal PWM: 71.875% from 32 sample(s). % diff -0.1456% (- better than +)
+	<-> Overall Odds: 72.45%, EV>10%: 10.57% when odds less or equal to -190
+	<-> Analyze Match History Prediction -> 	Troy: 61.44% | Southern+Miss: 38.56%
+	<-> Current Win Streaks -> 					Troy: 1 | Southern+Miss: 0
+	<-> Prediction Accuracy Estimate -> 		Troy: -5.25 | Southern+Miss: 0.00 | Risk Val: -2.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Troy: 76.85% | Southern+Miss: 23.15%
+		-> 2023: Southern+Miss | 2024: Southern+Miss | 2025: Troy
+
+
+Mount+St.+Mary%27s at Fairfield
+	<-> AMH: 56.818% from 88 sample(s). % diff -0.1895% (- better than +)
+	<-> Overall Odds: 56.82%, EV>10%: 10.93% when odds less or equal to -105
+	<-> Analyze Match History Prediction -> 	Mount+St.+Mary%27s: 48.93% | Fairfield: 51.07%
+	<-> Current Win Streaks -> 					Mount+St.+Mary%27s: 1 | Fairfield: 0
+	<-> Prediction Accuracy Estimate -> 		Mount+St.+Mary%27s: -2.50 | Fairfield: -4.75 | Risk Val: -3.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Mount+St.+Mary%27s: 60.33% | Fairfield: 39.67%
+		-> 2023: Fairfield | 2024: Fairfield | 2025: Mount+St.+Mary%27s
+
+
+Manhattan at Canisius
+	<-> AMH: 57.746% from 71 sample(s). % diff -0.2621% (- better than +)
+	<-> Overall Odds: 57.75%, EV>10%: 10.24% when odds less or equal to -110
+	<-> Analyze Match History Prediction -> 	Manhattan: 56.72% | Canisius: 43.28%
+	<-> Current Win Streaks -> 					Manhattan: 0 | Canisius: 0
+	<-> Prediction Accuracy Estimate -> 		Manhattan: 10.25 | Canisius: -6.00 | Risk Val: 2.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Manhattan: 12.98% | Canisius: 87.02%
+		-> 2023: Manhattan | 2024: Canisius | 2025: 
+
+
+Penn at Cornell
+	<-> AMH: 67.308% from 52 sample(s). AMH equal PWM: 64.000% from 25 sample(s). % diff -0.2173% (- better than +)
+	<-> Overall Odds: 65.65%, EV>10%: 10.93% when odds less or equal to -145
+	<-> Analyze Match History Prediction -> 	Penn: 31.27% | Cornell: 68.73%
+	<-> Current Win Streaks -> 					Penn: 0 | Cornell: 0
+	<-> Prediction Accuracy Estimate -> 		Penn: 18.25 | Cornell: 3.75 | Risk Val: 11.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Penn: 10.83% | Cornell: 89.17%
+		-> 2023: Penn | 2024: Cornell | 2025: Cornell
+
+
+Old+Dominion at Coastal+Carolina
+	<-> AMH: 72.131% from 61 sample(s). % diff -0.3308% (- better than +)
+	<-> Overall Odds: 72.13%, EV>10%: 10.09% when odds less or equal to -190
+	<-> Analyze Match History Prediction -> 	Old+Dominion: 44.14% | Coastal+Carolina: 55.86%
+	<-> Current Win Streaks -> 					Old+Dominion: 0 | Coastal+Carolina: 0
+	<-> Prediction Accuracy Estimate -> 		Old+Dominion: -6.00 | Coastal+Carolina: 8.50 | Risk Val: 1.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Old+Dominion: 100.00% | Coastal+Carolina: 0.00%
+		-> 2023: Old+Dominion | 2024: Old+Dominion | 2025: Old+Dominion
+
+
+Arkansas+St. at Louisiana+Monroe
+	<-> AMH: 72.581% from 62 sample(s). AMH equal PWM: 70.370% from 27 sample(s). % diff -0.2910% (- better than +)
+	<-> Overall Odds: 71.48%, EV>10%: 10.11% when odds less or equal to -185
+	<-> Analyze Match History Prediction -> 	Arkansas+St.: 66.26% | Louisiana+Monroe: 33.74%
+	<-> Current Win Streaks -> 					Arkansas+St.: 1 | Louisiana+Monroe: 0
+	<-> Prediction Accuracy Estimate -> 		Arkansas+St.: 4.00 | Louisiana+Monroe: 10.75 | Risk Val: 7.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Arkansas+St.: 100.00% | Louisiana+Monroe: 0.00%
+		-> 2023: Arkansas+St. | 2024: Arkansas+St. | 2025: Arkansas+St.
+
+
+Saint+Peter%27s at Quinnipiac
+	<-> AMH: 68.852% from 61 sample(s). AMH equal PWM: 70.000% from 30 sample(s). % diff -0.2634% (- better than +)
+	<-> Overall Odds: 69.43%, EV>10%: 10.27% when odds less or equal to -170
+	<-> Analyze Match History Prediction -> 	Saint+Peter%27s: 32.74% | Quinnipiac: 67.26%
+	<-> Current Win Streaks -> 					Saint+Peter%27s: 1 | Quinnipiac: 1
+	<-> Prediction Accuracy Estimate -> 		Saint+Peter%27s: 24.50 | Quinnipiac: 8.75 | Risk Val: 16.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Saint+Peter%27s: 42.66% | Quinnipiac: 57.34%
+		-> 2023: Quinnipiac | 2024: Saint+Peter%27s | 2025: Quinnipiac
+
+
+Louisiana at South+Alabama
+	<-> AMH: 100.000% from 25 sample(s). AMH equal PWM: 100.000% from 18 sample(s). % diff -0.4136% (- better than +)
+	<-> Overall Odds: 100.00%, EV>10%: 24.69% when odds less or equal to -405
+	<-> Analyze Match History Prediction -> 	Louisiana: 20.22% | South+Alabama: 79.78%
+	<-> Current Win Streaks -> 					Louisiana: 3 | South+Alabama: 0
+	<-> Prediction Accuracy Estimate -> 		Louisiana: -5.00 | South+Alabama: 7.50 | Risk Val: 1.25
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Louisiana: 41.23% | South+Alabama: 58.77%
+		-> 2023: Louisiana | 2024: Louisiana | 2025: South+Alabama
+
+
+Rider at Merrimack
+	<-> AMH: 86.486% from 37 sample(s). AMH equal PWM: 84.000% from 25 sample(s). % diff -0.2022% (- better than +)
+	<-> Overall Odds: 85.24%, EV>10%: 10.31% when odds less or equal to -340
+	<-> Analyze Match History Prediction -> 	Rider: 22.95% | Merrimack: 77.05%
+	<-> Current Win Streaks -> 					Rider: 1 | Merrimack: 1
+	<-> Prediction Accuracy Estimate -> 		Rider: 8.50 | Merrimack: -1.00 | Risk Val: 3.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Rider: 0.00% | Merrimack: 100.00%
+		-> 2023:  | 2024:  | 2025: Merrimack
+
+<>

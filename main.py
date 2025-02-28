@@ -1,6 +1,6 @@
 file_path_to_path = '$HOME/projects/NCAAB_Predictions/database/paths.json'
-date_str_ = '20250227'
-date_for_txt_file = '02-27-2026'
+date_str_ = '20250228'
+date_for_txt_file = '02-28-2025'
 import reportgen
 rg = reportgen
 rg.initialize_path(file_path_to_path)
