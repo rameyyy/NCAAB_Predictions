@@ -223,9 +223,7 @@ def optimize_PrevWinner_value():
     
    
 # hd.CommonFunctions().clear_game_sched_file()
-# rg.CommonScrapes().game_winners('20250227')
-# import time
-# time.sleep(2)
+# rg.CommonScrapes().game_winners('20250228')
 sb_acc, pgb_on, amh_acc, supa_safe_Acc, pgb_on_supasafe, prevwinner_acc = run_the_nums()
 sb_acc *= 100
 pgb_on *=100
@@ -234,3 +232,4 @@ supa_safe_Acc *= 100
 pgb_on_supasafe *= 100
 prevwinner_acc *= 100
 print(f'Safe Bet Accuracy: {sb_acc:.5f}%\nGames considered a safe bet: {pgb_on:.3f}%\nAMH accuracy: {amh_acc:.5f}%\nPrevWinner accuracy: {prevwinner_acc:.5f}%\nSuper safe accuracy: {supa_safe_Acc:.5f}%\nGames considered supa safe: {pgb_on_supasafe:.4f}%')
+#T

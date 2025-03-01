@@ -26,5 +26,6 @@ from .commonFunctions import CommonFunctions
 from .pointPrediction import PointPrediction
 from .accuracyEstimate import AccuracyEstimate
 from .prevWinner import PrevWinner
+from .analyzeMatchHist2 import AnalyzeMatchHist2
 
-__all__ = ['AnalyzeMatchHist', 'CommonFunctions', 'PointPrediction', 'AccuracyEstimate', 'PrevWinner']
+__all__ = ['AnalyzeMatchHist', 'CommonFunctions', 'PointPrediction', 'AccuracyEstimate', 'PrevWinner', 'AnalyzeMatchHist2']

@@ -1,0 +1,193 @@
+from . import commonFunctions
+from datetime import datetime
+
+class AnalyzeMatchHist2:
+    def __init__(self, team1:str, at_or_vs:str, team2:str, ignore_data_bool:bool):
+        self.commonFuncObj = commonFunctions.CommonFunctions()
+        self.ignore_data_boolean = ignore_data_bool
+        self.match_info_arr = [team1, at_or_vs, team2]
+        
+    def get_path(self):
+        from . import get_paths
+        paths_arr = get_paths()
+        return paths_arr
+    
+    def date_to_decimal(self, date_str):
+        try:
+            # Parse the input date string
+            input_date = datetime.strptime(date_str, "%m-%d").replace(year=datetime.now().year)
+
+            # Define the start date (11-01 of the current year)
+            start_date = datetime(datetime.now().year, 11, 1)
+
+            # Define the current date
+            current_date = datetime.now()
+
+            # Calculate the time differences
+            time_diff_input = (input_date - start_date).days
+            time_diff_current = (current_date - start_date).days
+
+            # Handle cases where input date is before start date by wrapping around to next year.
+            if time_diff_input < 0:
+                input_date = input_date.replace(year=datetime.now().year + 1)
+                time_diff_input = (input_date - start_date).days
+
+            # Handle cases where start date is after current date by wrapping around to previous year.
+            if time_diff_current < 0:
+                start_date = start_date.replace(year=datetime.now().year - 1)
+                time_diff_current = (current_date - start_date).days
+            
+            # Calculate the decimal value
+            decimal_value = time_diff_input / time_diff_current if time_diff_current != 0 else 0.0
+
+            multiply_val = 1+decimal_value
+            
+            return multiply_val
+
+        except ValueError:
+            return "Invalid date format. Please use MM-DD."
+
+    def get_individual_data(self, team1, team2):
+        dateStr = self.commonFuncObj.get_formatted_date()
+        yearStr = self.commonFuncObj.get_ncaa_season_year(dateStr)
+        file_path = self.commonFuncObj.adjust_matchHist_file_path(yearStr)
+        dataset = self.commonFuncObj.load_json_file(file_path)
+        team1_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team1)
+        team2_data = self.commonFuncObj.get_team_data(data_set=dataset, team_name=team2)
+        return team1_data, team2_data
+    
+    def check_match_history(self, team1_data, team2_data):
+        total_ranked = self.commonFuncObj.get_lowest_rank()
+        win_streak = [0, 0]
+        for i in range(0, 2):
+            if i == 0:
+                data = team1_data.copy()    # Create a copy of the data to work with
+                ops_team_name = team2_data.get('team_name', None)
+            else:
+                data = team2_data.copy()    # Create a copy of the data to work with
+                ops_team_name = team1_data.get('team_name', None)
+            data.pop('Rank', None)
+            data.pop('team_name', None)
+            match_score = 0
+            match_count = 0
+            for key, items in data.items():
+                if self.ignore_data_boolean != True:
+                    ops_rank = items.get("Rank")
+                    ops_diff = items.get("Diff")
+                    win_loss = items.get("W/L")
+                    date = items.get("Date")
+                    decimal_match_time_val = self.date_to_decimal(date)
+                    if win_loss == 1:
+                        win_streak[i] = win_streak[i] + 1
+                    else:
+                        win_streak[i] = 0
+                    if ops_rank == None:
+                        ops_rank = self.commonFuncObj.get_lowest_rank()
+                    x = (ops_rank/ops_diff/total_ranked)
+                    if ops_diff < 0:
+                        x = (ops_rank/total_ranked) * (ops_diff * -1)
+                    else:
+                        x = (ops_rank/total_ranked) / ops_diff
+                    x *= decimal_match_time_val
+                    x *= 100
+                    match_score += x
+                    match_count += 1
+                else:
+                    if key == ops_team_name:
+                        pass
+                    else:
+                        ops_rank = items.get("Rank")
+                        ops_diff = items.get("Diff")
+                        win_loss = items.get("W/L")
+                        date = items.get("Date")
+                        decimal_match_time_val = self.date_to_decimal(date)
+                        if win_loss == 1:
+                            win_streak[i] = win_streak[i] + 1
+                        else:
+                            win_streak[i] = 0
+                        if ops_rank == None:
+                            ops_rank = self.commonFuncObj.get_lowest_rank() + 51
+                        x = (ops_rank/ops_diff/total_ranked)
+                        if ops_diff < 0:
+                            x = (ops_rank/total_ranked) * (ops_diff * -1)
+                        else:
+                            x = (ops_rank/total_ranked) / ops_diff
+                        x *= 100
+                        x *= decimal_match_time_val
+                        match_score += x
+                        match_count += 1
+            if match_count == 0:
+                return -1, -1, win_streak
+            avg_match_score = match_score / match_count
+            if i == 0:
+                match_score_t1 = match_score
+                match_count_t1 = match_count
+                avg_match_score_t1 = avg_match_score
+            else:
+                match_score_t2 = match_score
+                match_count_t2 = match_count
+                avg_match_score_t2 = avg_match_score
+        match_difference = match_count_t1 - match_count_t2
+        if match_difference > 0:
+            match_score_t1 -= avg_match_score_t1*match_difference
+        elif match_difference < 0:
+            match_score_t2 -= avg_match_score_t2*match_difference
+        
+        total_match_score = match_score_t2 + match_score_t1
+        winr_t1 = match_score_t2 / total_match_score
+        winr_t2 = match_score_t1 / total_match_score
+        return winr_t1, winr_t2, win_streak
+    
+    def hna_check(self, at_vs:str):
+        # if at, then that team is home and gets 100% of home/away pts
+         # else neither team gets points
+        if at_vs == 'at':
+            return 0, 1
+        else:
+            return 0, 0
+    
+    def trank_comparison(self, team1_datas, team2_datas):
+        lowest_ranked = self.commonFuncObj.get_lowest_rank()
+        t1_rank =team1_datas.get('Rank')
+        if t1_rank == None:
+            t1_rank = lowest_ranked
+        t2_rank =team2_datas.get('Rank')
+        if t2_rank == None:
+            t2_rank = lowest_ranked
+        t1 = t1_rank/lowest_ranked
+        t2 = t2_rank/lowest_ranked
+        t1_prcnt = t2 / (t1 + t2)
+        t2_prcnt = t1 / (t1 + t2)
+        return t1_prcnt, t2_prcnt
+
+    def add_points(self, trank_scores, match_hist_scores, hna_scores):
+        t1_total = 0
+        t2_total = 0
+        for i in range(0, 2):
+            if i % 2 == 0:
+                t1_total += (trank_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'TRank'))
+                t1_total += (match_hist_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'MatchHist'))
+                t1_total += (hna_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'HomeAway'))
+            else:
+                t2_total += (trank_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'TRank'))
+                t2_total += (match_hist_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'MatchHist'))
+                t2_total += (hna_scores[i] * self.commonFuncObj.get_function_weight('AnalyzeMatchHist', 'HomeAway'))
+        return t1_total, t2_total
+
+    def return_odds(self):
+        team1 = self.match_info_arr[0]
+        at_vs = self.match_info_arr[1]
+        team2 = self.match_info_arr[2]
+        t1_odds, t2_odds, winstreak_array = self.run_the_numbers(team1, at_vs, team2)
+        return t1_odds, t2_odds, winstreak_array
+
+    def run_the_numbers(self, team1, at_or_vs, team2):
+        team1_data, team2_data = self.get_individual_data(team1, team2)
+        match_hist_score = self.check_match_history(team1_data, team2_data)
+        win_streak_arr = match_hist_score[2]
+        trank_score = self.trank_comparison(team1_data, team2_data)
+        hna_score = self.hna_check(at_or_vs)
+        scores = self.add_points(trank_score, match_hist_score, hna_score)
+        data1 = (scores[0] / (scores[0] + scores[1])) * 100
+        data2 = (scores[1] / (scores[0] + scores[1])) * 100
+        return data1, data2, win_streak_arr

@@ -163,7 +163,7 @@ class PointPrediction:
             return 'Brick'
     
     def calculate_points_final(self, hna, pts1, pts2):
-        weight_pts1 = self.commonFuncObj.get_function_weight('PointPrediction', 'PlayerMin_PtAvgs')
+        # weight_pts1 = self.commonFuncObj.get_function_weight('PointPrediction', 'PlayerMin_PtAvgs')
         weight_pts2 = self.commonFuncObj.get_function_weight('PointPrediction', 'SimilarMatch_PtAverages')
         weight_pts1 /= 100
         weight_pts2 /= 100
