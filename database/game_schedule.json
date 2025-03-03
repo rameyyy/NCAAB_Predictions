@@ -1,119 +1,139 @@
 {
-    "20250302": [
+    "20250303": [
         [
-            "Illinois",
+            "UCLA",
             "at",
-            "Michigan"
+            "Northwestern"
         ],
         [
-            "Wisconsin",
+            "Kansas",
             "at",
-            "Michigan+St."
+            "Houston"
         ],
         [
-            "Memphis",
+            "Wake+Forest",
             "at",
-            "UAB"
+            "Duke"
         ],
         [
-            "Florida+Atlantic",
+            "Southeastern+Louisiana",
             "at",
-            "South+Florida"
+            "UT+Rio+Grande+Valley"
         ],
         [
-            "Southern+Illinois",
+            "Nicholls+St.",
             "at",
-            "Indiana+St."
+            "Lamar"
         ],
         [
-            "Northern+Iowa",
+            "Eastern+Kentucky",
             "at",
-            "Bradley"
+            "Jacksonville"
         ],
         [
-            "Colorado",
+            "Delaware+St.",
             "at",
-            "Kansas+St."
+            "Morgan+St."
         ],
         [
-            "Rice",
+            "Queens",
             "at",
-            "UTSA"
+            "Florida+Gulf+Coast"
         ],
         [
-            "Quinnipiac",
+            "Southern",
             "at",
-            "Merrimack"
+            "Florida+A%26M"
         ],
         [
-            "Murray+St.",
+            "Northern+Colorado",
             "at",
-            "Belmont"
+            "Weber+St."
+        ],
+        [
+            "Wichita+St.",
+            "at",
+            "North+Texas"
+        ],
+        [
+            "Norfolk+St.",
+            "at",
+            "North+Carolina+Central"
+        ],
+        [
+            "Incarnate+Word",
+            "at",
+            "Northwestern+St."
+        ],
+        [
+            "Idaho",
+            "at",
+            "Montana+St."
+        ],
+        [
+            "Texas+Southern",
+            "at",
+            "Alcorn+St."
+        ],
+        [
+            "McNeese+St.",
+            "at",
+            "Stephen+F.+Austin"
+        ],
+        [
+            "Houston+Christian",
+            "at",
+            "Texas+A%26M+Commerce"
+        ],
+        [
+            "Northern+Arizona",
+            "at",
+            "Idaho+St."
+        ],
+        [
+            "Eastern+Washington",
+            "at",
+            "Montana"
+        ],
+        [
+            "Howard",
+            "at",
+            "South+Carolina+St."
         ],
         [
             "Austin+Peay",
-            "vs",
-            "North+Florida"
+            "at",
+            "North+Alabama"
         ],
         [
-            "Kennesaw+St.",
+            "Grambling+St.",
             "at",
-            "Liberty"
+            "Bethune+Cookman"
         ],
         [
-            "Princeton",
+            "New+Orleans",
             "at",
-            "Cornell"
+            "Texas+A%26M+Corpus+Chris"
         ],
         [
-            "Manhattan",
+            "Maryland+Eastern+Shore",
             "at",
-            "Niagara"
-        ],
-        [
-            "Siena",
-            "at",
-            "Mount+St.+Mary%27s"
-        ],
-        [
-            "Valparaiso",
-            "at",
-            "Illinois+Chicago"
-        ],
-        [
-            "Iona",
-            "at",
-            "Canisius"
+            "Coppin+St."
         ],
         [
             "Central+Arkansas",
-            "vs",
-            "Stetson"
+            "at",
+            "Lipscomb"
         ],
         [
-            "Evansville",
+            "Prairie+View+A%26M",
             "at",
-            "Illinois+St."
+            "Jackson+St."
         ],
         [
-            "Missouri+St.",
+            "Sacramento+St.",
             "at",
-            "Drake"
-        ],
-        [
-            "Charlotte",
-            "at",
-            "East+Carolina"
-        ],
-        [
-            "Saint+Peter%27s",
-            "at",
-            "Marist"
-        ],
-        [
-            "Fairfield",
-            "at",
-            "Sacred+Heart"
+            "Portland+St."
         ]
     ]
 }
