@@ -35,6 +35,7 @@ def run_the_nums():
     safe_bet_count = 0
     super_safe_bet_correct = 0
     super_safe_bet_count = 0
+    amh2_correct = 0
     for dataEntry in sched_data:
         for dateStr, matches in dataEntry.items():
             for match in matches:
@@ -49,17 +50,26 @@ def run_the_nums():
                     insert_data_arr = []
                     insert_data_arr.append(matchID)
                     ## data = return if optimizing analyze math hist
-                    analyzeMH_arr = hd.AnalyzeMatchHist(t1, at_vs, t2, True).return_odds()
+                    analyzeMH_arr = hd.AnalyzeMatchHist(t1, at_vs, t2, False).return_odds()
+                    amh2_arr = hd.AnalyzeMatchHist2(t1, at_vs, t2, False).return_odds()
                     #
-                    risk_arr = hd.AccuracyEstimate(t1, at_vs, t2, True).return_odds()
+                    risk_arr = hd.AccuracyEstimate(t1, at_vs, t2, False).return_odds()
                     # data = return if optimizing prev winner
-                    prevWinner_arr = hd.PrevWinner(t1, at_vs, t2, True).return_odds()
+                    prevWinner_arr = hd.PrevWinner(t1, at_vs, t2, False).return_odds()
                     prevWinner_prcnt_arr = prevWinner_arr[0]
                     if prevWinner_prcnt_arr[0] == -1 or prevWinner_prcnt_arr[1] == -1:
                         continue
                     #
                     decoded_t1 = urllib.parse.unquote_plus(t1)
                     decoded_t2 = urllib.parse.unquote_plus(t2)
+                    
+                    if amh2_arr[0] > amh2_arr[1]:
+                        amh2_winner = decoded_t1
+                    else:
+                        amh2_winner = decoded_t2
+                    
+                    if amh2_winner == winner:
+                        amh2_correct += 1
                     
                     if analyzeMH_arr[0] > analyzeMH_arr[1]:
                         AMHwinner = decoded_t1
@@ -128,7 +138,8 @@ def run_the_nums():
     supa_safe = float(super_safe_bet_correct) / float(super_safe_bet_count)
     percent_games_supa_safe = float(super_safe_bet_count) / float(match_counter)
     prevwinner_accuracy = float(prevWinner_correct) / float(match_counter)
-    
+    amh2_acc = amh2_correct / match_counter
+    print(f'AMH2 Accuracy: {amh2_acc:.3f}%')
     return sb_accuracy, percent_of_games_bet_on, AMH_acc, supa_safe, percent_games_supa_safe, prevwinner_accuracy
  
 def optimize_Trank_value():
@@ -223,7 +234,7 @@ def optimize_PrevWinner_value():
     
    
 # hd.CommonFunctions().clear_game_sched_file()
-# rg.CommonScrapes().game_winners('20250302')
+# rg.CommonScrapes().game_winners('20250303')
 sb_acc, pgb_on, amh_acc, supa_safe_Acc, pgb_on_supasafe, prevwinner_acc = run_the_nums()
 sb_acc *= 100
 pgb_on *=100
