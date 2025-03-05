@@ -139,6 +139,7 @@ def run_the_nums():
     percent_games_supa_safe = float(super_safe_bet_count) / float(match_counter)
     prevwinner_accuracy = float(prevWinner_correct) / float(match_counter)
     amh2_acc = amh2_correct / match_counter
+    amh2_acc *= 100
     print(f'AMH2 Accuracy: {amh2_acc:.3f}%')
     return sb_accuracy, percent_of_games_bet_on, AMH_acc, supa_safe, percent_games_supa_safe, prevwinner_accuracy
  
@@ -234,7 +235,7 @@ def optimize_PrevWinner_value():
     
    
 # hd.CommonFunctions().clear_game_sched_file()
-# rg.CommonScrapes().game_winners('20250303')
+# rg.CommonScrapes().game_winners('20250304')
 sb_acc, pgb_on, amh_acc, supa_safe_Acc, pgb_on_supasafe, prevwinner_acc = run_the_nums()
 sb_acc *= 100
 pgb_on *=100
