@@ -111,7 +111,7 @@ def check_percent():
         analyze_mh_percent = row[7]
         prevWinner_percent = row[8]
         
-        if percent_float < (analyze_mh_percent + 1.51) and percent_float > (analyze_mh_percent - 1.51):
+        if percent_float < (analyze_mh_percent + 1) and percent_float > (analyze_mh_percent - 1.5):
             # In range!
             total_matches += 1
             if prevWinner == analyze_mh:
