@@ -119,7 +119,7 @@ class CurrentDayReport:
                     t2 = match[2]
                     final_write_str += f'\n{t1} {at_vs} {t2}\n'
                     self.calculate_run_time(start_time, False)
-                    matchHist_odds_arr = self.analysis_module.AnalyzeMatchHist(t1, at_vs, t2, False).return_odds()
+                    matchHist_odds_arr = self.analysis_module.AnalyzeMatchHist2(t1, at_vs, t2, False).return_odds()
                     accuracyEst_odds_arr = self.analysis_module.AccuracyEstimate(t1, at_vs, t2, False).return_odds()
                     prevWinner_arr = self.analysis_module.PrevWinner(t1, at_vs, t2, False).return_odds()
                     prevWinner_odds_arr = prevWinner_arr[0]
