@@ -1,0 +1,125 @@
+<- Games on 03/10/2025 analysis ->
+If <Historical Prediction Accuracy> fields = -1:
+	-> historic matches were not recorded...
+
+Arkansas+St. vs Troy
+	<-> AMH: 57.547% from 106 sample(s). % diff -0.2793% (- better than +)
+	<-> Overall Odds: 57.55%, EV>10%: 12.35% when odds less or equal to -105
+	<-> Analyze Match History Prediction -> 	Arkansas+St.: 56.96% | Troy: 43.04%
+	<-> Current Win Streaks -> 					Arkansas+St.: 1 | Troy: 2
+	<-> Prediction Accuracy Estimate -> 		Arkansas+St.: 2.75 | Troy: -13.75 | Risk Val: -5.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Arkansas+St.: 32.29% | Troy: 67.71%
+		-> 2023: Troy | 2024: Arkansas+St. | 2025: Troy
+
+
+Furman vs Wofford
+	<-> AMH: 77.273% from 66 sample(s). AMH equal PWM: 76.744% from 43 sample(s). % diff -0.1848% (- better than +)
+	<-> Overall Odds: 77.01%, EV>10%: 10.49% when odds less or equal to -230
+	<-> Analyze Match History Prediction -> 	Furman: 71.10% | Wofford: 28.90%
+	<-> Current Win Streaks -> 					Furman: 4 | Wofford: 1
+	<-> Prediction Accuracy Estimate -> 		Furman: -4.00 | Wofford: 2.00 | Risk Val: -1.00
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Furman: 100.00% | Wofford: 0.00%
+		-> 2023: Furman | 2024: Furman | 2025: Furman
+
+
+Charleston vs UNC+Wilmington
+	<-> AMH: 71.774% from 124 sample(s). AMH equal PWM: 73.333% from 75 sample(s). % diff -0.1667% (- better than +)
+	<-> Overall Odds: 72.55%, EV>10%: 10.74% when odds less or equal to -190
+	<-> Analyze Match History Prediction -> 	Charleston: 38.97% | UNC+Wilmington: 61.03%
+	<-> Current Win Streaks -> 					Charleston: 1 | UNC+Wilmington: 0
+	<-> Prediction Accuracy Estimate -> 		Charleston: -4.00 | UNC+Wilmington: 1.00 | Risk Val: -1.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Charleston: 15.48% | UNC+Wilmington: 84.52%
+		-> 2023: Charleston | 2024: UNC+Wilmington | 2025: UNC+Wilmington
+
+
+Idaho+St. vs Montana+St.
+	<-> AMH: 54.902% from 102 sample(s). % diff -0.2758% (- better than +)
+	<-> Overall Odds: 54.90%, EV>10%: 12.55% when odds greater or equal to 105
+	<-> Analyze Match History Prediction -> 	Idaho+St.: 54.04% | Montana+St.: 45.96%
+	<-> Current Win Streaks -> 					Idaho+St.: 4 | Montana+St.: 0
+	<-> Prediction Accuracy Estimate -> 		Idaho+St.: -3.25 | Montana+St.: 3.00 | Risk Val: -0.12
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Idaho+St.: 0.00% | Montana+St.: 100.00%
+		-> 2023: Montana+St. | 2024: Montana+St. | 2025: Montana+St.
+
+
+Cleveland+St. vs Youngstown+St.
+	<-> AMH: 72.581% from 124 sample(s). AMH equal PWM: 73.684% from 76 sample(s). % diff -0.1514% (- better than +)
+	<-> Overall Odds: 73.13%, EV>10%: 10.64% when odds less or equal to -195
+	<-> Analyze Match History Prediction -> 	Cleveland+St.: 60.99% | Youngstown+St.: 39.01%
+	<-> Current Win Streaks -> 					Cleveland+St.: 3 | Youngstown+St.: 2
+	<-> Prediction Accuracy Estimate -> 		Cleveland+St.: 2.75 | Youngstown+St.: -5.75 | Risk Val: -1.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Cleveland+St.: 55.56% | Youngstown+St.: 44.44%
+		-> 2023: Cleveland+St. | 2024: Cleveland+St. | 2025: Youngstown+St.
+
+
+Oakland vs Robert+Morris
+	<-> AMH: 71.171% from 111 sample(s). AMH equal PWM: 71.186% from 59 sample(s). % diff -0.1995% (- better than +)
+	<-> Overall Odds: 71.18%, EV>10%: 10.72% when odds less or equal to -180
+	<-> Analyze Match History Prediction -> 	Oakland: 32.70% | Robert+Morris: 67.30%
+	<-> Current Win Streaks -> 					Oakland: 1 | Robert+Morris: 12
+	<-> Prediction Accuracy Estimate -> 		Oakland: 13.25 | Robert+Morris: -4.00 | Risk Val: 4.62
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Oakland: 36.36% | Robert+Morris: 63.64%
+		-> 2023: Robert+Morris | 2024: Oakland | 2025: Robert+Morris
+
+
+Delaware vs Towson
+	<-> AMH: 70.085% from 117 sample(s). AMH equal PWM: 73.239% from 71 sample(s). % diff -0.2699% (- better than +)
+	<-> Overall Odds: 71.66%, EV>10%: 10.40% when odds less or equal to -185
+	<-> Analyze Match History Prediction -> 	Delaware: 39.60% | Towson: 60.40%
+	<-> Current Win Streaks -> 					Delaware: 0 | Towson: 3
+	<-> Prediction Accuracy Estimate -> 		Delaware: -1.75 | Towson: -2.00 | Risk Val: -1.88
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Delaware: 29.11% | Towson: 70.89%
+		-> 2023: Towson | 2024: Delaware | 2025: Towson
+
+
+Idaho vs Portland+St.
+	<-> AMH: 72.951% from 122 sample(s). AMH equal PWM: 75.342% from 73 sample(s). % diff -0.1574% (- better than +)
+	<-> Overall Odds: 74.15%, EV>10%: 10.32% when odds less or equal to -205
+	<-> Analyze Match History Prediction -> 	Idaho: 38.92% | Portland+St.: 61.08%
+	<-> Current Win Streaks -> 					Idaho: 0 | Portland+St.: 2
+	<-> Prediction Accuracy Estimate -> 		Idaho: 3.00 | Portland+St.: 4.50 | Risk Val: 3.75
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Idaho: 0.00% | Portland+St.: 100.00%
+		-> 2023: Portland+St. | 2024: Portland+St. | 2025: Portland+St.
+
+
+Incarnate+Word vs Nicholls+St.
+	<-> AMH: 56.863% from 102 sample(s). AMH equal PWM: 52.941% from 51 sample(s). % diff -0.2415% (- better than +)
+	<-> Overall Odds: 54.90%, EV>10%: 12.55% when odds greater or equal to 105
+	<-> Analyze Match History Prediction -> 	Incarnate+Word: 45.73% | Nicholls+St.: 54.27%
+	<-> Current Win Streaks -> 					Incarnate+Word: 0 | Nicholls+St.: 3
+	<-> Prediction Accuracy Estimate -> 		Incarnate+Word: -8.75 | Nicholls+St.: -2.00 | Risk Val: -5.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Incarnate+Word: 0.00% | Nicholls+St.: 100.00%
+		-> 2023: Nicholls+St. | 2024: Nicholls+St. | 2025: Nicholls+St.
+
+
+Northwestern+St. vs Texas+A%26M+Corpus+Chris
+	<-> AMH: 70.833% from 120 sample(s). AMH equal PWM: 76.543% from 81 sample(s). % diff -0.3068% (- better than +)
+	<-> Overall Odds: 73.69%, EV>10%: 10.53% when odds less or equal to -200
+	<-> Analyze Match History Prediction -> 	Northwestern+St.: 40.59% | Texas+A%26M+Corpus+Chris: 59.41%
+	<-> Current Win Streaks -> 					Northwestern+St.: 1 | Texas+A%26M+Corpus+Chris: 1
+	<-> Prediction Accuracy Estimate -> 		Northwestern+St.: -5.00 | Texas+A%26M+Corpus+Chris: 0.00 | Risk Val: -2.50
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Northwestern+St.: 0.00% | Texas+A%26M+Corpus+Chris: 100.00%
+		-> 2023: Texas+A%26M+Corpus+Chris | 2024: Texas+A%26M+Corpus+Chris | 2025: Texas+A%26M+Corpus+Chris
+
+
+Pepperdine vs Saint+Mary%27s
+	<-> AMH: 100.000% from 10 sample(s). AMH equal PWM: 100.000% from 9 sample(s). % diff -0.2004% (- better than +)
+	<-> Overall Odds: 100.00%, EV>10%: 24.69% when odds less or equal to -405
+	<-> Analyze Match History Prediction -> 	Pepperdine: 6.53% | Saint+Mary%27s: 93.47%
+	<-> Current Win Streaks -> 					Pepperdine: 0 | Saint+Mary%27s: 4
+	<-> Prediction Accuracy Estimate -> 		Pepperdine: 7.50 | Saint+Mary%27s: -14.25 | Risk Val: -3.38
+	<-> Historical Prediction Accuracy and Previous Years Winners <->
+		-> Pepperdine: 0.00% | Saint+Mary%27s: 100.00%
+		-> 2023: Saint+Mary%27s | 2024: Saint+Mary%27s | 2025: Saint+Mary%27s
+
+<>

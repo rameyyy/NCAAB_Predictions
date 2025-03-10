@@ -50,8 +50,8 @@ def run_the_nums():
                     insert_data_arr = []
                     insert_data_arr.append(matchID)
                     ## data = return if optimizing analyze math hist
-                    amh2_arr = hd.AnalyzeMatchHist(t1, at_vs, t2, False).return_odds()
-                    analyzeMH_arr = hd.AnalyzeMatchHist2(t1, at_vs, t2, False).return_odds()
+                    amh2_arr = hd.AnalyzeMatchHist2(t1, at_vs, t2, False).return_odds()
+                    analyzeMH_arr = hd.AnalyzeMatchHist(t1, at_vs, t2, False).return_odds()
                     #
                     risk_arr = hd.AccuracyEstimate(t1, at_vs, t2, False).return_odds()
                     # data = return if optimizing prev winner
@@ -140,7 +140,7 @@ def run_the_nums():
     prevwinner_accuracy = float(prevWinner_correct) / float(match_counter)
     amh2_acc = amh2_correct / match_counter
     amh2_acc *= 100
-    print(f'AMH Accuracy: {amh2_acc:.3f}%')
+    print(f'AMH2 Accuracy: {amh2_acc:.3f}%')
     return sb_accuracy, percent_of_games_bet_on, AMH_acc, supa_safe, percent_games_supa_safe, prevwinner_accuracy
  
 def optimize_Trank_value():
@@ -235,7 +235,7 @@ def optimize_PrevWinner_value():
     
    
 # hd.CommonFunctions().clear_game_sched_file()
-# rg.CommonScrapes().game_winners('20250306')
+# rg.CommonScrapes().game_winners('20250309')
 sb_acc, pgb_on, amh_acc, supa_safe_Acc, pgb_on_supasafe, prevwinner_acc = run_the_nums()
 sb_acc *= 100
 pgb_on *=100
@@ -243,5 +243,5 @@ amh_acc *= 100
 supa_safe_Acc *= 100
 pgb_on_supasafe *= 100
 prevwinner_acc *= 100
-print(f'Safe Bet Accuracy: {sb_acc:.5f}%\nGames considered a safe bet: {pgb_on:.3f}%\nAMH2 Accuracy: {amh_acc:.5f}%\nPrevWinner accuracy: {prevwinner_acc:.5f}%\nSuper safe accuracy: {supa_safe_Acc:.5f}%\nGames considered supa safe: {pgb_on_supasafe:.4f}%')
+print(f'Safe Bet Accuracy: {sb_acc:.5f}%\nGames considered a safe bet: {pgb_on:.3f}%\nAMH Accuracy: {amh_acc:.5f}%\nPrevWinner accuracy: {prevwinner_acc:.5f}%\nSuper safe accuracy: {supa_safe_Acc:.5f}%\nGames considered supa safe: {pgb_on_supasafe:.4f}%')
 #T
